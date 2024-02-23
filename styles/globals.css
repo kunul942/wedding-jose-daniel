@@ -2,7 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
+/* :root {
   --foreground-rgb: 0, 0, 0;
   --background-start-rgb: 214, 219, 220;
   --background-end-rgb: 255, 255, 255;
@@ -30,4 +30,176 @@ body {
   .text-balance {
     text-wrap: balance;
   }
+} */
+
+html {
+    font-family: 'Inter', sans-serif;
+}
+
+@supports (font-variation-settings: normal) {
+    html {
+        font-family: 'Inter var', sans-serif;
+    }
+}
+
+.title_letter {
+    font-family: La Luxes Serif;
+}
+
+.text_color {
+    color: #454543;
+}
+.secondBackgroundColor {
+    background-color: hsl(60, 10%, 96%);
+}
+.servicesColor {
+    color: #81817a;
+}
+
+.servicesColor2 {
+    color: #b9b1a7;
+}
+
+.bg-color-botton {
+    background-color: #ad967a;
+}
+
+.servicesColor3 {
+    color: #ad967a;
+}
+
+.backgroundHome {
+    background-color: #ad967a;
+}
+
+/*********** Navbar ************/
+.backgroundColor {
+    background-color: #b9b1a7;
+}
+
+.colorBackground {
+    color: #ccb08e;
+    /* color: #b9b1a7; */
+}
+
+.infoLinks {
+    position: relative;
+}
+
+.infoChild--desk {
+    position: absolute;
+    top: 4rem;
+    left: 50%;
+    z-index: 999 !important;
+
+    transform: translateX(-50%);
+    opacity: 0;
+    visibility: hidden;
+    transition:
+        opacity 0.5s ease-in,
+        visibility 0.5s ease-in;
+}
+
+.infoChild--mobile {
+    position: absolute;
+    top: 2rem;
+    left: 50%;
+    transform: translateX(-50%);
+
+    opacity: 0;
+
+    visibility: hidden;
+    transition: opacity 0.5s ease-in;
+}
+
+.infoChild--active {
+    opacity: 1;
+    visibility: visible;
+}
+
+/***** HomePage ******/
+.borderInfo--mobile {
+    border-bottom: 2px solid #b9b1a7;
+}
+
+.borderInfo {
+    border-left: 2px solid #b9b1a7;
+}
+
+.flex_services {
+    flex: 1;
+}
+
+.portfolio__gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    justify-items: center;
+    align-items: center;
+}
+
+/*** Footer ***/
+.flex_footer {
+    flex: 1 0 16.66%;
+}
+
+.hoverEffect {
+    transition: transform ease 1s;
+}
+
+.hoverEffect:hover {
+    transform: scale(1.05);
+}
+
+.prueba {
+    position: absolute;
+    border: 2px solid red;
+    width: 500px;
+    height: 500px;
+    z-index: 15000000;
+}
+
+.general__image::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+.general__image--smooth::after {
+    background-color: rgba(0, 0, 0, 0.2);
+}
+
+.footer__grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+/***Galerias***/
+.galerias__grid {
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+@media screen and (min-width: 768px) {
+    .galerias__grid {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .galerias__grid {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}
+
+/** about */
+
+.about__background-image {
+    background-size: cover;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-image: url(../assets/about/daniel-background.jpg);
 }
