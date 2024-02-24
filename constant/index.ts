@@ -1915,7 +1915,7 @@ export const galerias = [
     {
         slug: 'portafolio',
         mainImage: portfolioMainImage,
-        title: 'PORTFOLIO',
+        title: 'PORTAFOLIO',
         carousel: portfolioCarouselImages,
         sectionTitle: 'GALERIAS',
         boda: [
