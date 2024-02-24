@@ -23,7 +23,6 @@ export const FooterImageMobile = () => {
                 {isHover && (
                     <div className='absolute top-[18%] right-[50%] translate-x-[50%] z-[100]'>
                         <Link
-                            prefetch={false}
                             href='https://www.instagram.com/weddingjosedaniel'
                             target='_blank'
                         >

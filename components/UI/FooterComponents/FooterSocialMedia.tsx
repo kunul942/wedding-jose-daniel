@@ -6,7 +6,7 @@ export const FooterSocialMedia = () => {
     return (
         <div className='flex justify-center gap-4 my-12'>
             {imageSocialMedia.map(({ image, link, id }) => (
-                <Link href={link} prefetch={false} target='_blank' key={id}>
+                <Link href={link} target='_blank' key={id}>
                     <Image
                         width={20}
                         height={50}

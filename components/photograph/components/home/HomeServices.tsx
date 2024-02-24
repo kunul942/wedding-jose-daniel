@@ -7,7 +7,6 @@ import { homeServices, homeServicesImage } from '@/constant';
 
 export const HomeServices = () => {
     const { fadeOut } = useAnimations();
-
     return (
         <>
             {/***DESKTOP****/}
@@ -66,7 +65,7 @@ export const HomeServices = () => {
                             <Image
                                 width={3000}
                                 height={3000}
-                                src={XVImage}
+                                src={XVImage.src}
                                 alt='XVImage'
                                 className='h-[500px] w-full object-cover sm:h-[750px] shadow-xl'
                             />
@@ -83,7 +82,7 @@ export const HomeServices = () => {
                             <Image
                                 width={3000}
                                 height={3000}
-                                src={BodaImage}
+                                src={BodaImage.src}
                                 alt='bodaImage'
                                 className='h-[500px] w-full object-cover sm:h-[750px] shadow-xl'
                             />
@@ -99,7 +98,7 @@ export const HomeServices = () => {
                             <Image
                                 width={3000}
                                 height={3000}
-                                src={saveDateImage}
+                                src={saveDateImage.src}
                                 alt='saveDateImage'
                                 className='h-[500px] w-full object-cover sm:h-[750px]'
                             />

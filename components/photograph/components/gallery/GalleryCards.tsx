@@ -24,7 +24,7 @@ export const GalleryCards = ({ boda }: any) => {
                         }: GallerySection) => (
                             <div key={slug} data-aos={fadeOut}>
                                 <div className='hoverEffect'>
-                                    <Link prefetch={false} href={slug}>
+                                    <Link href={slug}>
                                         <Image
                                             src={imagePortada}
                                             alt='images'

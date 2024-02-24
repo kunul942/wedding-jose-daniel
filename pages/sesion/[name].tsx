@@ -38,10 +38,8 @@ export const getStaticPaths: GetStaticPaths = () => {
 
 export const getStaticProps: GetStaticProps = (ctx) => {
     const { name } = ctx.params as { name: string };
-    console.log('what is here:', name);
-    const peopleGallery = getSesionesInfo(name);
 
-    console.log({ peopleGallery });
+    const peopleGallery = getSesionesInfo(name);
 
     return {
         props: {
