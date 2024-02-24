@@ -34,7 +34,7 @@ export const PeopleGallery = ({ peopleGallery }: Props) => {
             </div>
             <div className='w-[90%] mx-auto my-6 md:my-8 galerias__grid'>
                 {peopleGallery.images.map((el) => (
-                    <div key={el.id} className='p-4'>
+                    <div key={el.id} className='p-4' data-aos={fadeOut}>
                         <div className='relative h-[400px] sm:h-[500px] md:h-[400px] lg:h-[600px] 2xl:h-[700px] p-4'>
                             <Image
                                 priority
