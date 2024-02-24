@@ -29,7 +29,7 @@ export const CollageImages = () => {
                 width={3000}
                 src={joseDaniel2}
                 alt='image'
-                className='object-cover w-[60%] mx-auto absolute top-[80%] rounded-2xl right-[20%] md:w-[30%] md:right-[0] md:top-[10%] md:h-[600px] '
+                className='object-cover w-[60%] mx-auto absolute top-[80%] rounded-2xl right-[20%] md:w-[30%] h-[200px] md:right-[0] md:top-[10%] md:h-[600px] '
             />
         </div>
     );

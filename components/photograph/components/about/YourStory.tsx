@@ -49,18 +49,18 @@ export const YourStory = () => {
             {/* Mobile */}
             <div className='md:hidden'>
                 {/* <div className='p-[2rem] xl:py-[3rem] xl:px-[5rem] backgroundColor relative'> */}
-                <div className='mt-[250px] sm:mt-[470px] p-[2rem] xl:py-[3rem] xl:px-[5rem] backgroundColor relative'>
-                    <div className='w-[70%] mx-auto h-[180px] '>
+                <div className='mt-[150px] sm:mt-[470px] p-[2rem] xl:py-[3rem] xl:px-[5rem] backgroundColor relative'>
+                    <div className='w-[70%] mx-auto h-[300px] md:h-[180px] '>
                         <h2 className='text-center md:text-right title_letter text-[16px] text-white sm:text-[20px] '>
                             RESERVAS PARA LA TEMPORADA {CURRENT_YEAR} &{' '}
                             {NEXT_YEAR}
                         </h2>
                         <Image
-                            height={5000}
-                            width={5000}
+                            height={1000}
+                            width={1000}
                             src={daniel4}
                             alt='jose-daniel-profile'
-                            className='absolute left-[32px] top-[40%] h-[180px] object-cover'
+                            className='absolute right-[1px] top-[40%] h-[250px] object-cover'
                         />
 
                         <Link

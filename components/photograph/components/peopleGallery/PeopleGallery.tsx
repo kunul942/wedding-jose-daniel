@@ -35,13 +35,13 @@ export const PeopleGallery = ({ peopleGallery }: Props) => {
             <div className='w-[90%] mx-auto my-6 md:my-8 galerias__grid'>
                 {peopleGallery.images.map((el) => (
                     <div key={el.id} className='p-4' data-aos={fadeOut}>
-                        <div className='relative h-[400px] sm:h-[500px] md:h-[350px] lg:h-[500px] 2xl:h-[600px] p-4'>
+                        <div className='relative h-[400px] sm:h-[500px] md:h-[400px] lg:h-[600px] 2xl:h-[700px] p-4'>
                             <Image
                                 src={el.img.src}
                                 alt='Image'
                                 width={5000}
                                 height={5000}
-                                className='rounded-2xl image h-[400px] sm:h-[500px] md:h-[350px] lg:h-[500px] 2xl:h-[600px] object-cover object-center w-full'
+                                className='rounded-2xl image h-[400px] sm:h-[500px] md:h-[400px] lg:h-[600px] 2xl:h-[700px] object-cover object-center w-full'
                             />
                         </div>
                     </div>

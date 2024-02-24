@@ -78,7 +78,7 @@ import timEstefania16 from './bodas/timEstefania/timEstefania16.jpg';
 import timEstefania17 from './bodas/timEstefania/timEstefania17.jpg';
 import timEstefania18 from './bodas/timEstefania/timEstefania18.jpg';
 
-import cristianAdrianaMainImage from './bodas/cristianAdriana/cristianAdrianaMainImage.jpg';
+import cristianAdrianaMainImage from './bodas/cristianAdriana/cristianAdrianaMainIMage.jpg';
 import cristianAdriana1 from './bodas/cristianAdriana/cristianAdriana1.jpg';
 import cristianAdriana2 from './bodas/cristianAdriana/cristianAdriana2.jpg';
 import cristianAdriana3 from './bodas/cristianAdriana/cristianAdriana3.jpg';
