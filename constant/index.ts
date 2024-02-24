@@ -538,7 +538,7 @@ export const portfolioVideoImages = [
         bodas: 'FILM',
         couple: 'GERBERT + MAGDA',
         // location: 'ANTIGUA GUATEMALA',
-        link: 'gerbert-magda-video',
+        link: '/videos/gerbert-magda',
     },
     {
         id: '02',
@@ -546,7 +546,7 @@ export const portfolioVideoImages = [
         bodas: 'FILM',
         couple: 'TIM + ESTEFANIA',
         // location: 'ANTIGUA GUATEMALA',
-        link: 'tim-estefania-video',
+        link: '/videos/tim-estefania',
     },
     {
         id: '03',
@@ -554,7 +554,7 @@ export const portfolioVideoImages = [
         bodas: 'FILM',
         couple: 'DENIS + GABY',
         // location: 'ANTIGUA GUATEMALA',
-        link: 'gaby-denis-video',
+        link: '/videos/gaby-denis',
     },
 ];
 
