@@ -37,6 +37,7 @@ export const PeopleGallery = ({ peopleGallery }: Props) => {
                     <div key={el.id} className='p-4'>
                         <div className='relative h-[400px] sm:h-[500px] md:h-[400px] lg:h-[600px] 2xl:h-[700px] p-4'>
                             <Image
+                                priority
                                 src={el.img.src}
                                 alt='Image'
                                 width={3000}
