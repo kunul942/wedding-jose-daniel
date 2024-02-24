@@ -23,7 +23,7 @@ export default function GaleriasPage<NextPage>({ gallery }: Props) {
         <Layout title={'Wedding Jose Daniel Galerias'}>
             <div className={`${openMenu ? 'hidden' : ''}`}>
                 <GalleryImage
-                    mainImage={gallery.mainImage}
+                    mainImage={gallery.mainImage.src}
                     title={gallery.title}
                 />
                 <GalleryCarousel carousel={gallery.carousel} />
