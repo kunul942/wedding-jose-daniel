@@ -410,19 +410,19 @@ export const homeServicesImage = [
         id: '01',
         img: XVImage,
         text: 'QUINCE AÑOS',
-        link: '/galerias/xv',
+        link: 'galerias/xv',
     },
     {
         id: '02',
         img: BodaImage,
         text: 'BODAS',
-        link: '/galerias/portafolio',
+        link: 'galerias/portafolio',
     },
     {
         id: '03',
         img: saveDateImage,
         text: 'SAVE THE DATE',
-        link: '/galerias/save-date',
+        link: 'galerias/save-date',
     },
 ];
 
@@ -1913,7 +1913,7 @@ export const footerLinks = [
 
 export const galerias = [
     {
-        slug: 'portafolio',
+        slug: '/portafolio',
         mainImage: portfolioMainImage,
         title: 'PORTAFOLIO',
         carousel: portfolioCarouselImages,
@@ -1964,7 +1964,7 @@ export const galerias = [
         ],
     },
     {
-        slug: 'save-date',
+        slug: '/save-date',
         mainImage: saveTheDateMainImage,
         title: 'SAVE THE DATE',
         carousel: saveTheDateCarouselImages,
@@ -1994,7 +1994,7 @@ export const galerias = [
         ],
     },
     {
-        slug: 'xv',
+        slug: '/xv',
         mainImage: quiceAñosImage,
         title: 'QUINCE AÑOS',
         carousel: quinceAñosCarouselImages,

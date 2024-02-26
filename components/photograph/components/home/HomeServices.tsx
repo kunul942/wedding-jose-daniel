@@ -74,7 +74,6 @@ export const HomeServices = () => {
                             <div className='absolute top-[45%] right-[50%] translate-x-[50%] z-[100]'>
                                 <h1 className='text-white title_letter text-[18px] tracking-widest sm:text-2xl'>
                                     {homeServices.xv.toUpperCase()}
-                                    xv{' '}
                                 </h1>
                             </div>
                         </Link>
