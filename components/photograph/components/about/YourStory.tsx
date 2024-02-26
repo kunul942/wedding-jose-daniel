@@ -33,7 +33,6 @@ export const YourStory = () => {
 
                         <div>
                             <Link
-                                passHref
                                 href='/contacto'
                                 className='text-white p-4 bg-color-botton rounded-2xl absolute bottom-0 right-[20%]  xl:p-6 xl:text-sm 2xl:text-base'
                                 style={{
@@ -65,7 +64,6 @@ export const YourStory = () => {
                         />
 
                         <Link
-                            passHref
                             href='/contacto'
                             className='hoverEffect text-white bg-color-botton p-4 rounded-2xl text-[12px] absolute bottom-0 right-[20%] '
                             style={{

@@ -47,7 +47,6 @@ export const Footer = () => {
 
                         <div className='p-2 text-3xl title_letter servicesColor3 tracking-widest'>
                             <Link
-                                passHref
                                 href='inicio'
                                 onClick={() => scrollTop('smooth')}
                             >

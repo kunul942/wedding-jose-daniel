@@ -24,7 +24,7 @@ export const GalleryCards = ({ boda }: any) => {
                         }: GallerySection) => (
                             <div key={slug} data-aos={fadeOut}>
                                 <div className='hoverEffect'>
-                                    <Link href={slug} passHref>
+                                    <Link href={slug}>
                                         <Image
                                             src={imagePortada}
                                             alt='images'
@@ -53,7 +53,7 @@ export const GalleryCards = ({ boda }: any) => {
                     {portfolioVideoImages.map(
                         ({ img, bodas, couple, id, link }) => (
                             <div key={id}>
-                                <Link href={link} passHref>
+                                <Link href={link}>
                                     <Image
                                         width={3000}
                                         height={3000}

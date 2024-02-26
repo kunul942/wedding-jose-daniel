@@ -18,12 +18,13 @@ export const HomeServices = () => {
                                 key={services.id}
                                 className='flex_services hoverEffect'
                             >
-                                <Link href={services.link} passHref>
+                                <Link href={services.link}>
                                     <Image
                                         width={3000}
                                         height={3000}
                                         src={services.img?.src}
                                         alt='services'
+                                        quality={50}
                                         className='hoverEffect h-[600px] object-cover rounded-2xl shadow-2xl sm:h-[700px] md:h-[500px] 2xl:h-[700px]'
                                     />
                                     <h1 className='servicesColor3 title_letter text-center text-xl my-12 tracking-widest 2xl:text-2xl'>
@@ -61,29 +62,32 @@ export const HomeServices = () => {
                     </div>
 
                     <div className='relative general__image general__image--smooth'>
-                        <Link href='/galerias/quince-años' passHref>
+                        <Link href='/galerias/xv'>
                             <Image
                                 width={3000}
                                 height={3000}
                                 src={XVImage?.src}
                                 alt='XVImage'
+                                quality={50}
                                 className='h-[500px] w-full object-cover sm:h-[750px] shadow-xl'
                             />
                             <div className='absolute top-[45%] right-[50%] translate-x-[50%] z-[100]'>
                                 <h1 className='text-white title_letter text-[18px] tracking-widest sm:text-2xl'>
                                     {homeServices.xv.toUpperCase()}
+                                    xv{' '}
                                 </h1>
                             </div>
                         </Link>
                     </div>
 
                     <div className='relative general__image general__image--smooth'>
-                        <Link href='/galerias/portafolio' passHref>
+                        <Link href='/galerias/portafolio'>
                             <Image
                                 width={3000}
                                 height={3000}
                                 src={BodaImage?.src}
                                 alt='bodaImage'
+                                quality={50}
                                 className='h-[500px] w-full object-cover sm:h-[750px] shadow-xl'
                             />
                             <div className='absolute top-[45%] right-[50%] translate-x-[50%] z-[100]'>
@@ -94,12 +98,13 @@ export const HomeServices = () => {
                         </Link>
                     </div>
                     <div className='relative general__image general__image--smooth'>
-                        <Link href='/galerias/save-date' passHref>
+                        <Link href='/galerias/save-date'>
                             <Image
                                 width={3000}
                                 height={3000}
                                 src={saveDateImage?.src}
                                 alt='saveDateImage'
+                                quality={50}
                                 className='h-[500px] w-full object-cover sm:h-[750px]'
                             />
                             <div className='absolute top-[35%] right-[50%] translate-x-[50%] z-[100]'>

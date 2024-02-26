@@ -410,7 +410,7 @@ export const homeServicesImage = [
         id: '01',
         img: XVImage,
         text: 'QUINCE AÑOS',
-        link: '/galerias/quince-años',
+        link: '/galerias/xv',
     },
     {
         id: '02',
@@ -1994,7 +1994,7 @@ export const galerias = [
         ],
     },
     {
-        slug: 'quince-años',
+        slug: 'xv',
         mainImage: quiceAñosImage,
         title: 'QUINCE AÑOS',
         carousel: quinceAñosCarouselImages,

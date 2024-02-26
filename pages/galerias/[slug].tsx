@@ -18,12 +18,14 @@ interface Props {
 
 export default function GaleriasPage<NextPage>({ gallery }: Props) {
     const { openMenu } = useContext(PhotographyContext);
+
+    console.log('res: here?', gallery);
     return (
         <Layout title={'Wedding Jose Daniel Galerias'}>
             <div className={`${openMenu ? 'hidden' : ''}`}>
                 <GalleryImage
-                    mainImage={gallery.mainImage}
-                    title={gallery.title}
+                    mainImage={gallery?.mainImage}
+                    title={gallery?.title}
                 />
                 <GalleryCarousel carousel={gallery.carousel} />
                 <GalleryCards boda={gallery.boda} />
@@ -47,6 +49,8 @@ export const getStaticProps: GetStaticProps = (ctx) => {
     const { slug } = ctx.params as { slug: string };
 
     const gallery = getGalleryInfo(slug);
+
+    console.log('res: aca en static props gallery', gallery);
 
     return {
         props: {

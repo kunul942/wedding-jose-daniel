@@ -55,7 +55,7 @@ export const InfoMobile = ({
                             className={`${textColor} pb-6 text-center hover:text-gray-300`}
                             onClick={handleCloseMenu}
                         >
-                            <Link href={'/acerca'} passHref>
+                            <Link href={'/acerca'}>
                                 {infoLinksSections.about}
                             </Link>
                         </div>
@@ -63,7 +63,7 @@ export const InfoMobile = ({
                             className={`${textColor} text-center hover:text-gray-300`}
                             onClick={handleCloseMenu}
                         >
-                            <Link href='/paquetes' passHref>
+                            <Link href='/paquetes'>
                                 {infoLinksSections.paquetes}
                             </Link>
                         </div>
