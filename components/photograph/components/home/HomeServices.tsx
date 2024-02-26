@@ -62,7 +62,7 @@ export const HomeServices = () => {
                     </div>
 
                     <div className='relative general__image general__image--smooth'>
-                        <Link href='/galerias/xv'>
+                        <Link href='galerias/xv'>
                             <Image
                                 width={3000}
                                 height={3000}
@@ -80,7 +80,7 @@ export const HomeServices = () => {
                     </div>
 
                     <div className='relative general__image general__image--smooth'>
-                        <Link href='/galerias/portafolio'>
+                        <Link href='galerias/portafolio'>
                             <Image
                                 width={3000}
                                 height={3000}
@@ -97,7 +97,7 @@ export const HomeServices = () => {
                         </Link>
                     </div>
                     <div className='relative general__image general__image--smooth'>
-                        <Link href='/galerias/save-date'>
+                        <Link href='galerias/save-date'>
                             <Image
                                 width={3000}
                                 height={3000}
