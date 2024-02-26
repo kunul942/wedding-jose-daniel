@@ -55,7 +55,7 @@ export const Navbar = () => {
 
                     <Link
                         className='p-2 text-xs servicesColor2 tracking-widest 2xl:text-sm hover:text-gray-800'
-                        href={'contacto'}
+                        href={'/contacto'}
                     >
                         {navbarLinks.contacto}
                     </Link>
