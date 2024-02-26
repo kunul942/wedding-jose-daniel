@@ -17,12 +17,12 @@ export const InfoDesk = ({ handleClickOut, isOver }: any) => {
                 <div className='flex justify-between backgroundColor p-8'>
                     <div className='text_color tracking-wide w-[150px]'>
                         <div className='text-xs text-gray-100 pb-6 text-center hover:text-gray-300'>
-                            <Link href={'/acerca'}>
+                            <Link href={'/acerca'} passHref>
                                 {infoLinksSections.about}
                             </Link>
                         </div>
                         <div className='text-xs text-gray-100 text-center hover:text-gray-300'>
-                            <Link href={'/paquetes'}>
+                            <Link href={'/paquetes'} passHref>
                                 {infoLinksSections.paquetes}
                             </Link>
                         </div>
@@ -55,7 +55,7 @@ export const InfoMobile = ({
                             className={`${textColor} pb-6 text-center hover:text-gray-300`}
                             onClick={handleCloseMenu}
                         >
-                            <Link href={'/acerca'}>
+                            <Link href={'/acerca'} passHref>
                                 {infoLinksSections.about}
                             </Link>
                         </div>
@@ -63,7 +63,7 @@ export const InfoMobile = ({
                             className={`${textColor} text-center hover:text-gray-300`}
                             onClick={handleCloseMenu}
                         >
-                            <Link href='/paquetes'>
+                            <Link href='/paquetes' passHref>
                                 {infoLinksSections.paquetes}
                             </Link>
                         </div>

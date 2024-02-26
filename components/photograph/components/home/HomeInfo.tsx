@@ -23,7 +23,7 @@ export const HomeInfo = () => {
                     {/****  SECTION LINKS ****/}
                     <div className='my-16 w-[70%] mx-auto flex justify-between items-center'>
                         <div className='text-center my-12 title_letter text-base 2xl:text-2xl hoverEffect'>
-                            <Link href='/galerias/portafolio'>
+                            <Link href='/galerias/portafolio' passHref>
                                 <p className='colorBackground text-[18px]'>
                                     01
                                 </p>
@@ -35,7 +35,7 @@ export const HomeInfo = () => {
                         <div className='borderInfo h-[120px]'></div>
 
                         <div className='text-center my-12 title_letter text-base 2xl:text-2xl hoverEffect'>
-                            <Link href='/acerca'>
+                            <Link href='/acerca' passHref>
                                 <p className='colorBackground text-[18px]'>
                                     03
                                 </p>
@@ -47,7 +47,7 @@ export const HomeInfo = () => {
                         <div className='borderInfo h-[120px]'></div>
 
                         <div className='text-center my-12 title_letter text-base 2xl:text-2xl hoverEffect'>
-                            <Link href='/paquetes'>
+                            <Link href='/paquetes' passHref>
                                 <p className='colorBackground text-[18px]'>
                                     02
                                 </p>
@@ -123,7 +123,7 @@ export const HomeInfo = () => {
                                 01
                             </p>
                             <div className='servicesColor mt-2 mb-6 tracking-widest'>
-                                <Link href='/galerias/portafolio'>
+                                <Link href='/galerias/portafolio' passHref>
                                     PORTAFOLIO
                                 </Link>
                             </div>
@@ -135,7 +135,9 @@ export const HomeInfo = () => {
                                 03
                             </p>
                             <div className='servicesColor mt-2 tracking-widest'>
-                                <Link href='/acerca'>CONOCE A JOSE</Link>
+                                <Link href='/acerca' passHref>
+                                    CONOCE A JOSE
+                                </Link>
                             </div>
                         </div>
                         <div className='borderInfo--mobile w-[25%] mx-auto'></div>
@@ -145,7 +147,9 @@ export const HomeInfo = () => {
                                 02
                             </p>
                             <div className='servicesColor mt-2 mb-6 tracking-widest'>
-                                <Link href='/paquetes'>PAQUETES</Link>
+                                <Link href='/paquetes' passHref>
+                                    PAQUETES
+                                </Link>
                             </div>
                             <div className='borderInfo--mobile w-[25%] mx-auto'></div>
                         </div>

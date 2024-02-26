@@ -18,7 +18,7 @@ export const HomeServices = () => {
                                 key={services.id}
                                 className='flex_services hoverEffect'
                             >
-                                <Link href={services.link}>
+                                <Link href={services.link} passHref>
                                     <Image
                                         width={3000}
                                         height={3000}
@@ -61,7 +61,7 @@ export const HomeServices = () => {
                     </div>
 
                     <div className='relative general__image general__image--smooth'>
-                        <Link href='/galerias/quince-años'>
+                        <Link href='/galerias/quince-años' passHref>
                             <Image
                                 width={3000}
                                 height={3000}
@@ -78,7 +78,7 @@ export const HomeServices = () => {
                     </div>
 
                     <div className='relative general__image general__image--smooth'>
-                        <Link href='/galerias/portafolio'>
+                        <Link href='/galerias/portafolio' passHref>
                             <Image
                                 width={3000}
                                 height={3000}
@@ -94,7 +94,7 @@ export const HomeServices = () => {
                         </Link>
                     </div>
                     <div className='relative general__image general__image--smooth'>
-                        <Link href='/galerias/save-date'>
+                        <Link href='/galerias/save-date' passHref>
                             <Image
                                 width={3000}
                                 height={3000}

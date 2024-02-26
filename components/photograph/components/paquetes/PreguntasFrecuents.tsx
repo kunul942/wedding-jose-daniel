@@ -116,9 +116,8 @@ export const PreguntasFrecuents = () => {
                 ¿EMPEZAMOS TU NUEVA AVENTURA?
             </h1>
             <div className='mx-auto my-12 mb-20 w-[40%] md:w-[15%]'>
-                <Link href='/contacto' passHref={false}>
+                <Link href='/contacto' passHref>
                     <div className='hoverEffect bg-color-botton title_letter rounded-2xl text-gray-100 tracking-widest flex justify-center items-center p-4 text-xs'>
-                        {/* <div className='hoverEffect bg-slate-800 title_letter rounded-2xl text-gray-100 tracking-widest flex justify-center items-center p-4 text-xs'> */}
                         CONTACTAME
                     </div>
                 </Link>
