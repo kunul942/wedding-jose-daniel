@@ -65,7 +65,8 @@ export const HomeServices = () => {
                             <Image
                                 width={3000}
                                 height={3000}
-                                src={XVImage.src}
+                                src={BodaImage?.src}
+                                // src={XVImage?.src}
                                 alt='XVImage'
                                 className='h-[500px] w-full object-cover sm:h-[750px] shadow-xl'
                             />
@@ -82,7 +83,7 @@ export const HomeServices = () => {
                             <Image
                                 width={3000}
                                 height={3000}
-                                src={BodaImage.src}
+                                src={BodaImage?.src}
                                 alt='bodaImage'
                                 className='h-[500px] w-full object-cover sm:h-[750px] shadow-xl'
                             />
@@ -98,7 +99,7 @@ export const HomeServices = () => {
                             <Image
                                 width={3000}
                                 height={3000}
-                                src={saveDateImage.src}
+                                src={saveDateImage?.src}
                                 alt='saveDateImage'
                                 className='h-[500px] w-full object-cover sm:h-[750px]'
                             />

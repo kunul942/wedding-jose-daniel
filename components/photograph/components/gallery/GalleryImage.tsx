@@ -6,8 +6,6 @@ export const GalleryImage = ({ mainImage, title }: any) => {
 
     const isHover = true;
 
-    console.log('are you here', mainImage);
-
     return (
         <>
             <div data-aos={fadeOut}>
