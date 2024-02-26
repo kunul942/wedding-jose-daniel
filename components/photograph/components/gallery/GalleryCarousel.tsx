@@ -48,6 +48,7 @@ export const GalleryCarousel = ({ carousel }: any) => {
                             height={3000}
                             src={img}
                             alt='image'
+                            quality={20}
                         />
                     </div>
                 ))}

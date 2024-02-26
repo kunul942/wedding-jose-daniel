@@ -37,6 +37,7 @@ export const HomeCarousel = () => {
                             height={5000}
                             src={img}
                             alt='image'
+                            quality={50}
                             className='h-[590px]  object-center w-full object-cover shadow-xl sm:h-[800px] 2xl:h-[1000px]'
                         />
                     </div>

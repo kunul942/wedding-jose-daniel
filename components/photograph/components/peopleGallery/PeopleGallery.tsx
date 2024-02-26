@@ -22,6 +22,7 @@ export const PeopleGallery = ({ peopleGallery }: Props) => {
                         src={peopleGallery.mainImage}
                         alt='image'
                         className='h-[380px] w-full object-cover object-center sm:h-[500px] md:h-[600px] xl:h-[700px] 2xl:h-[1000px]'
+                        quality={30}
                     />
                     {isHover && (
                         <div className='absolute top-[40%] right-[50%] translate-x-[50%] z-[100] md:top-[40%]'>
@@ -43,6 +44,7 @@ export const PeopleGallery = ({ peopleGallery }: Props) => {
                                 width={3000}
                                 height={3000}
                                 className='rounded-2xl image h-[400px] sm:h-[500px] md:h-[400px] lg:h-[600px] 2xl:h-[700px] object-cover object-center w-full'
+                                quality={40}
                             />
                         </div>
                     </div>

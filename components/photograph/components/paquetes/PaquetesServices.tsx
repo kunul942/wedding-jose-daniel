@@ -188,6 +188,7 @@ export const PaquetesServices = () => {
                             width={3000}
                             src={paqueteVip}
                             alt='paqueteBasic'
+                            quality={50}
                             className='h-[500px] w-full rounded-2xl object-cover sm:h-[700px] md:h-[600px] 2xl:h-[700px]'
                         />
                         <h1 className='text-center text-xl pt-8 pb-4 text-gray-600 servicesColor3 font-bold sm:text-3xl'>
@@ -234,6 +235,7 @@ export const PaquetesServices = () => {
                             src={paqueteBasic}
                             alt='paquetePremium'
                             className='h-[500px] w-full object-center rounded-2xl object-cover sm:h-[700px] md:h-[600px] 2xl:h-[700px]'
+                            quality={50}
                         />
                         <h1 className='text-center text-xl pt-8 pb-4 text-gray-600 servicesColor3 font-bold sm:text-3xl'>
                             ESTANDAR
@@ -288,6 +290,7 @@ export const PaquetesServices = () => {
                             width={3000}
                             src={paquetePremium}
                             alt='paqueteVip'
+                            quality={50}
                             className='h-[500px] w-full object-center rounded-2xl object-cover sm:h-[700px] md:h-[600px] 2xl:h-[700px]'
                         />
                         <h1 className='text-center text-xl pt-8 pb-4 text-gray-600 servicesColor3 font-bold sm:text-3xl'>
