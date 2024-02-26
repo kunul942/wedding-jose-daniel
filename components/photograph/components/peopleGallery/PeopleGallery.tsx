@@ -11,6 +11,8 @@ export const PeopleGallery = ({ peopleGallery }: Props) => {
 
     const isHover = true;
 
+    console.log('Is something happening here?', peopleGallery.mainImage);
+
     return (
         <>
             <div data-aos={fadeOut}>
