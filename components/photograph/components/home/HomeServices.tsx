@@ -65,8 +65,7 @@ export const HomeServices = () => {
                             <Image
                                 width={3000}
                                 height={3000}
-                                src={BodaImage?.src}
-                                // src={XVImage?.src}
+                                src={XVImage?.src}
                                 alt='XVImage'
                                 className='h-[500px] w-full object-cover sm:h-[750px] shadow-xl'
                             />

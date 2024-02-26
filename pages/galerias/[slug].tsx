@@ -18,7 +18,6 @@ interface Props {
 
 export default function GaleriasPage<NextPage>({ gallery }: Props) {
     const { openMenu } = useContext(PhotographyContext);
-
     return (
         <Layout title={'Wedding Jose Daniel Galerias'}>
             <div className={`${openMenu ? 'hidden' : ''}`}>

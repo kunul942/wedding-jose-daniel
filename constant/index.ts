@@ -406,17 +406,11 @@ export const infoLinksSections = {
 //*****HomePage*****//
 
 export const homeServicesImage = [
-    // {
-    //     id: '01',
-    //     img: XVImage,
-    //     text: 'QUINCE AÑOS',
-    //     link: '/galerias/quince-años',
-    // },
     {
         id: '01',
-        img: BodaImage,
-        text: 'QUINCE AÑOS debugging',
-        link: '/galerias/portafolio',
+        img: XVImage,
+        text: 'QUINCE AÑOS',
+        link: '/galerias/quince-años',
     },
     {
         id: '02',
