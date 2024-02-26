@@ -22,7 +22,7 @@ export const HomeServices = () => {
                                     <Image
                                         width={3000}
                                         height={3000}
-                                        src={services.img}
+                                        src={services.img?.src}
                                         alt='services'
                                         className='hoverEffect h-[600px] object-cover rounded-2xl shadow-2xl sm:h-[700px] md:h-[500px] 2xl:h-[700px]'
                                     />
