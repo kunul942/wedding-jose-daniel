@@ -32,6 +32,7 @@ export const HomeCarousel = () => {
                 {homeCarouselImages.map(({ img, id }) => (
                     <div key={id}>
                         <Image
+                            priority
                             width={5000}
                             height={5000}
                             src={img}

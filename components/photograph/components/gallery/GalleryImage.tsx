@@ -15,7 +15,7 @@ export const GalleryImage = ({ mainImage, title }: any) => {
                     <Image
                         width={3000}
                         height={3000}
-                        src={mainImage.src}
+                        src={mainImage?.src}
                         alt='image'
                         className='h-[380px] w-full object-cover sm:h-[500px] md:h-[600px] xl:h-[700px] 2xl:h-[1000px]'
                     />

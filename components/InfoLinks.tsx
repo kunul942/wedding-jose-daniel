@@ -17,12 +17,12 @@ export const InfoDesk = ({ handleClickOut, isOver }: any) => {
                 <div className='flex justify-between backgroundColor p-8'>
                     <div className='text_color tracking-wide w-[150px]'>
                         <div className='text-xs text-gray-100 pb-6 text-center hover:text-gray-300'>
-                            <Link href={'/acerca'} passHref>
+                            <Link href={'/acerca'}>
                                 {infoLinksSections.about}
                             </Link>
                         </div>
                         <div className='text-xs text-gray-100 text-center hover:text-gray-300'>
-                            <Link href={'/paquetes'} passHref>
+                            <Link href={'/paquetes'}>
                                 {infoLinksSections.paquetes}
                             </Link>
                         </div>

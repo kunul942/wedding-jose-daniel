@@ -24,7 +24,6 @@ export const Navbar = () => {
                     <Link
                         className='p-2 text-xs servicesColor2 tracking-widest 2xl:text-sm hover:text-gray-800'
                         href={'/'}
-                        passHref
                     >
                         {navbarLinks.inicio}
                     </Link>
@@ -32,7 +31,6 @@ export const Navbar = () => {
                     <Link
                         className='p-2 text-xs servicesColor2 tracking-widest 2xl:text-sm hover:text-gray-800'
                         href={'/galerias/portafolio'}
-                        passHref
                     >
                         {navbarLinks.portafolio}
                     </Link>
@@ -40,7 +38,6 @@ export const Navbar = () => {
                     <Link
                         className='p-2 text-xl title_letter servicesColor3 tracking-widest xl:text-3xl 2xl:text-4xl 2xl:p-4'
                         href={'/'}
-                        passHref
                     >
                         {navbarLinks.name}
                     </Link>
@@ -61,7 +58,6 @@ export const Navbar = () => {
                         href={'contacto'}
                     >
                         {navbarLinks.contacto}
-                        passHref
                     </Link>
                 </div>
                 <div>
@@ -73,9 +69,7 @@ export const Navbar = () => {
                         }`}
                     >
                         <h1 className='p-2 text-[18px] title_letter servicesColor tracking-widest sm:text-3xl'>
-                            <Link href={'/'} passHref>
-                                {navbarLinks.name}
-                            </Link>
+                            <Link href={'/'}>{navbarLinks.name}</Link>
                         </h1>
                         <Image
                             height={500}
@@ -106,11 +100,7 @@ export const Navbar = () => {
 
                             <div>
                                 <div className='text-white text-center text-sm my-12 hover:text-gray-300'>
-                                    <Link
-                                        href={'/'}
-                                        onClick={handleCloseMenu}
-                                        passHref
-                                    >
+                                    <Link href={'/'} onClick={handleCloseMenu}>
                                         {navbarLinks.inicio}
                                     </Link>
                                 </div>
@@ -120,7 +110,6 @@ export const Navbar = () => {
                                     <Link
                                         href={'/galerias/portafolio'}
                                         onClick={handleCloseMenu}
-                                        passHref
                                     >
                                         {navbarLinks.portafolio}
                                     </Link>
@@ -149,7 +138,6 @@ export const Navbar = () => {
                                             <Link
                                                 href={'/contacto'}
                                                 onClick={handleCloseMenu}
-                                                passHref
                                             >
                                                 {navbarLinks.contacto}
                                             </Link>
@@ -170,7 +158,6 @@ export const Navbar = () => {
                                     <Link
                                         href={'/contacto'}
                                         onClick={handleCloseMenu}
-                                        passHref
                                     >
                                         {navbarLinks.contacto}
                                     </Link>
