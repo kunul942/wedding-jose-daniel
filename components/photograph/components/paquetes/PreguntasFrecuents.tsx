@@ -97,7 +97,7 @@ export const PreguntasFrecuents = () => {
                             Daniel no está disponible.
                         </p>
                     </div>
-                    <div className='borderInfo--mobile w-[12%] md:w-[16%] md:w-[20%] mx-auto my-8'></div>
+                    <div className='borderInfo--mobile w-[12%] md:w-[20%] mx-auto my-8'></div>
                     <div>
                         <h2 className='servicesColor3 py-4 text-center'>
                             QUÉ DOCUMENTO ENTREGAS PARA DARLE VALIDEZ Y
