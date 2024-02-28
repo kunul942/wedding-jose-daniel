@@ -416,7 +416,7 @@ export const homeServicesImage = [
         id: '02',
         img: BodaImage,
         text: 'BODAS',
-        link: '/galerias/portafolio',
+        link: '/galerias/bodas',
     },
     {
         id: '03',
@@ -1913,7 +1913,7 @@ export const footerLinks = [
 
 export const galerias = [
     {
-        slug: 'portafolio',
+        slug: 'bodas',
         mainImage: portfolioMainImage,
         title: 'PORTAFOLIO',
         carousel: portfolioCarouselImages,

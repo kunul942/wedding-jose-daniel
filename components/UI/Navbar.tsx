@@ -30,7 +30,7 @@ export const Navbar = () => {
 
                     <Link
                         className='p-2 text-xs servicesColor2 tracking-widest 2xl:text-sm hover:text-gray-800'
-                        href={'/galerias/portafolio'}
+                        href={'/galerias/bodas'}
                     >
                         {navbarLinks.portafolio}
                     </Link>
@@ -108,7 +108,7 @@ export const Navbar = () => {
 
                                 <div className='text-white text-center text-sm my-12 hover:text-gray-300'>
                                     <Link
-                                        href={'/galerias/portafolio'}
+                                        href={'/galerias/bodas'}
                                         onClick={handleCloseMenu}
                                     >
                                         {navbarLinks.portafolio}

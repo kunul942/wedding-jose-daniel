@@ -80,7 +80,7 @@ export const HomeServices = () => {
                     </div>
 
                     <div className='relative general__image general__image--smooth'>
-                        <Link href='/galerias/portafolio'>
+                        <Link href='/galerias/bodas'>
                             <Image
                                 width={3000}
                                 height={3000}

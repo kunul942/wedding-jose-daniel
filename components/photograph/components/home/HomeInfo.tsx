@@ -23,7 +23,7 @@ export const HomeInfo = () => {
                     {/****  SECTION LINKS ****/}
                     <div className='my-16 w-[70%] mx-auto flex justify-between items-center'>
                         <div className='text-center my-12 title_letter text-base 2xl:text-2xl hoverEffect'>
-                            <Link href='/galerias/portafolio'>
+                            <Link href='/galerias/bodas'>
                                 <p className='colorBackground text-[18px]'>
                                     01
                                 </p>
@@ -123,9 +123,7 @@ export const HomeInfo = () => {
                                 01
                             </p>
                             <div className='servicesColor mt-2 mb-6 tracking-widest'>
-                                <Link href='/galerias/portafolio'>
-                                    PORTAFOLIO
-                                </Link>
+                                <Link href='/galerias/bodas'>PORTAFOLIO</Link>
                             </div>
                             <div className='borderInfo--mobile w-[25%] mx-auto'></div>
                         </div>
