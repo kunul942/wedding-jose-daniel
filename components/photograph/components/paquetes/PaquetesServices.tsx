@@ -108,7 +108,7 @@ export const PaquetesServices = () => {
                                     colorización y edición completa.
                                     <br />
                                     <br />
-                                    Precio: $600.00
+                                    Precio: $635.00
                                 </p>
                             </div>
                         </div>
@@ -168,7 +168,7 @@ export const PaquetesServices = () => {
                                     colorización y edición completa.
                                     <br />
                                     <br />
-                                    Precio: $850.00
+                                    Precio: $855.00
                                 </p>
                             </div>
                         </div>
@@ -275,7 +275,7 @@ export const PaquetesServices = () => {
                             colorización y edición completa.
                             <br />
                             <br />
-                            Precio: $600.00
+                            Precio: $635.00
                         </p>
                     </div>
                 </div>
@@ -331,7 +331,7 @@ export const PaquetesServices = () => {
                             colorización y edición completa.
                             <br />
                             <br />
-                            Precio: $850.00
+                            Precio: $855.00
                         </p>
                     </div>
                 </div>
