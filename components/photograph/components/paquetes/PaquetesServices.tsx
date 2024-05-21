@@ -49,7 +49,7 @@ export const PaquetesServices = () => {
                                     Sesión pre-boda o post-boda.
                                     <br />
                                     <br />
-                                    Precio: $350.00
+                                    Precio: $365.00
                                 </p>
                             </div>
                         </div>
@@ -219,7 +219,7 @@ export const PaquetesServices = () => {
                             Sesión pre-boda o post-boda.
                             <br />
                             <br />
-                            Precio: $350.00
+                            Precio: $365.00
                         </p>
                     </div>
                 </div>
