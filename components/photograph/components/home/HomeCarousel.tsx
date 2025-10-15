@@ -38,7 +38,7 @@ export const HomeCarousel = () => {
                             src={img}
                             alt='image'
                             quality={50}
-                            className='h-[590px]  object-center w-full object-cover shadow-xl sm:h-[800px] 2xl:h-[1000px]'
+                            className='h-[590px] object-center w-full object-cover shadow-xl sm:h-[800px] lg:h-[1100px] 2xl:h-[1300px]'
                         />
                     </div>
                 ))}

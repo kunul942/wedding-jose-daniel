@@ -83,6 +83,7 @@ import {
     homeMainImage7,
     homeMainImage8,
     homeMainImage9,
+    homeMainImage10,
     saveTheDateMainImage,
     portfolioMainImage,
     quiceAñosImage,
@@ -447,10 +448,10 @@ export const homeCarouselImages = [
         id: 5,
         img: homeMainImage5,
     },
-    {
-        id: 6,
-        img: homeMainImage6,
-    },
+    // {
+    //     id: 6,
+    //     img: homeMainImage6,
+    // },
     {
         id: 7,
         img: homeMainImage7,
@@ -462,6 +463,10 @@ export const homeCarouselImages = [
     {
         id: 9,
         img: homeMainImage9,
+    },
+    {
+        id: 10,
+        img: homeMainImage10,
     },
 ];
 

@@ -10,6 +10,7 @@ import homeMainImage6 from './home/homeMainImage6.jpg';
 import homeMainImage7 from './home/homeMainImage7.jpg';
 import homeMainImage8 from './home/homeMainImage8.jpg';
 import homeMainImage9 from './home/homeMainImage9.jpg';
+import homeMainImage10 from './home/homeMainImage10.jpg';
 
 import contactMainImage from './paquetes/contactMainImage.jpg';
 
@@ -219,4 +220,5 @@ export {
     carlosNati19,
     carlosNati20,
     carlosNati21,
+    homeMainImage10,
 };
