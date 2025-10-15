@@ -15,7 +15,7 @@ export const ContactImage = () => {
                     height={3000}
                     src={contactMainImage}
                     alt='CONTACTO'
-                    className='h-[380px] w-full object-cover sm:h-[500px] md:h-[600px] xl:h-[700px] 2xl:h-[1000px]'
+                    className='h-[590px] object-center w-full object-cover shadow-xl sm:h-[800px] lg:h-[1100px] 2xl:h-[1300px]'
                 />
                 {isHover && (
                     <div className='absolute top-[40%] right-[50%] translate-x-[50%] z-[100] md:top-[40%]'>

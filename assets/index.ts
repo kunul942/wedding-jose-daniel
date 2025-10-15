@@ -61,6 +61,12 @@ import saveTheDateCarouselImage3 from './saveTheDate/saveTheDateCarouselImage3.j
 import saveTheDateCarouselImage4 from './saveTheDate/saveTheDateCarouselImage4.jpg';
 import saveTheDateCarouselImage5 from './saveTheDate/saveTheDateCarouselImage5.jpg';
 import saveTheDateCarouselImage6 from './saveTheDate/saveTheDateCarouselImage6.jpg';
+import saveTheDateCarouselImage7 from './saveTheDate/saveTheDateCarouselImage7.jpg';
+import saveTheDateCarouselImage8 from './saveTheDate/saveTheDateCarouselImage8.jpg';
+import saveTheDateCarouselImage9 from './saveTheDate/saveTheDateCarouselImage9.jpg';
+import saveTheDateCarouselImage10 from './saveTheDate/saveTheDateCarouselImage10.jpg';
+import saveTheDateCarouselImage11 from './saveTheDate/saveTheDateCarouselImage11.jpg';
+import saveTheDateCarouselImage12 from './saveTheDate/saveTheDateCarouselImage12.jpg';
 import saveTheDateGalleryImage1 from './saveTheDate/saveTheDateGalleryImage1.jpg';
 import saveTheDateGalleryImage2 from './saveTheDate/saveTheDateGalleryImage2.jpg';
 import saveTheDateGalleryImage4 from './saveTheDate/saveTheDateGalleryImage4.jpg';
@@ -184,6 +190,12 @@ export {
     saveTheDateCarouselImage4,
     saveTheDateCarouselImage5,
     saveTheDateCarouselImage6,
+    saveTheDateCarouselImage7,
+    saveTheDateCarouselImage8,
+    saveTheDateCarouselImage9,
+    saveTheDateCarouselImage10,
+    saveTheDateCarouselImage11,
+    saveTheDateCarouselImage12,
     saveTheDateGalleryImage1,
     saveTheDateGalleryImage2,
     saveTheDateGalleryImage4,

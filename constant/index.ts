@@ -87,6 +87,12 @@ import {
     saveTheDateMainImage,
     portfolioMainImage,
     quiceAñosImage,
+    saveTheDateCarouselImage7,
+    saveTheDateCarouselImage8,
+    saveTheDateCarouselImage9,
+    saveTheDateCarouselImage10,
+    saveTheDateCarouselImage11,
+    saveTheDateCarouselImage12,
 } from '../assets';
 
 import {
@@ -479,16 +485,32 @@ export const homeServices = {
 //**Portfolio**//
 export const portfolioCarouselImages = [
     {
-        id: '02',
-        img: portfolioImage2,
-    },
-    {
         id: '01',
         img: portfolioImage1,
     },
     {
+        id: '02',
+        img: portfolioImage2,
+    },
+    {
         id: '03',
         img: portfolioImage3,
+    },
+    {
+        id: '06',
+        img: portfolioImage6,
+    },
+    {
+        id: '04',
+        img: portfolioImage4,
+    },
+    {
+        id: '05',
+        img: portfolioImage5,
+    },
+    {
+        id: '011',
+        img: portfolioImage11,
     },
     {
         id: '09',
@@ -499,24 +521,16 @@ export const portfolioCarouselImages = [
         img: portfolioImage8,
     },
     {
+        id: '013',
+        img: portfolioImage13,
+    },
+    {
         id: '010',
         img: portfolioImage10,
     },
     {
-        id: '011',
-        img: portfolioImage11,
-    },
-    {
-        id: '04',
-        img: portfolioImage4,
-    },
-    {
         id: '012',
         img: portfolioImage12,
-    },
-    {
-        id: '013',
-        img: portfolioImage13,
     },
     // {
     //     id: '014',
@@ -682,6 +696,30 @@ export const saveTheDateCarouselImages = [
     {
         id: '06',
         img: saveTheDateCarouselImage6,
+    },
+    {
+        id: '07',
+        img: saveTheDateCarouselImage7,
+    },
+    {
+        id: '08',
+        img: saveTheDateCarouselImage8,
+    },
+    {
+        id: '09',
+        img: saveTheDateCarouselImage9,
+    },
+    {
+        id: '10',
+        img: saveTheDateCarouselImage10,
+    },
+    {
+        id: '11',
+        img: saveTheDateCarouselImage11,
+    },
+    {
+        id: '12',
+        img: saveTheDateCarouselImage12,
     },
 ];
 
