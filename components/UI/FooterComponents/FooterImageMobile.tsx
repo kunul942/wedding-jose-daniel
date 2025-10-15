@@ -16,7 +16,7 @@ export const FooterImageMobile = () => {
                             width={300}
                             src={image}
                             alt='image'
-                            className='h-[500px] w-full object-cover'
+                            className='h-[200px] md:h-[500px] 2xl:h-[700px] w-full object-cover'
                         />
                     </div>
                 ))}

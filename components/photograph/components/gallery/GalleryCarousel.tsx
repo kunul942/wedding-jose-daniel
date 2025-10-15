@@ -43,7 +43,7 @@ export const GalleryCarousel = ({ carousel }: any) => {
                     >
                         <Image
                             priority
-                            className='hoverEffect h-[600px] w-full object-center rounded-2xl object-cover sm:h-[700px] md:h-[600px] 2xl:h-[700px]'
+                            className='hoverEffect h-[600px] w-full object-center rounded-2xl object-cover sm:h-[700px] md:h-[700px] 2xl:h-[800px]'
                             width={3000}
                             height={3000}
                             src={img}

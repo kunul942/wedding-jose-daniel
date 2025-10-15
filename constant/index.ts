@@ -479,17 +479,17 @@ export const homeServices = {
 //**Portfolio**//
 export const portfolioCarouselImages = [
     {
+        id: '02',
+        img: portfolioImage2,
+    },
+    {
         id: '01',
         img: portfolioImage1,
     },
     {
-        id: '02',
-        img: portfolioImage2,
+        id: '03',
+        img: portfolioImage3,
     },
-    // {
-    //     id: '03',
-    //     img: portfolioImage3,
-    // },
     {
         id: '09',
         img: portfolioImage9,
@@ -498,42 +498,34 @@ export const portfolioCarouselImages = [
         id: '08',
         img: portfolioImage8,
     },
-    // {
-    //     id: '010',
-    //     img: portfolioImage10,
-    // },
-    // {
-    //     id: '011',
-    //     img: portfolioImage11,
-    // },
-    // {
-    //     id: '04',npm
-    //     img: portfolioImage4,
-    // },
+    {
+        id: '010',
+        img: portfolioImage10,
+    },
+    {
+        id: '011',
+        img: portfolioImage11,
+    },
+    {
+        id: '04',
+        img: portfolioImage4,
+    },
     {
         id: '012',
         img: portfolioImage12,
     },
+    {
+        id: '013',
+        img: portfolioImage13,
+    },
     // {
-    //     id: '013',
-    //     img: portfolioImage13,
+    //     id: '014',
+    //     img: portfolioImage14,
     // },
-    {
-        id: '014',
-        img: portfolioImage14,
-    },
-    {
-        id: '015',
-        img: portfolioImage15,
-    },
-    {
-        id: '016',
-        img: portfolioImage16,
-    },
-    {
-        id: '017',
-        img: portfolioImage17,
-    },
+    // {
+    //     id: '015',
+    //     img: portfolioImage15,
+    // },
 ];
 
 export const portfolioVideoImages = [
