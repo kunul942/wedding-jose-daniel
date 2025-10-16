@@ -6,8 +6,8 @@ import Image from 'next/image';
 export const YourStory = () => {
     const { fadeOut } = useAnimations();
 
-    const CURRENT_YEAR = new Date().getFullYear();
     const NEXT_YEAR = new Date().getFullYear() + 1;
+    const TWOYEARSLATER = new Date().getFullYear() + 2;
 
     return (
         <>
@@ -19,8 +19,8 @@ export const YourStory = () => {
                 <div className='py-[5rem] xl:px-[5rem] backgroundColor relative h-[60vh] xl:h-[85vh]'>
                     <div className='w-[95%] mx-auto h-[180px]'>
                         <h2 className='title_letter text-center text-2xl text-white w-[50%] ml-auto tracking-widest xl:text-3xl 2xl:text-4xl'>
-                            RESERVAS ACTUALMENTE PARA LA TEMPORADA{' '}
-                            {CURRENT_YEAR} & {NEXT_YEAR}
+                            RESERVAS ACTUALMENTE PARA LA TEMPORADA {NEXT_YEAR} &{' '}
+                            {TWOYEARSLATER}
                         </h2>
                         <Image
                             priority
@@ -52,8 +52,8 @@ export const YourStory = () => {
                 <div className='mt-[150px] sm:mt-[470px] p-[2rem] xl:py-[3rem] xl:px-[5rem] backgroundColor relative'>
                     <div className='w-[70%] mx-auto h-[300px] md:h-[180px] '>
                         <h2 className='text-center md:text-right title_letter text-[16px] text-white sm:text-[20px] '>
-                            RESERVAS PARA LA TEMPORADA {CURRENT_YEAR} &{' '}
-                            {NEXT_YEAR}
+                            RESERVAS PARA LA TEMPORADA {NEXT_YEAR} &{' '}
+                            {TWOYEARSLATER}
                         </h2>
                         <Image
                             height={1000}
