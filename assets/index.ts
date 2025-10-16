@@ -79,14 +79,11 @@ import RedesSociales5 from './footer/RedesSociales5.jpg';
 import RedesSociales6 from './footer/RedesSociales6.jpg';
 import RedesSociales7 from './footer/RedesSociales7.jpg';
 import RedesSociales8 from './footer/RedesSociales8.jpg';
-
 import facebook from './footer/facebook.png';
 import instagram from './footer/instagram.png';
 import instagramBlanco from './footer/instagram_blanco.png';
 import whatsapp from './footer/whatsapp.png';
-
 import arrowTop from './footer/flechas-arriba.png';
-
 import joseDaniel from './about/daniel.jpeg';
 import joseDaniel2 from './about/daniel2.jpg';
 import daniel3 from './about/daniel3.jpeg';
