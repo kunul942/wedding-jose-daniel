@@ -454,10 +454,6 @@ export const homeCarouselImages = [
         id: 5,
         img: homeMainImage5,
     },
-    // {
-    //     id: 6,
-    //     img: homeMainImage6,
-    // },
     {
         id: 7,
         img: homeMainImage7,
