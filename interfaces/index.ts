@@ -5,6 +5,7 @@ export interface GallerySection {
     imagePortada: StaticImageData;
     title: string;
     subtitle: string;
+    location?: string;
 }
 
 export interface GalleryItem {

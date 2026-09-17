@@ -17,7 +17,7 @@ export default function PeopleImagesPages({ peopleGallery }: Props) {
     const { openMenu } = useContext(PhotographyContext);
 
     return (
-        <Layout title={'Wedding Jose Daniel Galerias'}>
+        <Layout title={'Wedding Jose Daniel Galerias'} overlayNav>
             <div className={`${openMenu ? 'hidden' : ''}`}>
                 <PeopleGallery peopleGallery={peopleGallery} />
             </div>
@@ -40,6 +40,10 @@ export const getStaticProps: GetStaticProps = (ctx) => {
     const { name } = ctx.params as { name: string };
 
     const peopleGallery = getSesionesInfo(name);
+
+    if (!peopleGallery) {
+        return { notFound: true };
+    }
 
     return {
         props: {

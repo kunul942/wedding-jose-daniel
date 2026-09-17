@@ -1,4 +1,3 @@
-import { HomeCarousel } from './HomeCarousel';
 import { useAnimations } from '@/hooks';
 
 import { resumeImage, resumeImageMobile } from '@/assets';
@@ -12,11 +11,6 @@ export const HomeInfo = () => {
         <>
             <div>
                 {/* <div className='h-[20px] w-full bg-gray-100 md:hidden'></div> */}
-
-                {/***MAIN IMAGE***/}
-                <div data-aos={fadeOut}>
-                    <HomeCarousel />
-                </div>
 
                 {/***DESKTOP***/}
                 <div className='hidden md:block' data-aos={fadeOut}>

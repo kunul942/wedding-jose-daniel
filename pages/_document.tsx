@@ -8,6 +8,19 @@ export default function Document() {
                     rel='stylesheet'
                     href='https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css'
                 />
+                <link
+                    rel='preconnect'
+                    href='https://fonts.googleapis.com'
+                />
+                <link
+                    rel='preconnect'
+                    href='https://fonts.gstatic.com'
+                    crossOrigin='anonymous'
+                />
+                <link
+                    rel='stylesheet'
+                    href='https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;1,300;1,400&family=Jost:wght@300;400;500&family=Parisienne&display=swap'
+                />
             </Head>
             <body>
                 <Main />

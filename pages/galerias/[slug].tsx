@@ -7,8 +7,9 @@ import { galerias } from '@/constant';
 import { getGalleryInfo } from '@/utils';
 import {
     GalleryCarousel,
-    GalleryImage,
-    GalleryCards,
+    GalleryFeatured,
+    GalleryHero,
+    GalleryIntro,
 } from '@/components/photograph/components/gallery';
 import { Layout } from '@/components/layout/Layout';
 
@@ -21,14 +22,11 @@ export default function GaleriasPage<NextPage>({ gallery }: Props) {
 
     console.log('res: here?', gallery);
     return (
-        <Layout title={'Wedding Jose Daniel Galerias'}>
+        <Layout title={'Wedding Jose Daniel Galerias'} navTone='cream'>
             <div className={`${openMenu ? 'hidden' : ''}`}>
-                <GalleryImage
-                    mainImage={gallery?.mainImage}
-                    title={gallery?.title}
-                />
-                <GalleryCarousel carousel={gallery.carousel} />
-                <GalleryCards boda={gallery.boda} />
+                <GalleryHero />
+                <GalleryIntro />
+                <GalleryFeatured boda={gallery.boda} />
             </div>
         </Layout>
     );
@@ -50,7 +48,9 @@ export const getStaticProps: GetStaticProps = (ctx) => {
 
     const gallery = getGalleryInfo(slug);
 
-    console.log('res: aca en static props gallery', gallery);
+    if (!gallery) {
+        return { notFound: true };
+    }
 
     return {
         props: {

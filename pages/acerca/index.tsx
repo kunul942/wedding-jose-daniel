@@ -1,10 +1,14 @@
 import { useContext } from 'react';
-import { NextPage } from 'next';
 import { PhotographyContext } from '@/components/photograph/context';
 import { Layout } from '@/components/layout/Layout';
 import {
+    AboutBehind,
     AboutBody,
-    AboutHeader,
+    AboutEditorial,
+    AboutGalleries,
+    AboutHero,
+    AboutMoodboard,
+    AboutPrimer,
     YourStory,
 } from '@/components/photograph/components/about';
 
@@ -13,9 +17,12 @@ export default function AboutPage() {
     return (
         <Layout title='Acerca de mi'>
             <div className={`${openMenu ? 'hidden' : ''}`}>
-                <AboutHeader />
-                <AboutBody />
-                <YourStory />
+                <AboutHero />
+                <AboutEditorial />
+                <AboutBehind />
+                <AboutPrimer />
+                <AboutMoodboard />
+                <AboutGalleries />
             </div>
         </Layout>
     );

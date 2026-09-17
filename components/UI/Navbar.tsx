@@ -1,173 +1,107 @@
-import Image from 'next/image';
 import { useContext } from 'react';
 import Link from 'next/link';
 
 import { PhotographyContext } from '../photograph/context';
-import { InfoMobile, InfoDesk } from '../InfoLinks';
-import { useMobileLinks, useOpenLinks } from '@/hooks/';
+import { navbarLinks, navbarMenuLinks, socialLinks } from '@/constant';
+import { FacebookIcon, InstagramIcon, WhatsappIcon } from './SocialIcons';
+import { MenuOverlay } from './MenuOverlay';
 
-import { close, menu } from '@/assets';
-import { navbarLinks } from '@/constant';
+interface Props {
+    /** Renders the navbar floating on top of the hero, in white. */
+    overlay?: boolean;
+    /** Background of the solid navbar. `cream` matches the editorial heroes. */
+    tone?: 'white' | 'cream';
+}
 
-export const Navbar = () => {
+const socialIcons = {
+    instagram: InstagramIcon,
+    facebook: FacebookIcon,
+    whatsapp: WhatsappIcon,
+};
+
+export const Navbar = ({ overlay = false, tone = 'white' }: Props) => {
     const { openMenu, handleCloseMenu, handleOpenMenu } = useContext(
         PhotographyContext
     ) as any;
 
-    const { isOver, handleClickOut, handleClickOver } = useOpenLinks();
-    const { isMobile, handleMobileOut, handleMobileOver } = useMobileLinks();
+    const wrapper = overlay
+        ? 'absolute top-0 left-0 z-[1000] w-full text-white'
+        : `relative z-[1000] w-full text-[#221f1d] ${
+              tone === 'cream' ? 'bg-[#eae7dd]' : 'bg-white'
+          }`;
 
     return (
         <>
-            <div>
-                <div className='z-[1000000] relative hidden w-[85%] m-8 mx-auto md:flex items-center justify-between animate__animated animate__fadeIn'>
-                    <Link
-                        className='p-2 text-xs servicesColor2 tracking-widest 2xl:text-sm hover:text-gray-800'
-                        href={'/'}
-                    >
-                        {navbarLinks.inicio}
-                    </Link>
-
-                    <Link
-                        className='p-2 text-xs servicesColor2 tracking-widest 2xl:text-sm hover:text-gray-800'
-                        href={'/galerias/bodas'}
-                    >
-                        {navbarLinks.portafolio}
-                    </Link>
-
-                    <Link
-                        className='p-2 text-xl title_letter servicesColor3 tracking-widest xl:text-3xl 2xl:text-4xl 2xl:p-4'
-                        href={'/'}
-                    >
-                        {navbarLinks.name}
-                    </Link>
-
-                    <div
-                        className='p-2 text-xs servicesColor2 tracking-widest 2xl:text-sm hover:text-gray-800 infoLinks'
-                        onClick={handleClickOver}
-                    >
-                        {navbarLinks.info}
-                        <InfoDesk
-                            isOver={isOver}
-                            handleClickOut={handleClickOut}
-                        />
-                    </div>
-
-                    <Link
-                        className='p-2 text-xs servicesColor2 tracking-widest 2xl:text-sm hover:text-gray-800'
-                        href={'/contacto'}
-                    >
-                        {navbarLinks.contacto}
-                    </Link>
-                </div>
-                <div>
-                    <div
-                        className={`${
-                            openMenu
-                                ? 'hidden'
-                                : 'w-[85%] my-4 mx-auto sm:my-8 flex justify-between items-center animate__animated animate__fadeIn md:hidden'
-                        }`}
-                    >
-                        <h1 className='p-2 text-[18px] title_letter servicesColor tracking-widest sm:text-3xl'>
-                            <Link href={'/'}>{navbarLinks.name}</Link>
-                        </h1>
-                        <Image
-                            height={500}
-                            width={500}
-                            src={menu}
-                            alt='menu'
-                            className='p-2 h-[35px] w-[40px] sm:h-[40px] sm:w-[50px]'
+            <header
+                className={`${wrapper} ${openMenu ? 'hidden' : ''} animate__animated animate__fadeIn`}
+            >
+                <nav className='mx-auto flex w-[92%] items-center justify-between py-5 lg:py-7'>
+                    {/***** LEFT: burger + wordmark *****/}
+                    <div className='flex flex-1 items-center gap-6 lg:gap-10'>
+                        <button
+                            type='button'
+                            aria-label='Abrir menú'
                             onClick={handleOpenMenu}
-                        />
+                            className='flex w-8 flex-col gap-[6px] lg:w-9'
+                        >
+                            <span className='block h-[1px] w-full bg-current' />
+                            <span className='block h-[1px] w-full bg-current' />
+                        </button>
+
+                        <Link
+                            href='/'
+                            className='display_serif hidden text-center text-[13px] leading-[1.15] tracking-[0.16em] md:block lg:text-[15px]'
+                        >
+                            WEDDING
+                            <br />
+                            JOSE DANIEL
+                        </Link>
                     </div>
-                </div>
-            </div>
 
-            {/* Mobile */}
-            {openMenu && (
-                <div className='backgroundColor h-screen animate__animated animate__fadeIn'>
-                    <div className='backgroundColor'>
-                        <div className='mx-12 py-6'>
-                            <Image
-                                width={500}
-                                height={500}
-                                src={close.src}
-                                alt='close'
-                                className='p-2 h-[40px] w-[40px] mx-auto mb-6'
-                                onClick={handleCloseMenu}
-                            />
-                            <hr className='border-white' />
+                    {/***** CENTER: links *****/}
+                    <div className='hidden items-center justify-center gap-8 md:flex lg:gap-14 xl:gap-20'>
+                        {navbarMenuLinks.map(({ label, href }) => (
+                            <Link
+                                key={href}
+                                href={href}
+                                className='hero__nav-link ui_sans text-[11px] uppercase lg:text-[12px]'
+                            >
+                                {label}
+                            </Link>
+                        ))}
+                    </div>
 
-                            <div>
-                                <div className='text-white text-center text-sm my-12 hover:text-gray-300'>
-                                    <Link href={'/'} onClick={handleCloseMenu}>
-                                        {navbarLinks.inicio}
-                                    </Link>
-                                </div>
-                                <hr className='border-gray-300' />
+                    {/***** RIGHT: social *****/}
+                    <div className='flex flex-1 items-center justify-end gap-5'>
+                        <span className='display_serif text-[15px] tracking-[0.16em] md:hidden'>
+                            <Link href='/'>{navbarLinks.name}</Link>
+                        </span>
 
-                                <div className='text-white text-center text-sm my-12 hover:text-gray-300'>
-                                    <Link
-                                        href={'/galerias/bodas'}
-                                        onClick={handleCloseMenu}
+                        <div className='hidden items-center gap-5 md:flex'>
+                            {socialLinks.map(({ id, link }) => {
+                                const Icon =
+                                    socialIcons[
+                                        id as keyof typeof socialIcons
+                                    ] ?? InstagramIcon;
+                                return (
+                                    <a
+                                        key={id}
+                                        href={link}
+                                        target='_blank'
+                                        rel='noopener noreferrer'
+                                        aria-label={id}
+                                        className='hero__nav-link'
                                     >
-                                        {navbarLinks.portafolio}
-                                    </Link>
-                                </div>
-                                <hr className='border-gray-300' />
-
-                                <div
-                                    className='text-white text-center text-sm my-12 infoLinks hover:text-gray-300'
-                                    onClick={handleMobileOver}
-                                >
-                                    {navbarLinks.info}
-                                    <InfoMobile
-                                        isMobile={isMobile}
-                                        handleMobileOut={handleMobileOut}
-                                        backgroundColor='backgroundColor'
-                                        textColor='text-gray-100'
-                                        textSize='text-sm'
-                                    />
-                                </div>
-
-                                {isMobile && (
-                                    <>
-                                        <hr className='border-gray-300 mt-[150px] mb-12' />
-
-                                        <div className='text-white text-center mb-12 text-sm hover:text-gray-300'>
-                                            <Link
-                                                href={'/contacto'}
-                                                onClick={handleCloseMenu}
-                                            >
-                                                {navbarLinks.contacto}
-                                            </Link>
-                                        </div>
-                                        <hr className='border-gray-300' />
-                                    </>
-                                )}
-
-                                <hr className='border-gray-300' />
-
-                                <div
-                                    className={`${
-                                        isMobile
-                                            ? 'hidden'
-                                            : 'text-white text-center text-sm my-12 hover:text-gray-300'
-                                    }`}
-                                >
-                                    <Link
-                                        href={'/contacto'}
-                                        onClick={handleCloseMenu}
-                                    >
-                                        {navbarLinks.contacto}
-                                    </Link>
-                                </div>
-                                <hr className='border-gray-300' />
-                            </div>
+                                        <Icon className='h-[17px] w-[17px]' />
+                                    </a>
+                                );
+                            })}
                         </div>
                     </div>
-                </div>
-            )}
+                </nav>
+            </header>
+
+            {openMenu && <MenuOverlay onClose={handleCloseMenu} />}
         </>
     );
 };

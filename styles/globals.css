@@ -43,7 +43,16 @@ html {
 }
 
 .title_letter {
-    font-family: La Luxes Serif;
+    font-family: 'La Luxes Serif', 'Cormorant Garamond', 'Times New Roman', serif;
+}
+
+.display_serif {
+    font-family: 'Cormorant Garamond', 'La Luxes Serif', 'Times New Roman', serif;
+    font-weight: 300;
+}
+
+.ui_sans {
+    font-family: 'Jost', 'Inter', sans-serif;
 }
 
 .text_color {
@@ -202,4 +211,196 @@ html {
     background-position: bottom;
     background-repeat: no-repeat;
     background-image: url(../assets/about/daniel-background.jpg);
+}
+
+
+/*********** Hero (Home) ************/
+.hero__bg-tint::after {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(
+        to bottom,
+        rgba(40, 38, 35, 0.42) 0%,
+        rgba(40, 38, 35, 0.28) 45%,
+        rgba(40, 38, 35, 0.45) 100%
+    );
+}
+
+.hero__title {
+    letter-spacing: 0.06em;
+    line-height: 0.95;
+}
+
+.hero__eyebrow {
+    letter-spacing: 0.24em;
+}
+
+.hero__nav-link {
+    letter-spacing: 0.18em;
+    transition: opacity 0.35s ease;
+}
+
+.hero__nav-link:hover {
+    opacity: 0.6;
+}
+
+.hero__slide {
+    transition: opacity 1.6s ease-in-out;
+}
+
+.hero__badge {
+    animation: hero-badge-spin 46s linear infinite;
+}
+
+@keyframes hero-badge-spin {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+@media (prefers-reduced-motion: reduce) {
+    .hero__badge {
+        animation: none;
+    }
+    .hero__slide {
+        transition: none;
+    }
+}
+
+.footer__signature {
+    font-family: 'Parisienne', 'Cormorant Garamond', cursive;
+}
+
+.script_hand {
+    font-family: 'Parisienne', 'Cormorant Garamond', cursive;
+    font-weight: 400;
+}
+
+/*********** Gallery hero (Portafolio) ************/
+.gallery-hero__title {
+    font-size: var(--gallery-hero-title);
+}
+
+@media screen and (min-width: 1024px) {
+    .gallery-hero__title {
+        font-size: var(--gallery-hero-title-lg);
+    }
+}
+
+/*********** Real weddings (Home) ************/
+.home-weddings__title {
+    font-size: var(--home-weddings-title);
+}
+
+@media screen and (min-width: 640px) {
+    .home-weddings__title {
+        font-size: 16vw;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .home-weddings__title {
+        font-size: 9vw;
+    }
+}
+
+@media screen and (min-width: 1536px) {
+    .home-weddings__title {
+        font-size: 8vw;
+    }
+}
+
+/*********** Session cover (Galerias) ************/
+.session-hero__tint::after {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(
+        to bottom,
+        rgba(28, 27, 25, 0.38) 0%,
+        rgba(28, 27, 25, 0.22) 50%,
+        rgba(28, 27, 25, 0.4) 100%
+    );
+}
+
+.session-hero__monogram {
+    font-weight: 300;
+    line-height: 1;
+    letter-spacing: 0.02em;
+}
+
+.session-hero__name {
+    font-weight: 500;
+    letter-spacing: 0.22em;
+}
+
+/*********** Session grid + lightbox (Galerias) ************/
+.gallery__figure {
+    overflow: hidden;
+    background-color: #f2efea;
+}
+
+.gallery__figure img {
+    transition: transform 900ms cubic-bezier(0.22, 1, 0.36, 1),
+        opacity 600ms ease;
+}
+
+.gallery__figure:hover img {
+    transform: scale(1.02);
+}
+
+.lightbox {
+    background-color: #ffffff;
+    animation: lightbox-in 320ms ease forwards;
+}
+
+.lightbox__stage {
+    animation: lightbox-zoom 420ms cubic-bezier(0.22, 1, 0.36, 1) forwards;
+}
+
+.lightbox__btn {
+    color: #3a3835;
+    opacity: 0.55;
+    transition: opacity 250ms ease;
+}
+
+.lightbox__btn:hover {
+    opacity: 1;
+}
+
+.lightbox__btn svg {
+    fill: none;
+    stroke: currentColor;
+    stroke-width: 1;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+}
+
+.lightbox__loader {
+    border: 1px solid rgba(58, 56, 53, 0.15);
+    border-top-color: rgba(58, 56, 53, 0.65);
+}
+
+@keyframes lightbox-in {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes lightbox-zoom {
+    from {
+        opacity: 0;
+        transform: scale(0.985);
+    }
+    to {
+        opacity: 1;
+        transform: scale(1);
+    }
 }

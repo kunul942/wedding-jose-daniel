@@ -404,6 +404,153 @@ export const navbarLinks = {
     contacto: 'CONTACTO',
 };
 
+export const navbarMenuLinks = [
+    { label: 'INICIO', href: '/' },
+    { label: 'ACERCA', href: '/acerca' },
+    { label: 'PORTAFOLIO', href: '/galerias/bodas' },
+    // { label: 'PAQUETES', href: '/paquetes' },
+    { label: 'CONTACTO', href: '/contacto' },
+];
+
+export const socialLinks = [
+    {
+        id: 'instagram',
+        link: 'https://instagram.com/weddingjosedaniel?igshid=NTc4MTIwNjQ2YQ==',
+    },
+    {
+        id: 'facebook',
+        link: 'https://www.facebook.com/profile.php?id=61554777335970',
+    },
+    {
+        id: 'whatsapp',
+        link: 'https://wa.me/50245940233',
+    },
+];
+
+export const menuOverlayLinks = [
+    { label: 'Inicio', href: '/', italic: false },
+    { label: 'Acerca', href: '/acerca', italic: true },
+    { label: 'Portafolio', href: '/galerias/bodas', italic: false },
+    { label: 'Contacto', href: '/contacto', italic: true },
+    // { label: 'Paquetes', href: '/paquetes', italic: false },
+];
+
+export const menuOverlayCards = {
+    left: { caption: 'Ver paquetes', href: '/paquetes' },
+    right: { caption: 'Escríbeme', href: '/contacto' },
+};
+
+export const socialLabels = {
+    instagram: 'Instagram',
+    facebook: 'Facebook',
+    whatsapp: 'WhatsApp',
+};
+
+export const homeExperience = {
+    eyebrow: ['SERVICIOS DE FOTOGRAFÍA', 'DE BODAS EN GUATEMALA'],
+    blocks: [
+        {
+            id: 'previa',
+            title: 'La Previa',
+            text: 'Desde la sesión de compromiso hasta el primer evento del fin de semana, José Daniel y su equipo documentan por completo la historia de tu boda.',
+        },
+        {
+            id: 'gran-dia',
+            title: 'El Gran Día',
+            text: 'El momento que tanto has esperado. Te acompaño en cada paso, creando una conexión real y entendiendo tu visión, mientras documento el día con un enfoque editorial y artístico.',
+        },
+    ],
+    cta: { label: 'VER MÁS', href: '/galerias/bodas' },
+};
+
+export const homeAbout = {
+    eyebrow: 'SOBRE MÍ',
+    title: 'CONOCE A JOSÉ DANIEL',
+    lead: 'FOTÓGRAFO Y DIRECTOR CREATIVO DE WEDDING JOSÉ DANIEL, ESPECIALIZADO EN FOTOGRAFÍA EDITORIAL DE BODAS EN GUATEMALA Y DESTINOS',
+    text: 'Con más de una década de experiencia, José Daniel ha fotografiado bodas por todo el país, capturando recuerdos hermosos y atemporales para sus parejas.',
+    cta: { label: 'CONOCE MÁS', href: '/acerca' },
+};
+
+export const homeJDExperience = {
+    eyebrow: 'LA EXPERIENCIA WJD',
+    title: ['Fotografía editorial de bodas', 'en Guatemala y destinos'],
+    text: 'Su amor es distinto y quiero mostrarlo tal cual es. ¿Listos para comenzar este camino? No puedo esperar a acompañarlos.',
+    cta: { label: 'Más información', href: '/paquetes' },
+    specialty: { label: 'NUESTRA ESPECIALIDAD', text: 'Todo sobre bodas.' },
+};
+
+export const homeRealWeddings = {
+    title: ['BODAS', 'REALES'],
+    caption: 'PORTAFOLIO DE BODAS',
+    href: '/galerias/bodas',
+};
+
+export const galleryHero = {
+    title: ['BODAS', 'INOLVIDABLES'],
+};
+
+export const galleryIntro = {
+    eyebrow: 'FOTOGRAFÍA EDITORIAL DE BODAS',
+    statement:
+        'Fotógrafo de bodas con mirada editorial, que muestra la emoción real de tu día a través del movimiento, la luz y el retrato.',
+    text: 'Desde Guatemala y hacia donde nos lleve tu historia, José Daniel se inspira en las personas, la luz, la emoción y la cultura de cada lugar.',
+};
+
+export const galleryFeatured = {
+    eyebrow: 'GALERÍAS DESTACADAS',
+};
+
+export const homeSocialPackage = {
+    eyebrow: '¿LISTOS PARA LUCIR SUS FOTOS?',
+    titleItalic: 'El',
+    title: 'PAQUETE REDES SOCIALES',
+    text: 'Captura y comparte la historia de tu boda con nuestro Paquete de Redes Sociales. Recibe una galería curada con todo detalle dentro de la semana siguiente a tu boda. Escríbenos para conocer más sobre este servicio exclusivo.',
+    cta: { label: 'CONOCE MÁS', href: '/paquetes' },
+};
+
+export const homeFeed = {
+    follow: 'síguenos',
+    handle: '@weddingjosedaniel',
+    eyebrow: 'AHORA EN EL FEED:',
+    links: [
+        {
+            id: 'instagram',
+            label: 'Instagram',
+            caption: 'Síguenos',
+            href: 'https://instagram.com/weddingjosedaniel?igshid=NTc4MTIwNjQ2YQ==',
+        },
+        {
+            id: 'facebook',
+            label: 'Facebook',
+            caption: 'Conoce más',
+            href: 'https://www.facebook.com/profile.php?id=61554777335970',
+        },
+    ],
+    tagline: [
+        'Fotógrafo de bodas en Guatemala, Antigua y destinos,',
+        'para parejas que aman los momentos reales.',
+    ],
+};
+
+export const footerContent = {
+    navTitle: 'NAVEGA',
+    contactTitle: 'CONTACTO',
+    contactText:
+        'Fotógrafo editorial de bodas en Guatemala y Antigua. Disponible para bodas de destino.',
+    email: 'weddingjosedaniel@gmail.com',
+    newsletterTitle: 'SUSCRÍBETE',
+    newsletterText:
+        'Recibe novedades sobre fotografía de bodas, eventos exclusivos, promociones especiales e inspiración para tu día.',
+    newsletterCta: 'SUSCRIBIRME',
+    signature: 'xo, José',
+    rights: 'Todos los derechos reservados.',
+};
+
+export const heroContent = {
+    title: 'WEDDING JOSE DANIEL',
+    subtitle: 'FOTÓGRAFO DE BODAS EN GUATEMALA',
+};
+
 export const infoLinksSections = {
     about: 'ACERCA DE',
     experience: 'EXPERIENCIA',
@@ -1955,6 +2102,7 @@ export const galerias = [
                 imagePortada: neryDeisyGallery21,
                 title: 'BODAS',
                 subtitle: 'NERY + DEISY',
+                location: 'Antigua Guatemala',
                 galerias: 'GALERIAS',
             },
             {
@@ -1962,6 +2110,7 @@ export const galerias = [
                 imagePortada: marcoBrenda17,
                 title: 'BODAS',
                 subtitle: 'EVELYN + EDUARDO',
+                location: 'Ciudad de Guatemala',
                 galerias: 'GALERIAS',
             },
             {
@@ -1969,6 +2118,7 @@ export const galerias = [
                 imagePortada: timEstefania10,
                 title: 'BODAS',
                 subtitle: 'TIM + ESTEFANIA',
+                location: 'Lago de Atitlán, Sololá',
                 galerias: 'GALERIAS',
             },
             {
@@ -1976,6 +2126,7 @@ export const galerias = [
                 imagePortada: marcoDanielaPortada,
                 title: 'BODAS',
                 subtitle: 'ERICK + MARY',
+                location: 'San Juan del Obispo, Antigua',
                 galeria: 'GALERIAS',
             },
             {
@@ -1983,6 +2134,7 @@ export const galerias = [
                 imagePortada: carloNatiPortada,
                 title: 'BODAS',
                 subtitle: 'GERBERT + MAGDA',
+                location: 'Santa Catarina Palopó, Sololá',
                 galeria: 'GALERIAS',
             },
             {
@@ -1990,6 +2142,7 @@ export const galerias = [
                 imagePortada: cristianAdrianaPortada,
                 title: 'BODAS',
                 subtitle: 'CRISTIAN + ADRIANA',
+                location: 'Quetzaltenango, Guatemala',
                 galeria: 'GALERIAS',
             },
         ],
@@ -2006,6 +2159,7 @@ export const galerias = [
                 imagePortada: murrilloAlejandra5,
                 title: 'SAVE THE DATE',
                 subtitle: 'MURILLO + ALEJANDRA',
+                location: 'Cerro de la Cruz, Antigua',
                 galeria: 'GALERIAS',
             },
             {
@@ -2013,6 +2167,7 @@ export const galerias = [
                 imagePortada: eduardoEvelyn7,
                 title: 'SAVE THE DATE',
                 subtitle: 'EDUARDO + EVELYN',
+                location: 'Puerto San José, Escuintla',
                 galeria: 'GALERIAS',
             },
             {
@@ -2020,6 +2175,7 @@ export const galerias = [
                 imagePortada: timEstefaniaSaveDate6,
                 title: 'SAVE THE DATE',
                 subtitle: 'TIM + ESTEFANIA',
+                location: 'Lago de Atitlán, Sololá',
                 galeria: 'GALERIAS',
             },
         ],
@@ -2036,6 +2192,7 @@ export const galerias = [
                 imagePortada: dannaPortada,
                 title: 'QUINCE AÑOS',
                 subtitle: 'DANNA',
+                location: 'Antigua Guatemala',
                 galeria: 'GALERIAS',
             },
             {
@@ -2043,6 +2200,7 @@ export const galerias = [
                 imagePortada: rubyPortada,
                 title: 'QUINCE AÑOS',
                 subtitle: 'RUBY',
+                location: 'Ciudad de Guatemala',
                 galeria: 'GALERIAS',
             },
             {
@@ -2050,6 +2208,7 @@ export const galerias = [
                 imagePortada: ximenaXV1,
                 title: 'QUINCE AÑOS',
                 subtitle: 'XIMENA',
+                location: 'Finca Filadelfia, Antigua',
                 galeria: 'GALERIAS',
             },
         ],
@@ -2130,3 +2289,108 @@ export const peopleGalleryName = [
         name: 'TIM  + ESTEFANIA',
     },
 ];
+
+export const aboutHero = {
+    title: 'HOLA, SOY JOSÉ DANIEL',
+    card: {
+        title: 'MI HISTORIA',
+        paragraphs: [
+            'Mi meta no es solo que veas las imágenes, sino que sientas de verdad la historia que cuentan. Cada historia de amor es distinta.',
+            'Mi trabajo es mostrar la versión más auténtica de ustedes. No solo quiero que se sientan cómodos, también quiero capturar la energía y el ambiente de su evento a través del movimiento, la luz y el retrato editorial.',
+        ],
+        cta: { label: 'Leer más', href: '/paquetes' },
+    },
+};
+
+export const aboutEditorial = {
+    title: ['Experiencia de Fotografía', 'Editorial de Bodas'],
+    columns: [
+        [
+            'Como fotógrafo de bodas con una mirada editorial y de fine art, me especializo en capturar las emociones y los momentos que hacen única cada historia de amor. Mi trabajo se enfoca en documentar celebraciones auténticas, desde bodas íntimas hasta grandes eventos de destino y todo lo que hay en medio.',
+            'Influenciado por los lugares que he recorrido de Guatemala y más allá, llevo a cada fotografía la inspiración de culturas, paisajes y personas distintas. Hoy me emociona seguir contando historias de amor en Antigua, Atitlán y donde el amor los lleve.',
+        ],
+        [
+            'Busco crear imágenes atemporales que mezclen el estilo editorial de moda con la fotografía artística de bodas, incorporando movimiento, luz y emoción.',
+            'Ya sea una ceremonia en la Ciudad de Guatemala, una celebración íntima en Antigua o una boda de destino, mi prioridad es guiarlos con calma durante todo el proceso. Mi meta es que cada imagen refleje la energía, el ambiente y la autenticidad de su día, para que puedan volver a vivirlo con alegría.',
+        ],
+    ],
+};
+
+export const aboutBehind = {
+    eyebrow: 'DETRÁS DE LA CÁMARA',
+    name: 'JOSÉ DANIEL',
+    subtitle:
+        'Elevando historias de amor a través de la fotografía editorial de bodas',
+    paragraphs: [
+        'Conoce a José Daniel, el talento detrás del lente, recorriendo Guatemala, Antigua y el mundo para inmortalizar historias de amor a través de la fotografía editorial de bodas. Con una mirada refinada para el arte y la autenticidad, se especializa en capturar emociones y detalles que hacen inolvidable cada historia.',
+        'Con base en Guatemala y disponible para bodas de destino, su trabajo abarca desde celebraciones íntimas hasta los escenarios más icónicos. Ya sea documentando una boda pequeña o una gran fiesta, aporta una mezcla perfecta de cultura, paisaje y emoción real a cada evento, creando fotografía atemporal que refleja la esencia del camino único de cada pareja.',
+    ],
+};
+
+export const aboutPrimer = {
+    title: 'LO ESENCIAL',
+    headline: ['Fotógrafo. Papá.', 'Enamorado de la luz de Guatemala.'],
+    paragraphs: [
+        'Comencé en el mundo de las bodas cuando me casé: compré mi primera cámara para que alguien me hiciera fotos con ella y terminé encontrando mi pasión. Desde entonces no he dejado de aprender ni de documentar el día más feliz de los enamorados.',
+        'Cuando no estoy fotografiando una boda, me encuentras en casa con mi esposa y mi hija, buscando luz bonita en las calles de Antigua o planeando el próximo viaje con la cámara en la mochila. Guatemala es mi casa y mi punto de partida para bodas de destino.',
+    ],
+    items: [
+        {
+            id: 'amando',
+            eyebrow: 'LO QUE ESTOY',
+            accent: 'amando',
+            text: 'Mi familia (obviamente), el rollo de 35 mm, el café de Antigua, la luz de las seis de la tarde, los caminos de Atitlán y fotografiar a la gente enamorada.',
+        },
+        {
+            id: 'aprendiendo',
+            eyebrow: 'LO QUE ESTOY',
+            accent: 'aprendiendo',
+            text: 'De todo un poco, incluyendo de mí mismo. Siempre hay una luz nueva que entender.',
+        },
+        {
+            id: 'distingue',
+            eyebrow: 'LO QUE ME',
+            accent: 'distingue',
+            text: 'Encontrar los buenos ángulos y dirigir sin que se sienta posado. Jugar con la luz, cuidar la composición y los blancos y negros profundos. Que al ver tus fotos vuelvas a sentir ese día como si estuvieras ahí otra vez.',
+        },
+    ],
+};
+
+export const aboutMoodboard = {
+    eyebrow: 'EN EL MOODBOARD DE JOSÉ DANIEL',
+    notes: [
+        { id: 'chic', text: 'tan chic' },
+        { id: 'flores', text: 'flores siempre' },
+        { id: 'algun-dia', text: 'algún día!' },
+    ],
+    images: [
+        { id: 'fiesta', alt: 'Pista de baile' },
+        { id: 'novia', alt: 'Novia junto a la ventana' },
+        { id: 'fachada', alt: 'Fachada entre las hojas' },
+        { id: 'pareja', alt: 'Pareja en la calle' },
+        { id: 'detalles', alt: 'Detalles de la mesa' },
+        { id: 'noche', alt: 'Luces de la ciudad de noche' },
+        { id: 'brindis', alt: 'Brindis antes de la ceremonia' },
+    ],
+};
+
+export const aboutGalleries = {
+    eyebrow: 'GALERÍAS RECIENTES',
+    items: [
+        {
+            id: 'tim-estefania',
+            couple: 'TIM SANTIZO Y ESTEFANÍA MORALES',
+            link: '/sesion/tim-estefania',
+        },
+        {
+            id: 'gerbert-magda',
+            couple: 'GERBERT LÓPEZ Y MAGDA RECINOS',
+            link: '/sesion/gerbert-magda',
+        },
+        {
+            id: 'cristian-adriana',
+            couple: 'CRISTIAN AGUILAR Y ADRIANA PAZ',
+            link: '/sesion/cristian-adriana',
+        },
+    ],
+};
