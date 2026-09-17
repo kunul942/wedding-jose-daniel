@@ -13,10 +13,10 @@ interface Props {
  *  dentro de su columna y si el pie de foto va arriba o abajo. las columnas
  *  van desfasadas, así el texto de una cae en el aire de la otra */
 const shapes = [
-    { ratio: 'aspect-[5/7]', width: 'w-full lg:w-[92%]', captionAbove: false },
-    { ratio: 'aspect-[3/4]', width: 'w-full', captionAbove: false },
-    { ratio: 'aspect-[2/3]', width: 'w-full lg:w-[88%]', captionAbove: false },
-    { ratio: 'aspect-[5/7]', width: 'w-full lg:w-[98%]', captionAbove: true },
+    { ratio: 'aspect-[2/3]', width: 'w-full lg:w-[98%]', captionAbove: false },
+    { ratio: 'aspect-[5/7]', width: 'w-full', captionAbove: false },
+    { ratio: 'aspect-[3/5]', width: 'w-full lg:w-[94%]', captionAbove: false },
+    { ratio: 'aspect-[2/3]', width: 'w-full', captionAbove: true },
 ];
 
 export const GalleryFeatured = ({ boda }: Props) => {
@@ -32,18 +32,18 @@ export const GalleryFeatured = ({ boda }: Props) => {
 
     return (
         <section className='w-full overflow-hidden bg-[#eae7dd] pb-24 lg:pb-32'>
-            <div className='mx-auto w-[70%] max-w-[1280px]' data-aos={fadeOut}>
+            <div className='mx-auto w-[88%] max-w-[1800px]' data-aos={fadeOut}>
                 {/***** LABEL *****/}
                 <p className='ui_sans text-[11px] font-medium uppercase tracking-[0.18em] text-[#211d1a] lg:text-[13px]'>
                     {eyebrow} &mdash;
                 </p>
 
                 {/***** GALERÍAS *****/}
-                <div className='mt-10 flex flex-col lg:mt-14 lg:flex-row lg:items-start lg:gap-[4%]'>
+                <div className='mt-10 flex flex-col lg:mt-14 lg:flex-row lg:items-start lg:gap-[3%]'>
                     {columns.map((column, side) => (
                         <div
                             key={side}
-                            className={`contents lg:block lg:w-[48%] ${
+                            className={`contents lg:block lg:w-[48.5%] ${
                                 side === 1 ? 'lg:mt-[9vw]' : ''
                             }`}
                         >
@@ -90,7 +90,7 @@ export const GalleryFeatured = ({ boda }: Props) => {
                                                 src={item.imagePortada}
                                                 alt={item.subtitle}
                                                 quality={70}
-                                                sizes='(max-width: 1024px) 88vw, 34vw'
+                                                sizes='(max-width: 1024px) 88vw, 43vw'
                                                 className='h-full w-full object-cover transition-transform duration-[900ms] ease-out group-hover:scale-[1.03]'
                                             />
                                         </div>

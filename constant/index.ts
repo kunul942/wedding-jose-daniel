@@ -96,22 +96,296 @@ import {
 } from '../assets';
 
 import {
-    //** NeryDeisy*/
-    neryDeisyGallery21,
-    neryDeisyGallery22,
-    neryDeisyGallery23,
-    neryDeisyGallery24,
-    neryDeisyGallery25,
-    neryDeisyGallery26,
-    neryDeisyGallery27,
-    neryDeisyGallery28,
-    neryDeisyGallery30,
-    neryDeisyGallery31,
-    neryDeisyGallery32,
-    neryDeisyGallery33,
-    neryDeisyGallery38,
-    neryDeisyGallery39,
-    neryDeisyGallery40,
+    //** LeviSasha*/
+    leviSashaMainImage,
+    leviSashaGallery1,
+    leviSashaGallery2,
+    leviSashaGallery3,
+    leviSashaGallery4,
+    leviSashaGallery5,
+    leviSashaGallery6,
+    leviSashaGallery7,
+    leviSashaGallery8,
+    leviSashaGallery9,
+    leviSashaGallery10,
+    leviSashaGallery11,
+    leviSashaGallery12,
+    leviSashaGallery13,
+    leviSashaGallery14,
+    leviSashaGallery15,
+    leviSashaGallery16,
+    leviSashaGallery17,
+    leviSashaGallery18,
+    leviSashaGallery19,
+    leviSashaGallery20,
+    leviSashaGallery21,
+    leviSashaGallery22,
+    leviSashaGallery23,
+    leviSashaGallery24,
+    leviSashaGallery25,
+    leviSashaGallery26,
+    leviSashaGallery27,
+    leviSashaGallery28,
+    leviSashaGallery29,
+    leviSashaGallery30,
+    leviSashaGallery31,
+    leviSashaGallery32,
+    leviSashaGallery33,
+    leviSashaGallery34,
+    leviSashaGallery35,
+    leviSashaGallery36,
+    leviSashaGallery37,
+    leviSashaGallery38,
+    leviSashaGallery39,
+    leviSashaGallery40,
+    leviSashaGallery41,
+    leviSashaGallery42,
+    leviSashaGallery43,
+    leviSashaGallery44,
+    leviSashaGallery45,
+    leviSashaGallery46,
+    leviSashaGallery47,
+    leviSashaGallery48,
+    leviSashaGallery49,
+    leviSashaGallery50,
+    leviSashaGallery51,
+    leviSashaGallery52,
+    leviSashaGallery53,
+    leviSashaGallery54,
+    leviSashaGallery55,
+    leviSashaGallery56,
+    leviSashaGallery57,
+    leviSashaGallery58,
+    leviSashaGallery59,
+    leviSashaGallery60,
+    leviSashaGallery61,
+    leviSashaGallery62,
+    leviSashaGallery63,
+    leviSashaGallery64,
+    leviSashaGallery65,
+    leviSashaGallery66,
+    leviSashaGallery67,
+    leviSashaGallery68,
+    leviSashaGallery69,
+    leviSashaGallery70,
+    leviSashaGallery71,
+    leviSashaGallery72,
+    leviSashaGallery73,
+    leviSashaGallery74,
+    leviSashaGallery75,
+    leviSashaGallery76,
+    leviSashaGallery77,
+    leviSashaGallery78,
+    leviSashaGallery79,
+    leviSashaGallery80,
+    leviSashaGallery81,
+    leviSashaGallery82,
+    leviSashaGallery83,
+    leviSashaGallery84,
+    leviSashaGallery85,
+    leviSashaGallery86,
+    leviSashaGallery87,
+    leviSashaGallery88,
+    leviSashaGallery89,
+    leviSashaGallery90,
+    leviSashaGallery91,
+    leviSashaGallery92,
+    leviSashaGallery93,
+    leviSashaGallery94,
+    leviSashaGallery95,
+    leviSashaGallery96,
+    leviSashaGallery97,
+    leviSashaGallery98,
+    leviSashaGallery99,
+    leviSashaGallery100,
+    leviSashaGallery101,
+    leviSashaGallery102,
+    leviSashaGallery103,
+    leviSashaGallery104,
+    leviSashaGallery105,
+    leviSashaGallery106,
+    leviSashaGallery107,
+    leviSashaGallery108,
+    leviSashaGallery109,
+    leviSashaGallery110,
+    leviSashaGallery111,
+    leviSashaGallery112,
+    leviSashaGallery113,
+    leviSashaGallery114,
+    leviSashaGallery115,
+    leviSashaGallery116,
+    leviSashaGallery117,
+    leviSashaGallery118,
+    leviSashaGallery119,
+    leviSashaGallery120,
+    //** ChachiJose*/
+    chachiJoseMainImage,
+    chachiJoseGallery1,
+    chachiJoseGallery2,
+    chachiJoseGallery3,
+    chachiJoseGallery4,
+    chachiJoseGallery5,
+    chachiJoseGallery6,
+    chachiJoseGallery7,
+    chachiJoseGallery8,
+    chachiJoseGallery9,
+    chachiJoseGallery10,
+    chachiJoseGallery11,
+    chachiJoseGallery12,
+    chachiJoseGallery13,
+    chachiJoseGallery14,
+    chachiJoseGallery15,
+    chachiJoseGallery16,
+    chachiJoseGallery17,
+    chachiJoseGallery18,
+    chachiJoseGallery19,
+    chachiJoseGallery20,
+    chachiJoseGallery21,
+    chachiJoseGallery22,
+    chachiJoseGallery23,
+    chachiJoseGallery24,
+    chachiJoseGallery25,
+    chachiJoseGallery26,
+    chachiJoseGallery27,
+    chachiJoseGallery28,
+    chachiJoseGallery29,
+    chachiJoseGallery30,
+    chachiJoseGallery31,
+    chachiJoseGallery32,
+    chachiJoseGallery33,
+    chachiJoseGallery34,
+    chachiJoseGallery35,
+    chachiJoseGallery36,
+    chachiJoseGallery37,
+    chachiJoseGallery38,
+    chachiJoseGallery39,
+    chachiJoseGallery40,
+    chachiJoseGallery41,
+    chachiJoseGallery42,
+    chachiJoseGallery43,
+    chachiJoseGallery44,
+    chachiJoseGallery45,
+    chachiJoseGallery46,
+    chachiJoseGallery47,
+    chachiJoseGallery48,
+    chachiJoseGallery49,
+    chachiJoseGallery50,
+    chachiJoseGallery51,
+    chachiJoseGallery52,
+    chachiJoseGallery53,
+    chachiJoseGallery54,
+    chachiJoseGallery55,
+    chachiJoseGallery56,
+    chachiJoseGallery57,
+    chachiJoseGallery58,
+    chachiJoseGallery59,
+    chachiJoseGallery60,
+    chachiJoseGallery61,
+    chachiJoseGallery62,
+    chachiJoseGallery63,
+    chachiJoseGallery64,
+    chachiJoseGallery65,
+    chachiJoseGallery66,
+    chachiJoseGallery67,
+    chachiJoseGallery68,
+    chachiJoseGallery69,
+    chachiJoseGallery70,
+    chachiJoseGallery71,
+    chachiJoseGallery72,
+    chachiJoseGallery73,
+    chachiJoseGallery74,
+    chachiJoseGallery75,
+    chachiJoseGallery76,
+    chachiJoseGallery77,
+    chachiJoseGallery78,
+    chachiJoseGallery79,
+    chachiJoseGallery80,
+    chachiJoseGallery81,
+    chachiJoseGallery82,
+    chachiJoseGallery83,
+    chachiJoseGallery84,
+    chachiJoseGallery85,
+    chachiJoseGallery86,
+    chachiJoseGallery87,
+    chachiJoseGallery88,
+    chachiJoseGallery89,
+    chachiJoseGallery90,
+    chachiJoseGallery91,
+    chachiJoseGallery92,
+    chachiJoseGallery93,
+    chachiJoseGallery94,
+    chachiJoseGallery95,
+    chachiJoseGallery96,
+    chachiJoseGallery97,
+    chachiJoseGallery98,
+    chachiJoseGallery99,
+    chachiJoseGallery100,
+    chachiJoseGallery101,
+    chachiJoseGallery102,
+    chachiJoseGallery103,
+    chachiJoseGallery104,
+    chachiJoseGallery105,
+    chachiJoseGallery106,
+    chachiJoseGallery107,
+    chachiJoseGallery108,
+    chachiJoseGallery109,
+    chachiJoseGallery110,
+    chachiJoseGallery111,
+    chachiJoseGallery112,
+    chachiJoseGallery113,
+    chachiJoseGallery114,
+    chachiJoseGallery115,
+    chachiJoseGallery116,
+    chachiJoseGallery117,
+    chachiJoseGallery118,
+    chachiJoseGallery119,
+    chachiJoseGallery120,
+    chachiJoseGallery121,
+    chachiJoseGallery122,
+    chachiJoseGallery123,
+    chachiJoseGallery124,
+    chachiJoseGallery125,
+    chachiJoseGallery126,
+    chachiJoseGallery127,
+    chachiJoseGallery128,
+    chachiJoseGallery129,
+    chachiJoseGallery130,
+    chachiJoseGallery131,
+    chachiJoseGallery132,
+    chachiJoseGallery133,
+    chachiJoseGallery134,
+    chachiJoseGallery135,
+    chachiJoseGallery136,
+    chachiJoseGallery137,
+    chachiJoseGallery138,
+    chachiJoseGallery139,
+    chachiJoseGallery140,
+    chachiJoseGallery141,
+    chachiJoseGallery142,
+    chachiJoseGallery143,
+    chachiJoseGallery144,
+    chachiJoseGallery145,
+    chachiJoseGallery146,
+    chachiJoseGallery147,
+    chachiJoseGallery148,
+    chachiJoseGallery149,
+    chachiJoseGallery150,
+    chachiJoseGallery151,
+    chachiJoseGallery152,
+    chachiJoseGallery153,
+    chachiJoseGallery154,
+    chachiJoseGallery155,
+    chachiJoseGallery156,
+    chachiJoseGallery157,
+    chachiJoseGallery158,
+    chachiJoseGallery159,
+    chachiJoseGallery160,
+    chachiJoseGallery161,
+    chachiJoseGallery162,
+    chachiJoseGallery163,
+    chachiJoseGallery164,
+    chachiJoseGallery165,
+    chachiJoseGallery166,
     //**MarcoDaniela**//
     marcoDaniela1,
     marcoDaniela2,
@@ -250,24 +524,6 @@ import {
     murrilloAlejandra16,
     murrilloAlejandra17,
     murrilloAlejandra18,
-    neryDeisySaveDate1,
-    neryDeisySaveDate2,
-    neryDeisySaveDate3,
-    neryDeisySaveDate4,
-    neryDeisySaveDate5,
-    neryDeisySaveDate6,
-    neryDeisySaveDate7,
-    neryDeisySaveDate8,
-    neryDeisySaveDate9,
-    neryDeisySaveDate10,
-    neryDeisySaveDate11,
-    neryDeisySaveDate12,
-    neryDeisySaveDate13,
-    neryDeisySaveDate14,
-    neryDeisySaveDate15,
-    neryDeisySaveDate16,
-    neryDeisySaveDate17,
-    neryDeisySaveDate18,
     timEstefaniaSaveDate1,
     timEstefaniaSaveDate2,
     timEstefaniaSaveDate3,
@@ -736,19 +992,19 @@ export const portfolioVideoImages = [
 export const portfolioGalleryImages = [
     {
         id: '01',
-        img: neryDeisyGallery21,
+        img: chachiJoseGallery1,
         bodas: 'BODAS',
-        couple: 'NERY + DEISY',
+        couple: 'CHACHI + JOSÉ',
         // location: 'ANTIGUA GUATEMALA',
-        link: 'nery-deisy',
+        link: 'chachi-jose',
     },
     {
         id: '03',
-        img: marcoBrenda17,
+        img: leviSashaGallery1,
         bodas: 'BODAS',
-        couple: 'EVELYN + EDUARDO',
+        couple: 'LEVI + SASHA',
         // location: 'ANTIGUA GUATEMALA',
-        link: 'evelyn-eduardo',
+        link: 'levi-sasha',
     },
     {
         id: '02',
@@ -913,67 +1169,1155 @@ export const saveTheDateGalleryImages = [
 
 //*******Gallery*******//
 
-//*NeryDeisy*/
-export const neryDeisyGalleryImages = [
+//*LeviSasha*/
+export const leviSashaGalleryImages = [
     {
-        id: '21',
-        img: neryDeisyGallery21,
+        id: '001',
+        img: leviSashaGallery1,
     },
     {
-        id: '23',
-        img: neryDeisyGallery23,
+        id: '002',
+        img: leviSashaGallery2,
     },
     {
-        id: '22',
-        img: neryDeisyGallery22,
+        id: '003',
+        img: leviSashaGallery3,
     },
     {
-        id: '25',
-        img: neryDeisyGallery25,
+        id: '004',
+        img: leviSashaGallery4,
     },
     {
-        id: '26',
-        img: neryDeisyGallery26,
+        id: '005',
+        img: leviSashaGallery5,
     },
     {
-        id: '24',
-        img: neryDeisyGallery24,
+        id: '006',
+        img: leviSashaGallery6,
     },
     {
-        id: '27',
-        img: neryDeisyGallery27,
+        id: '007',
+        img: leviSashaGallery7,
     },
     {
-        id: '28',
-        img: neryDeisyGallery28,
+        id: '008',
+        img: leviSashaGallery8,
     },
     {
-        id: '30',
-        img: neryDeisyGallery30,
+        id: '009',
+        img: leviSashaGallery9,
     },
     {
-        id: '31',
-        img: neryDeisyGallery31,
+        id: '010',
+        img: leviSashaGallery10,
     },
     {
-        id: '33',
-        img: neryDeisyGallery33,
+        id: '011',
+        img: leviSashaGallery11,
     },
     {
-        id: '32',
-        img: neryDeisyGallery32,
+        id: '012',
+        img: leviSashaGallery12,
     },
     {
-        id: '38',
-        img: neryDeisyGallery38,
+        id: '013',
+        img: leviSashaGallery13,
     },
     {
-        id: '39',
-        img: neryDeisyGallery39,
+        id: '014',
+        img: leviSashaGallery14,
     },
     {
-        id: '40',
-        img: neryDeisyGallery40,
+        id: '015',
+        img: leviSashaGallery15,
+    },
+    {
+        id: '016',
+        img: leviSashaGallery16,
+    },
+    {
+        id: '017',
+        img: leviSashaGallery17,
+    },
+    {
+        id: '018',
+        img: leviSashaGallery18,
+    },
+    {
+        id: '019',
+        img: leviSashaGallery19,
+    },
+    {
+        id: '020',
+        img: leviSashaGallery20,
+    },
+    {
+        id: '021',
+        img: leviSashaGallery21,
+    },
+    {
+        id: '022',
+        img: leviSashaGallery22,
+    },
+    {
+        id: '023',
+        img: leviSashaGallery23,
+    },
+    {
+        id: '024',
+        img: leviSashaGallery24,
+    },
+    {
+        id: '025',
+        img: leviSashaGallery25,
+    },
+    {
+        id: '026',
+        img: leviSashaGallery26,
+    },
+    {
+        id: '027',
+        img: leviSashaGallery27,
+    },
+    {
+        id: '028',
+        img: leviSashaGallery28,
+    },
+    {
+        id: '029',
+        img: leviSashaGallery29,
+    },
+    {
+        id: '030',
+        img: leviSashaGallery30,
+    },
+    {
+        id: '031',
+        img: leviSashaGallery31,
+    },
+    {
+        id: '032',
+        img: leviSashaGallery32,
+    },
+    {
+        id: '033',
+        img: leviSashaGallery33,
+    },
+    {
+        id: '034',
+        img: leviSashaGallery34,
+    },
+    {
+        id: '035',
+        img: leviSashaGallery35,
+    },
+    {
+        id: '036',
+        img: leviSashaGallery36,
+    },
+    {
+        id: '037',
+        img: leviSashaGallery37,
+    },
+    {
+        id: '038',
+        img: leviSashaGallery38,
+    },
+    {
+        id: '039',
+        img: leviSashaGallery39,
+    },
+    {
+        id: '040',
+        img: leviSashaGallery40,
+    },
+    {
+        id: '041',
+        img: leviSashaGallery41,
+    },
+    {
+        id: '042',
+        img: leviSashaGallery42,
+    },
+    {
+        id: '043',
+        img: leviSashaGallery43,
+    },
+    {
+        id: '044',
+        img: leviSashaGallery44,
+    },
+    {
+        id: '045',
+        img: leviSashaGallery45,
+    },
+    {
+        id: '046',
+        img: leviSashaGallery46,
+    },
+    {
+        id: '047',
+        img: leviSashaGallery47,
+    },
+    {
+        id: '048',
+        img: leviSashaGallery48,
+    },
+    {
+        id: '049',
+        img: leviSashaGallery49,
+    },
+    {
+        id: '050',
+        img: leviSashaGallery50,
+    },
+    {
+        id: '051',
+        img: leviSashaGallery51,
+    },
+    {
+        id: '052',
+        img: leviSashaGallery52,
+    },
+    {
+        id: '053',
+        img: leviSashaGallery53,
+    },
+    {
+        id: '054',
+        img: leviSashaGallery54,
+    },
+    {
+        id: '055',
+        img: leviSashaGallery55,
+    },
+    {
+        id: '056',
+        img: leviSashaGallery56,
+    },
+    {
+        id: '057',
+        img: leviSashaGallery57,
+    },
+    {
+        id: '058',
+        img: leviSashaGallery58,
+    },
+    {
+        id: '059',
+        img: leviSashaGallery59,
+    },
+    {
+        id: '060',
+        img: leviSashaGallery60,
+    },
+    {
+        id: '061',
+        img: leviSashaGallery61,
+    },
+    {
+        id: '062',
+        img: leviSashaGallery62,
+    },
+    {
+        id: '063',
+        img: leviSashaGallery63,
+    },
+    {
+        id: '064',
+        img: leviSashaGallery64,
+    },
+    {
+        id: '065',
+        img: leviSashaGallery65,
+    },
+    {
+        id: '066',
+        img: leviSashaGallery66,
+    },
+    {
+        id: '067',
+        img: leviSashaGallery67,
+    },
+    {
+        id: '068',
+        img: leviSashaGallery68,
+    },
+    {
+        id: '069',
+        img: leviSashaGallery69,
+    },
+    {
+        id: '070',
+        img: leviSashaGallery70,
+    },
+    {
+        id: '071',
+        img: leviSashaGallery71,
+    },
+    {
+        id: '072',
+        img: leviSashaGallery72,
+    },
+    {
+        id: '073',
+        img: leviSashaGallery73,
+    },
+    {
+        id: '074',
+        img: leviSashaGallery74,
+    },
+    {
+        id: '075',
+        img: leviSashaGallery75,
+    },
+    {
+        id: '076',
+        img: leviSashaGallery76,
+    },
+    {
+        id: '077',
+        img: leviSashaGallery77,
+    },
+    {
+        id: '078',
+        img: leviSashaGallery78,
+    },
+    {
+        id: '079',
+        img: leviSashaGallery79,
+    },
+    {
+        id: '080',
+        img: leviSashaGallery80,
+    },
+    {
+        id: '081',
+        img: leviSashaGallery81,
+    },
+    {
+        id: '082',
+        img: leviSashaGallery82,
+    },
+    {
+        id: '083',
+        img: leviSashaGallery83,
+    },
+    {
+        id: '084',
+        img: leviSashaGallery84,
+    },
+    {
+        id: '085',
+        img: leviSashaGallery85,
+    },
+    {
+        id: '086',
+        img: leviSashaGallery86,
+    },
+    {
+        id: '087',
+        img: leviSashaGallery87,
+    },
+    {
+        id: '088',
+        img: leviSashaGallery88,
+    },
+    {
+        id: '089',
+        img: leviSashaGallery89,
+    },
+    {
+        id: '090',
+        img: leviSashaGallery90,
+    },
+    {
+        id: '091',
+        img: leviSashaGallery91,
+    },
+    {
+        id: '092',
+        img: leviSashaGallery92,
+    },
+    {
+        id: '093',
+        img: leviSashaGallery93,
+    },
+    {
+        id: '094',
+        img: leviSashaGallery94,
+    },
+    {
+        id: '095',
+        img: leviSashaGallery95,
+    },
+    {
+        id: '096',
+        img: leviSashaGallery96,
+    },
+    {
+        id: '097',
+        img: leviSashaGallery97,
+    },
+    {
+        id: '098',
+        img: leviSashaGallery98,
+    },
+    {
+        id: '099',
+        img: leviSashaGallery99,
+    },
+    {
+        id: '100',
+        img: leviSashaGallery100,
+    },
+    {
+        id: '101',
+        img: leviSashaGallery101,
+    },
+    {
+        id: '102',
+        img: leviSashaGallery102,
+    },
+    {
+        id: '103',
+        img: leviSashaGallery103,
+    },
+    {
+        id: '104',
+        img: leviSashaGallery104,
+    },
+    {
+        id: '105',
+        img: leviSashaGallery105,
+    },
+    {
+        id: '106',
+        img: leviSashaGallery106,
+    },
+    {
+        id: '107',
+        img: leviSashaGallery107,
+    },
+    {
+        id: '108',
+        img: leviSashaGallery108,
+    },
+    {
+        id: '109',
+        img: leviSashaGallery109,
+    },
+    {
+        id: '110',
+        img: leviSashaGallery110,
+    },
+    {
+        id: '111',
+        img: leviSashaGallery111,
+    },
+    {
+        id: '112',
+        img: leviSashaGallery112,
+    },
+    {
+        id: '113',
+        img: leviSashaGallery113,
+    },
+    {
+        id: '114',
+        img: leviSashaGallery114,
+    },
+    {
+        id: '115',
+        img: leviSashaGallery115,
+    },
+    {
+        id: '116',
+        img: leviSashaGallery116,
+    },
+    {
+        id: '117',
+        img: leviSashaGallery117,
+    },
+    {
+        id: '118',
+        img: leviSashaGallery118,
+    },
+    {
+        id: '119',
+        img: leviSashaGallery119,
+    },
+    {
+        id: '120',
+        img: leviSashaGallery120,
+    },
+];
+
+//*ChachiJose*/
+export const chachiJoseGalleryImages = [
+    {
+        id: '001',
+        img: chachiJoseGallery1,
+    },
+    {
+        id: '002',
+        img: chachiJoseGallery2,
+    },
+    {
+        id: '003',
+        img: chachiJoseGallery3,
+    },
+    {
+        id: '004',
+        img: chachiJoseGallery4,
+    },
+    {
+        id: '005',
+        img: chachiJoseGallery5,
+    },
+    {
+        id: '006',
+        img: chachiJoseGallery6,
+    },
+    {
+        id: '007',
+        img: chachiJoseGallery7,
+    },
+    {
+        id: '008',
+        img: chachiJoseGallery8,
+    },
+    {
+        id: '009',
+        img: chachiJoseGallery9,
+    },
+    {
+        id: '010',
+        img: chachiJoseGallery10,
+    },
+    {
+        id: '011',
+        img: chachiJoseGallery11,
+    },
+    {
+        id: '012',
+        img: chachiJoseGallery12,
+    },
+    {
+        id: '013',
+        img: chachiJoseGallery13,
+    },
+    {
+        id: '014',
+        img: chachiJoseGallery14,
+    },
+    {
+        id: '015',
+        img: chachiJoseGallery15,
+    },
+    {
+        id: '016',
+        img: chachiJoseGallery16,
+    },
+    {
+        id: '017',
+        img: chachiJoseGallery17,
+    },
+    {
+        id: '018',
+        img: chachiJoseGallery18,
+    },
+    {
+        id: '019',
+        img: chachiJoseGallery19,
+    },
+    {
+        id: '020',
+        img: chachiJoseGallery20,
+    },
+    {
+        id: '021',
+        img: chachiJoseGallery21,
+    },
+    {
+        id: '022',
+        img: chachiJoseGallery22,
+    },
+    {
+        id: '023',
+        img: chachiJoseGallery23,
+    },
+    {
+        id: '024',
+        img: chachiJoseGallery24,
+    },
+    {
+        id: '025',
+        img: chachiJoseGallery25,
+    },
+    {
+        id: '026',
+        img: chachiJoseGallery26,
+    },
+    {
+        id: '027',
+        img: chachiJoseGallery27,
+    },
+    {
+        id: '028',
+        img: chachiJoseGallery28,
+    },
+    {
+        id: '029',
+        img: chachiJoseGallery29,
+    },
+    {
+        id: '030',
+        img: chachiJoseGallery30,
+    },
+    {
+        id: '031',
+        img: chachiJoseGallery31,
+    },
+    {
+        id: '032',
+        img: chachiJoseGallery32,
+    },
+    {
+        id: '033',
+        img: chachiJoseGallery33,
+    },
+    {
+        id: '034',
+        img: chachiJoseGallery34,
+    },
+    {
+        id: '035',
+        img: chachiJoseGallery35,
+    },
+    {
+        id: '036',
+        img: chachiJoseGallery36,
+    },
+    {
+        id: '037',
+        img: chachiJoseGallery37,
+    },
+    {
+        id: '038',
+        img: chachiJoseGallery38,
+    },
+    {
+        id: '039',
+        img: chachiJoseGallery39,
+    },
+    {
+        id: '040',
+        img: chachiJoseGallery40,
+    },
+    {
+        id: '041',
+        img: chachiJoseGallery41,
+    },
+    {
+        id: '042',
+        img: chachiJoseGallery42,
+    },
+    {
+        id: '043',
+        img: chachiJoseGallery43,
+    },
+    {
+        id: '044',
+        img: chachiJoseGallery44,
+    },
+    {
+        id: '045',
+        img: chachiJoseGallery45,
+    },
+    {
+        id: '046',
+        img: chachiJoseGallery46,
+    },
+    {
+        id: '047',
+        img: chachiJoseGallery47,
+    },
+    {
+        id: '048',
+        img: chachiJoseGallery48,
+    },
+    {
+        id: '049',
+        img: chachiJoseGallery49,
+    },
+    {
+        id: '050',
+        img: chachiJoseGallery50,
+    },
+    {
+        id: '051',
+        img: chachiJoseGallery51,
+    },
+    {
+        id: '052',
+        img: chachiJoseGallery52,
+    },
+    {
+        id: '053',
+        img: chachiJoseGallery53,
+    },
+    {
+        id: '054',
+        img: chachiJoseGallery54,
+    },
+    {
+        id: '055',
+        img: chachiJoseGallery55,
+    },
+    {
+        id: '056',
+        img: chachiJoseGallery56,
+    },
+    {
+        id: '057',
+        img: chachiJoseGallery57,
+    },
+    {
+        id: '058',
+        img: chachiJoseGallery58,
+    },
+    {
+        id: '059',
+        img: chachiJoseGallery59,
+    },
+    {
+        id: '060',
+        img: chachiJoseGallery60,
+    },
+    {
+        id: '061',
+        img: chachiJoseGallery61,
+    },
+    {
+        id: '062',
+        img: chachiJoseGallery62,
+    },
+    {
+        id: '063',
+        img: chachiJoseGallery63,
+    },
+    {
+        id: '064',
+        img: chachiJoseGallery64,
+    },
+    {
+        id: '065',
+        img: chachiJoseGallery65,
+    },
+    {
+        id: '066',
+        img: chachiJoseGallery66,
+    },
+    {
+        id: '067',
+        img: chachiJoseGallery67,
+    },
+    {
+        id: '068',
+        img: chachiJoseGallery68,
+    },
+    {
+        id: '069',
+        img: chachiJoseGallery69,
+    },
+    {
+        id: '070',
+        img: chachiJoseGallery70,
+    },
+    {
+        id: '071',
+        img: chachiJoseGallery71,
+    },
+    {
+        id: '072',
+        img: chachiJoseGallery72,
+    },
+    {
+        id: '073',
+        img: chachiJoseGallery73,
+    },
+    {
+        id: '074',
+        img: chachiJoseGallery74,
+    },
+    {
+        id: '075',
+        img: chachiJoseGallery75,
+    },
+    {
+        id: '076',
+        img: chachiJoseGallery76,
+    },
+    {
+        id: '077',
+        img: chachiJoseGallery77,
+    },
+    {
+        id: '078',
+        img: chachiJoseGallery78,
+    },
+    {
+        id: '079',
+        img: chachiJoseGallery79,
+    },
+    {
+        id: '080',
+        img: chachiJoseGallery80,
+    },
+    {
+        id: '081',
+        img: chachiJoseGallery81,
+    },
+    {
+        id: '082',
+        img: chachiJoseGallery82,
+    },
+    {
+        id: '083',
+        img: chachiJoseGallery83,
+    },
+    {
+        id: '084',
+        img: chachiJoseGallery84,
+    },
+    {
+        id: '085',
+        img: chachiJoseGallery85,
+    },
+    {
+        id: '086',
+        img: chachiJoseGallery86,
+    },
+    {
+        id: '087',
+        img: chachiJoseGallery87,
+    },
+    {
+        id: '088',
+        img: chachiJoseGallery88,
+    },
+    {
+        id: '089',
+        img: chachiJoseGallery89,
+    },
+    {
+        id: '090',
+        img: chachiJoseGallery90,
+    },
+    {
+        id: '091',
+        img: chachiJoseGallery91,
+    },
+    {
+        id: '092',
+        img: chachiJoseGallery92,
+    },
+    {
+        id: '093',
+        img: chachiJoseGallery93,
+    },
+    {
+        id: '094',
+        img: chachiJoseGallery94,
+    },
+    {
+        id: '095',
+        img: chachiJoseGallery95,
+    },
+    {
+        id: '096',
+        img: chachiJoseGallery96,
+    },
+    {
+        id: '097',
+        img: chachiJoseGallery97,
+    },
+    {
+        id: '098',
+        img: chachiJoseGallery98,
+    },
+    {
+        id: '099',
+        img: chachiJoseGallery99,
+    },
+    {
+        id: '100',
+        img: chachiJoseGallery100,
+    },
+    {
+        id: '101',
+        img: chachiJoseGallery101,
+    },
+    {
+        id: '102',
+        img: chachiJoseGallery102,
+    },
+    {
+        id: '103',
+        img: chachiJoseGallery103,
+    },
+    {
+        id: '104',
+        img: chachiJoseGallery104,
+    },
+    {
+        id: '105',
+        img: chachiJoseGallery105,
+    },
+    {
+        id: '106',
+        img: chachiJoseGallery106,
+    },
+    {
+        id: '107',
+        img: chachiJoseGallery107,
+    },
+    {
+        id: '108',
+        img: chachiJoseGallery108,
+    },
+    {
+        id: '109',
+        img: chachiJoseGallery109,
+    },
+    {
+        id: '110',
+        img: chachiJoseGallery110,
+    },
+    {
+        id: '111',
+        img: chachiJoseGallery111,
+    },
+    {
+        id: '112',
+        img: chachiJoseGallery112,
+    },
+    {
+        id: '113',
+        img: chachiJoseGallery113,
+    },
+    {
+        id: '114',
+        img: chachiJoseGallery114,
+    },
+    {
+        id: '115',
+        img: chachiJoseGallery115,
+    },
+    {
+        id: '116',
+        img: chachiJoseGallery116,
+    },
+    {
+        id: '117',
+        img: chachiJoseGallery117,
+    },
+    {
+        id: '118',
+        img: chachiJoseGallery118,
+    },
+    {
+        id: '119',
+        img: chachiJoseGallery119,
+    },
+    {
+        id: '120',
+        img: chachiJoseGallery120,
+    },
+    {
+        id: '121',
+        img: chachiJoseGallery121,
+    },
+    {
+        id: '122',
+        img: chachiJoseGallery122,
+    },
+    {
+        id: '123',
+        img: chachiJoseGallery123,
+    },
+    {
+        id: '124',
+        img: chachiJoseGallery124,
+    },
+    {
+        id: '125',
+        img: chachiJoseGallery125,
+    },
+    {
+        id: '126',
+        img: chachiJoseGallery126,
+    },
+    {
+        id: '127',
+        img: chachiJoseGallery127,
+    },
+    {
+        id: '128',
+        img: chachiJoseGallery128,
+    },
+    {
+        id: '129',
+        img: chachiJoseGallery129,
+    },
+    {
+        id: '130',
+        img: chachiJoseGallery130,
+    },
+    {
+        id: '131',
+        img: chachiJoseGallery131,
+    },
+    {
+        id: '132',
+        img: chachiJoseGallery132,
+    },
+    {
+        id: '133',
+        img: chachiJoseGallery133,
+    },
+    {
+        id: '134',
+        img: chachiJoseGallery134,
+    },
+    {
+        id: '135',
+        img: chachiJoseGallery135,
+    },
+    {
+        id: '136',
+        img: chachiJoseGallery136,
+    },
+    {
+        id: '137',
+        img: chachiJoseGallery137,
+    },
+    {
+        id: '138',
+        img: chachiJoseGallery138,
+    },
+    {
+        id: '139',
+        img: chachiJoseGallery139,
+    },
+    {
+        id: '140',
+        img: chachiJoseGallery140,
+    },
+    {
+        id: '141',
+        img: chachiJoseGallery141,
+    },
+    {
+        id: '142',
+        img: chachiJoseGallery142,
+    },
+    {
+        id: '143',
+        img: chachiJoseGallery143,
+    },
+    {
+        id: '144',
+        img: chachiJoseGallery144,
+    },
+    {
+        id: '145',
+        img: chachiJoseGallery145,
+    },
+    {
+        id: '146',
+        img: chachiJoseGallery146,
+    },
+    {
+        id: '147',
+        img: chachiJoseGallery147,
+    },
+    {
+        id: '148',
+        img: chachiJoseGallery148,
+    },
+    {
+        id: '149',
+        img: chachiJoseGallery149,
+    },
+    {
+        id: '150',
+        img: chachiJoseGallery150,
+    },
+    {
+        id: '151',
+        img: chachiJoseGallery151,
+    },
+    {
+        id: '152',
+        img: chachiJoseGallery152,
+    },
+    {
+        id: '153',
+        img: chachiJoseGallery153,
+    },
+    {
+        id: '154',
+        img: chachiJoseGallery154,
+    },
+    {
+        id: '155',
+        img: chachiJoseGallery155,
+    },
+    {
+        id: '156',
+        img: chachiJoseGallery156,
+    },
+    {
+        id: '157',
+        img: chachiJoseGallery157,
+    },
+    {
+        id: '158',
+        img: chachiJoseGallery158,
+    },
+    {
+        id: '159',
+        img: chachiJoseGallery159,
+    },
+    {
+        id: '160',
+        img: chachiJoseGallery160,
+    },
+    {
+        id: '161',
+        img: chachiJoseGallery161,
+    },
+    {
+        id: '162',
+        img: chachiJoseGallery162,
+    },
+    {
+        id: '163',
+        img: chachiJoseGallery163,
+    },
+    {
+        id: '164',
+        img: chachiJoseGallery164,
+    },
+    {
+        id: '165',
+        img: chachiJoseGallery165,
+    },
+    {
+        id: '166',
+        img: chachiJoseGallery166,
     },
 ];
 
@@ -1536,84 +2880,6 @@ export const murilloAlejandraGalleryImages = [
     },
 ];
 
-//**NeryDeisySaveDate */
-
-export const neryDeisySaveDateGalleryImages = [
-    {
-        id: '01',
-        img: neryDeisySaveDate1,
-    },
-    {
-        id: '02',
-        img: neryDeisySaveDate2,
-    },
-    {
-        id: '03',
-        img: neryDeisySaveDate3,
-    },
-    {
-        id: '04',
-        img: neryDeisySaveDate4,
-    },
-    {
-        id: '05',
-        img: neryDeisySaveDate5,
-    },
-    {
-        id: '06',
-        img: neryDeisySaveDate6,
-    },
-    {
-        id: '07',
-        img: neryDeisySaveDate7,
-    },
-    {
-        id: '08',
-        img: neryDeisySaveDate8,
-    },
-    {
-        id: '09',
-        img: neryDeisySaveDate9,
-    },
-    {
-        id: '10',
-        img: neryDeisySaveDate10,
-    },
-    {
-        id: '11',
-        img: neryDeisySaveDate11,
-    },
-    {
-        id: '12',
-        img: neryDeisySaveDate12,
-    },
-
-    {
-        id: '013',
-        img: neryDeisySaveDate13,
-    },
-    {
-        id: '014',
-        img: neryDeisySaveDate14,
-    },
-    {
-        id: '015',
-        img: neryDeisySaveDate15,
-    },
-    {
-        id: '016',
-        img: neryDeisySaveDate16,
-    },
-    {
-        id: '017',
-        img: neryDeisySaveDate17,
-    },
-    {
-        id: '018',
-        img: neryDeisySaveDate18,
-    },
-];
-
 //**TimEstefaniaDate */
 export const timEstefaniaSaveDateGalleryImages = [
     {
@@ -2119,19 +3385,19 @@ export const galerias = [
         sectionTitle: 'GALERIAS',
         boda: [
             {
-                slug: '/sesion/nery-deisy',
-                imagePortada: neryDeisyGallery21,
+                slug: '/sesion/chachi-jose',
+                imagePortada: chachiJoseGallery1,
                 title: 'BODAS',
-                subtitle: 'NERY + DEISY',
+                subtitle: 'CHACHI + JOSÉ',
                 location: 'Antigua Guatemala',
                 galerias: 'GALERIAS',
             },
             {
-                slug: '/sesion/evelyn-eduardo',
-                imagePortada: marcoBrenda17,
+                slug: '/sesion/levi-sasha',
+                imagePortada: leviSashaGallery1,
                 title: 'BODAS',
-                subtitle: 'EVELYN + EDUARDO',
-                location: 'Ciudad de Guatemala',
+                subtitle: 'LEVI + SASHA',
+                location: 'Lago de Atitlán, Sololá',
                 galerias: 'GALERIAS',
             },
             {
@@ -2238,16 +3504,16 @@ export const galerias = [
 
 export const peopleGalleryName = [
     {
-        slug: 'nery-deisy',
-        mainImage: neryDeisyGallery21,
-        images: neryDeisyGalleryImages,
-        name: 'NERY + DEISY',
+        slug: 'chachi-jose',
+        mainImage: chachiJoseMainImage,
+        images: chachiJoseGalleryImages,
+        name: 'CHACHI + JOSÉ',
     },
     {
-        slug: 'evelyn-eduardo',
-        mainImage: marcoBrendaMainImage,
-        images: marcoBrendaGalleryImages,
-        name: 'EDUARDO + EVELYN',
+        slug: 'levi-sasha',
+        mainImage: leviSashaMainImage,
+        images: leviSashaGalleryImages,
+        name: 'LEVI + SASHA',
     },
     {
         slug: 'tim-estefania',

@@ -24,12 +24,12 @@ export const PeopleGalleryGrid = ({ images }: Props) => {
 
     return (
         <>
-            <section className='mx-auto w-[94%] max-w-[1720px] py-14 md:py-24'>
-                <div className='flex flex-col gap-10 md:flex-row md:gap-10 lg:gap-14 xl:gap-20'>
+            <section className='mx-auto w-[98%] max-w-[2200px] py-10 md:py-16'>
+                <div className='flex flex-col gap-5 md:flex-row md:gap-5 lg:gap-7 xl:gap-9'>
                     {columns.map((column, columnIndex) => (
                         <div
                             key={`column-${columnIndex}`}
-                            className={`flex w-full flex-col gap-10 md:w-1/2 lg:gap-14 xl:gap-20 ${
+                            className={`flex w-full flex-col gap-5 md:w-1/2 lg:gap-7 xl:gap-9 ${
                                 columnIndex === 0 ? 'md:pt-[10%]' : ''
                             }`}
                         >
@@ -74,7 +74,7 @@ const GalleryFigure = ({
                 src={image}
                 alt='Imagen de la galeria'
                 quality={95}
-                sizes='(max-width: 767px) 94vw, 47vw'
+                sizes='(max-width: 767px) 98vw, 49vw'
                 placeholder='blur'
                 onLoad={() => setIsLoaded(true)}
                 className={`h-auto w-full object-cover transition-opacity duration-700 ${
