@@ -17,7 +17,10 @@ export default function PeopleImagesPages({ peopleGallery }: Props) {
     const { openMenu } = useContext(PhotographyContext);
 
     return (
-        <Layout title={'Wedding Jose Daniel Galerias'} overlayNav>
+        <Layout
+            title={`${peopleGallery.name} | Real Wedding Jose Daniel`}
+            overlayNav
+        >
             <div className={`${openMenu ? 'hidden' : ''}`}>
                 <PeopleGallery peopleGallery={peopleGallery} />
             </div>

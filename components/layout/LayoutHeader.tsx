@@ -20,8 +20,9 @@ export const LayoutHeader = ({ title }: Props) => {
             <meta name='keywords' content='Wedding Jose Daniel' />
 
             <link rel='canonical' href='https://www.weddingjosedaniel.com/' />
-            <link rel='icon' href={joseDanielImageBook.src} />
-            <link rel='apple-touch-icon' href={joseDanielImageBook.src} />
+            <link rel='icon' type='image/svg+xml' href='/favicon.svg' />
+            <link rel='icon' type='image/png' sizes='32x32' href='/favicon-32x32.png' />
+            <link rel='apple-touch-icon' sizes='180x180' href='/apple-touch-icon.png' />
 
             <meta property='og:type' content='website' />
             <meta

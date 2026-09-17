@@ -14,7 +14,7 @@ import {
 export default function HomePage() {
     const { openMenu } = useContext(PhotographyContext);
     return (
-        <Layout title='Wedding Jose Daniel' overlayNav>
+        <Layout title='Jose Daniel | Editorial Wedding' overlayNav>
             <div className={`${openMenu ? 'hidden' : ''}`}>
                 <HomeHero />
                 <HomeExperience />

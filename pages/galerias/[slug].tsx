@@ -22,7 +22,7 @@ export default function GaleriasPage<NextPage>({ gallery }: Props) {
 
     console.log('res: here?', gallery);
     return (
-        <Layout title={'Wedding Jose Daniel Galerias'} navTone='cream'>
+        <Layout title='Real Wedding Jose Daniel' navTone='cream'>
             <div className={`${openMenu ? 'hidden' : ''}`}>
                 <GalleryHero />
                 <GalleryIntro />

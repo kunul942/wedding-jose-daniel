@@ -8,7 +8,7 @@ export default function ContactPage() {
     const { openMenu } = useContext(PhotographyContext);
 
     return (
-        <Layout title='Wedding Jose Daniel'>
+        <Layout title='Book Jose Daniel | Wedding'>
             <div className={`${openMenu ? 'hidden' : ''}`}>
                 <ContactImage />
                 <div className='w-[85%] md:w-[60%] xl:w-[40%] mx-auto'>

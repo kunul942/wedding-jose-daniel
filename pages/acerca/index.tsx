@@ -15,7 +15,7 @@ import {
 export default function AboutPage() {
     const { openMenu } = useContext(PhotographyContext);
     return (
-        <Layout title='Acerca de mi'>
+        <Layout title='About Jose Daniel | Wedding'>
             <div className={`${openMenu ? 'hidden' : ''}`}>
                 <AboutHero />
                 <AboutEditorial />
