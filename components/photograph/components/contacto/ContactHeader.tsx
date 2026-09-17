@@ -1,21 +1,23 @@
-import { useAnimations } from '@/hooks';
+import { contactIntro } from '@/constant';
 
 export const ContactHeader = () => {
-    const { fadeOut } = useAnimations();
+    const { eyebrow, statement, text } = contactIntro;
+
     return (
-        <>
-            <div data-aos={fadeOut}>
-                <h2 className='servicesColor3 mt-[5rem] mb-[2rem] text-[28px] title_letter'>
-                    Empecemos tu viaje
+        <section className='w-full bg-[#eae7dd]'>
+            <div className='mx-auto w-[90%] max-w-[1400px] py-20 text-center lg:py-28'>
+                <p className='ui_sans text-[11px] font-medium uppercase tracking-[0.16em] text-[#2b2723] lg:text-[13px]'>
+                    {eyebrow}
+                </p>
+
+                <h2 className='display_serif mx-auto mt-8 max-w-[1250px] text-[7vw] leading-[1.16] text-[#2b2723] sm:text-[5vw] lg:mt-10 lg:text-[3.2vw]'>
+                    {statement}
                 </h2>
-                <p className='servicesColor text-justify'>
-                    Antes que nada, quisiera darte las gracias por haber tomado
-                    en cuenta mi trabajo para un día tan importante como tu
-                    boda. Eso me llena de orgullo y satisfaccion al saber que
-                    junto de la mano de Dios he crecido profesionalmente. Ahora
-                    si, empecemos...
+
+                <p className='ui_sans mx-auto mt-8 max-w-[720px] text-[13px] font-light leading-[1.7] text-[#3a3530] lg:mt-10 lg:text-[15px]'>
+                    {text}
                 </p>
             </div>
-        </>
+        </section>
     );
 };

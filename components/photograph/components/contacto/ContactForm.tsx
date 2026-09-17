@@ -1,12 +1,12 @@
 import { useRef, useState } from 'react';
 import * as Yup from 'yup';
-import { Formik, Form, Field } from 'formik';
+import { Formik, Form, Field, ErrorMessage } from 'formik';
 import emailjs from '@emailjs/browser';
 
 import Swal from 'sweetalert2';
 
 import { MyTextInput, MyRadio, MySelect } from './';
-import { useAnimations } from '@/hooks';
+import { contactForm } from '@/constant';
 
 const INITIAL_VALUE = {
     nombre: '',
@@ -25,7 +25,14 @@ export const ContactForm = () => {
     const formRef: any = useRef();
     const [loading, setLoading] = useState(false);
 
-    const { fadeOut } = useAnimations();
+    const {
+        eyebrow,
+        serviceTitle,
+        packageTitle,
+        sourceTitle,
+        submit,
+        note,
+    } = contactForm;
 
     const onSubmit = (value: any, { resetForm }: any) => {
         setLoading(true);
@@ -39,7 +46,6 @@ export const ContactForm = () => {
                     to_name: 'José Daniel',
                     from_email: value.correo,
                     to_email: 'weddingjosedaniel@gmail.com',
-                    // to_email: 'jhonatanlee942@gmail.com',
                     from_telefono: value.telefono,
                     from_cobertura: value.cobertura,
                     from_lugar: value.lugar,
@@ -76,158 +82,192 @@ export const ContactForm = () => {
             );
     };
 
-    // template_zdy2vrl
-    // service_5a6npas
-    //m6nNum5uVeI_RyvmX
-
     return (
-        <div className='mt-[2rem]' data-aos={fadeOut}>
-            <Formik
-                initialValues={INITIAL_VALUE}
-                onSubmit={onSubmit}
-                validationSchema={Yup.object({
-                    nombre: Yup.string()
-                        .max(30, 'Este campo debe tener 30  caracteres o menos')
-                        .required('Campo obligatorio'),
-                    correo: Yup.string()
-                        .email('Email no válido')
-                        .required('Campo obligatorio'),
-                    telefono: Yup.string().required('Campo obligatorio'),
-                    fecha: Yup.date().required('Campo obligatorio'),
-                    lugar: Yup.string()
-                        .max(30, 'Este campo debe tener 30 caracteres o menos')
-                        .required('Campo obligatorio'),
-                    cobertura: Yup.string()
-                        .max(30, 'Este campo debe tener 30 caracteres o menos')
-                        .required('Campo obligatorio'),
-                    tipoServicio: Yup.string().required('Campo obligatorio'),
-                    tipoPaquete: Yup.string().required('Campo obligatorio'),
-                    saberDeMi: Yup.string().required('Campo obligatorio'),
-                    mensaje: Yup.string()
-                        .max(
-                            350,
-                            'Este campo tiene un maximo de 350 caracteres'
-                        )
-                        .required('Campo obligatorio'),
-                })}
-            >
-                {(formik) => (
-                    <Form ref={formRef}>
-                        <MyTextInput
-                            label='Tu nombre'
-                            name='nombre'
-                            placeholder='¿Cuál es tu nombre?'
-                            type='text'
-                            className='h-[50px]'
-                        />
-                        <MyTextInput
-                            label='Correo'
-                            name='correo'
-                            placeholder={'¿Cuál es tu correo?'}
-                            type='email'
-                            className='h-[50px]'
-                        />
-                        <MyTextInput
-                            label='TELÉFONO'
-                            name='telefono'
-                            placeholder={'Número de teléfono'}
-                            type='number'
-                            className='h-[50px]'
-                        />
-                        <MyTextInput
-                            label='COBERTURA'
-                            name='cobertura'
-                            placeholder={'Horas de cobertura (Eje: 5h )'}
-                            type='text'
-                            className='h-[50px]'
-                        />
-                        <MyTextInput
-                            label='LUGAR'
-                            name='lugar'
-                            placeholder={'Lugar del evento'}
-                            type='text'
-                            className='h-[50px]'
-                        />
-                        <MyTextInput
-                            label='FECHA'
-                            name='fecha'
-                            type='date'
-                            className='h-[50px]'
-                        />
-                        <h3 className='text_color uppercase font-light text-[14px]'>
-                            QUÉ TIPO DE SERVICIO ESTAS BUSCANDO?
-                        </h3>
-                        <MyRadio
-                            name='tipoServicio'
-                            label='Boda'
-                            value='Boda'
-                        />
-                        <MyRadio
-                            name='tipoServicio'
-                            label='15 años'
-                            value='XV'
-                        />
-                        <MyRadio
-                            name='tipoServicio'
-                            label='Save The Date'
-                            value='SaveTheDate'
-                        />
-                        <h3 className='text_color uppercase font-light text-[14px] mt-[2rem]'>
-                            QUÉ tipo de paquete estas buscando?
-                        </h3>
-                        <MyRadio
-                            name='tipoPaquete'
-                            label='Basico'
-                            value='Básico'
-                        />
-                        <MyRadio
-                            name='tipoPaquete'
-                            label='Estándar'
-                            value='Estándar'
-                        />
-                        <MyRadio
-                            name='tipoPaquete'
-                            label='Premium'
-                            value='Premium'
-                        />
+        <section className='w-full bg-[#f7f5f0]'>
+            <div className='mx-auto w-[88%] max-w-[1080px] py-20 lg:py-28'>
+                <p className='ui_sans text-center text-[11px] font-medium uppercase tracking-[0.18em] text-[#2b2723] lg:text-[12px]'>
+                    {eyebrow}
+                </p>
 
-                        <h3 className='text_color uppercase font-light text-[14px] mt-[2rem]'>
-                            Como supiste de mi?
-                        </h3>
-                        <MySelect name='saberDeMi'>
-                            <option value=''>Selecciona una opción</option>
-                            <option value='RedesSociales'>
-                                Redes sociales
-                            </option>
-                            <option value='Amigos'>Amigos</option>
-                            <option value='Otros'>Otros</option>
-                        </MySelect>
-                        <label
-                            htmlFor='mensaje'
-                            className='text_color uppercase font-light text-[14px] '
-                        >
-                            mensaje&nbsp;&nbsp;
-                            <span className='text-[10px]'>*</span>
-                        </label>
-                        <Field
-                            name='mensaje'
-                            as='textarea'
-                            placeholder='¿Cómo puedo ayudarte hoy?'
-                            className='block w-full outline-none p-[20px] bg-gray-100 h-[200px] focus:outline-none servicesColor title_letter mb-[2rem] resize-none	'
-                        />
+                <span className='mx-auto mt-8 block h-[1px] w-[64px] bg-[#2b2723]/25 lg:mt-10' />
 
-                        <button
-                            className='hoverEffect text-gray-100 bg-color-botton px-[30px] py-[14px] uppercase title_letter rounded-2xl'
-                            type='submit'
-                            style={{
-                                fontWeight: 200,
-                            }}
-                        >
-                            Enviar
-                        </button>
-                    </Form>
-                )}
-            </Formik>
-        </div>
+                <Formik
+                    initialValues={INITIAL_VALUE}
+                    onSubmit={onSubmit}
+                    validationSchema={Yup.object({
+                        nombre: Yup.string()
+                            .max(30, 'Este campo debe tener 30 caracteres o menos')
+                            .required('Campo obligatorio'),
+                        correo: Yup.string()
+                            .email('Email no válido')
+                            .required('Campo obligatorio'),
+                        telefono: Yup.string().required('Campo obligatorio'),
+                        fecha: Yup.date().required('Campo obligatorio'),
+                        lugar: Yup.string()
+                            .max(30, 'Este campo debe tener 30 caracteres o menos')
+                            .required('Campo obligatorio'),
+                        cobertura: Yup.string()
+                            .max(30, 'Este campo debe tener 30 caracteres o menos')
+                            .required('Campo obligatorio'),
+                        tipoServicio: Yup.string().required('Campo obligatorio'),
+                        tipoPaquete: Yup.string().required('Campo obligatorio'),
+                        saberDeMi: Yup.string().required('Campo obligatorio'),
+                        mensaje: Yup.string()
+                            .max(350, 'Este campo tiene un maximo de 350 caracteres')
+                            .required('Campo obligatorio'),
+                    })}
+                >
+                    {() => (
+                        <Form ref={formRef} className='mt-14 lg:mt-20'>
+                            {/***** DATOS *****/}
+                            <div className='grid grid-cols-1 gap-x-12 gap-y-10 md:grid-cols-2 lg:gap-x-20 lg:gap-y-12'>
+                                <MyTextInput
+                                    label='Tu nombre'
+                                    name='nombre'
+                                    placeholder='¿Cuál es tu nombre?'
+                                    type='text'
+                                />
+                                <MyTextInput
+                                    label='Correo'
+                                    name='correo'
+                                    placeholder='¿Cuál es tu correo?'
+                                    type='email'
+                                />
+                                <MyTextInput
+                                    label='Teléfono'
+                                    name='telefono'
+                                    placeholder='Número de teléfono'
+                                    type='number'
+                                />
+                                <MyTextInput
+                                    label='Cobertura'
+                                    name='cobertura'
+                                    placeholder='Horas de cobertura (Eje: 5h)'
+                                    type='text'
+                                />
+                                <MyTextInput
+                                    label='Lugar'
+                                    name='lugar'
+                                    placeholder='Lugar del evento'
+                                    type='text'
+                                />
+                                <MyTextInput
+                                    label='Fecha'
+                                    name='fecha'
+                                    type='date'
+                                />
+                            </div>
+
+                            {/***** SELECCIONES *****/}
+                            <div className='mt-16 grid grid-cols-1 gap-x-12 gap-y-12 md:grid-cols-2 lg:mt-20 lg:gap-x-20'>
+                                <fieldset>
+                                    <legend className='display_serif text-[20px] text-[#2b2723] lg:text-[23px]'>
+                                        {serviceTitle}
+                                    </legend>
+
+                                    <div className='mt-5'>
+                                        <MyRadio
+                                            name='tipoServicio'
+                                            label='Boda'
+                                            value='Boda'
+                                        />
+                                        <MyRadio
+                                            name='tipoServicio'
+                                            label='15 años'
+                                            value='XV'
+                                        />
+                                        <MyRadio
+                                            name='tipoServicio'
+                                            label='Save The Date'
+                                            value='SaveTheDate'
+                                        />
+                                    </div>
+                                </fieldset>
+
+                                <fieldset>
+                                    <legend className='display_serif text-[20px] text-[#2b2723] lg:text-[23px]'>
+                                        {packageTitle}
+                                    </legend>
+
+                                    <div className='mt-5'>
+                                        <MyRadio
+                                            name='tipoPaquete'
+                                            label='Básico'
+                                            value='Básico'
+                                        />
+                                        <MyRadio
+                                            name='tipoPaquete'
+                                            label='Estándar'
+                                            value='Estándar'
+                                        />
+                                        <MyRadio
+                                            name='tipoPaquete'
+                                            label='Premium'
+                                            value='Premium'
+                                        />
+                                    </div>
+                                </fieldset>
+                            </div>
+
+                            {/***** ORIGEN *****/}
+                            <div className='mt-16 max-w-[520px] lg:mt-20'>
+                                <MySelect name='saberDeMi' label={sourceTitle}>
+                                    <option value=''>
+                                        Selecciona una opción
+                                    </option>
+                                    <option value='RedesSociales'>
+                                        Redes sociales
+                                    </option>
+                                    <option value='Amigos'>Amigos</option>
+                                    <option value='Otros'>Otros</option>
+                                </MySelect>
+                            </div>
+
+                            {/***** MENSAJE *****/}
+                            <div className='mt-16 lg:mt-20'>
+                                <label
+                                    htmlFor='mensaje'
+                                    className='ui_sans block text-[10px] font-medium uppercase tracking-[0.18em] text-[#2b2723]/70 lg:text-[11px]'
+                                >
+                                    Mensaje
+                                    <span className='ml-1 align-super text-[8px]'>
+                                        *
+                                    </span>
+                                </label>
+
+                                <Field
+                                    id='mensaje'
+                                    name='mensaje'
+                                    as='textarea'
+                                    placeholder='¿Cómo puedo ayudarte hoy?'
+                                    className='display_serif mt-3 block h-[170px] w-full resize-none border-b border-[#2b2723]/25 bg-transparent pb-3 text-[17px] leading-[1.6] text-[#2b2723] outline-none transition-colors placeholder:text-[#2b2723]/35 focus:border-[#2b2723] lg:text-[19px]'
+                                />
+
+                                <ErrorMessage
+                                    name='mensaje'
+                                    component='p'
+                                    className='ui_sans mt-2 text-[10px] uppercase tracking-[0.12em] text-[#a4442f]'
+                                />
+                            </div>
+
+                            {/***** ENVIAR *****/}
+                            <div className='mt-16 flex flex-col items-center lg:mt-20'>
+                                <button
+                                    type='submit'
+                                    disabled={loading}
+                                    className='contact-submit ui_sans px-14 py-4 text-[11px] font-medium uppercase tracking-[0.22em] lg:text-[12px]'
+                                >
+                                    {loading ? 'ENVIANDO…' : submit}
+                                </button>
+
+                                <p className='ui_sans mt-6 text-center text-[11px] font-light tracking-[0.06em] text-[#3a3530]/70 lg:text-[12px]'>
+                                    {note}
+                                </p>
+                            </div>
+                        </Form>
+                    )}
+                </Formik>
+            </div>
+        </section>
     );
 };

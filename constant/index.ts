@@ -500,12 +500,33 @@ export const galleryFeatured = {
     eyebrow: 'GALERÍAS DESTACADAS',
 };
 
+export const contactHero = {
+    title: 'CONTACTO',
+    label: 'HABLEMOS DE USTEDES',
+};
+
+export const contactIntro = {
+    eyebrow: 'EMPECEMOS TU VIAJE',
+    statement:
+        'Cuéntame de ustedes, de cómo se conocieron y de ese día que están imaginando. Yo me encargo de documentarlo.',
+    text: 'Gracias por tomar en cuenta mi trabajo para un día tan importante. Completa el formulario y te responderé personalmente en menos de 48 horas.',
+};
+
+export const contactForm = {
+    eyebrow: 'CUÉNTAME DE SU DÍA',
+    serviceTitle: '¿Qué tipo de servicio están buscando?',
+    packageTitle: '¿Qué tipo de paquete están buscando?',
+    sourceTitle: '¿Cómo supiste de mí?',
+    submit: 'ENVIAR MENSAJE',
+    note: 'Respondo personalmente cada mensaje en un plazo de 48 horas.',
+};
+
 export const homeSocialPackage = {
     eyebrow: '¿LISTOS PARA LUCIR SUS FOTOS?',
     titleItalic: 'El',
     title: 'PAQUETE REDES SOCIALES',
     text: 'Captura y comparte la historia de tu boda con nuestro Paquete de Redes Sociales. Recibe una galería curada con todo detalle dentro de la semana siguiente a tu boda. Escríbenos para conocer más sobre este servicio exclusivo.',
-    cta: { label: 'CONOCE MÁS', href: '/paquetes' },
+    cta: { label: 'CONOCE MÁS', href: '/contacto' },
 };
 
 export const homeFeed = {

@@ -1,20 +1,22 @@
 import { useContext } from 'react';
+
 import { Layout } from '@/components/layout/Layout';
 import { PhotographyContext } from '@/components/photograph/context';
-import { ContactImage } from '../../components/photograph/components/contacto/ContactImage';
-import { ContactForm, ContactHeader } from '@/components/photograph/components';
+import {
+    ContactForm,
+    ContactHeader,
+    ContactHero,
+} from '@/components/photograph/components/contacto';
 
 export default function ContactPage() {
     const { openMenu } = useContext(PhotographyContext);
 
     return (
-        <Layout title='Book Jose Daniel | Wedding'>
+        <Layout title='Book Jose Daniel | Wedding' overlayNav>
             <div className={`${openMenu ? 'hidden' : ''}`}>
-                <ContactImage />
-                <div className='w-[85%] md:w-[60%] xl:w-[40%] mx-auto'>
-                    <ContactHeader />
-                    <ContactForm />
-                </div>
+                <ContactHero />
+                <ContactHeader />
+                <ContactForm />
             </div>
         </Layout>
     );
