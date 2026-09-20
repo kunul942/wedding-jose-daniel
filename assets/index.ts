@@ -38,6 +38,7 @@ import pf36 from './portfolio2025/pf2025_36-min.jpg';
 import pf37 from './portfolio2025/pf2025_37-min.jpg';
 import pf38 from './portfolio2025/pf2025_38-min.jpg';
 import pf39 from './portfolio2025/pf2025_39-min.jpg';
+import pf40 from './portfolio2025/pf2025_40-min.jpg';
 
 import close from './navbar/close.png';
 import menu from './navbar/menu.png';
@@ -173,6 +174,7 @@ export {
     pf37,
     pf38,
     pf39,
+    pf40,
     close,
     menu,
     pf29 as portfolioImage16,

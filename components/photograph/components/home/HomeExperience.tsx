@@ -3,7 +3,7 @@ import Link from 'next/link';
 
 import { useAnimations } from '@/hooks';
 import { homeExperience } from '@/constant';
-import { homeMainImage8, pf8, portfolioImage3 } from '@/assets';
+import { homeMainImage8, pf40, portfolioImage3 } from '@/assets';
 
 export const HomeExperience = () => {
     const { fadeOut } = useAnimations();
@@ -14,7 +14,7 @@ export const HomeExperience = () => {
             {/***** BACKGROUND *****/}
             <div className='absolute inset-0'>
                 <Image
-                    src={pf8}
+                    src={pf40}
                     alt=''
                     aria-hidden='true'
                     quality={55}
