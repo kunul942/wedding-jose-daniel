@@ -1,4 +1,4 @@
-import { homeMainImage, joseDaniel, joseDanielImageBook } from '@/assets';
+import { homeMainImage, joseDanielImageBook } from '@/assets';
 import Head from 'next/head';
 
 interface Props {

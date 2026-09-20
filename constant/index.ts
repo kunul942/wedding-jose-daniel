@@ -3947,21 +3947,25 @@ export const galerias = [
 export const peopleGalleryName = [
     {
         slug: 'chachi-jose',
+        mainImage: chachiJoseMainImage,
         images: chachiJoseGalleryImages,
         name: 'CHACHI + JOSÉ',
     },
     {
         slug: 'levi-sasha',
+        mainImage: leviSashaMainImage,
         images: leviSashaGalleryImages,
         name: 'LEVI + SASHA',
     },
     {
         slug: 'kevyn-grecia',
+        mainImage: kevynGreciaGallery27,
         images: kevynGreciaGalleryImages,
         name: 'KEVYN + GRECIA',
     },
     {
         slug: 'carlos-nathalie',
+        mainImage: carlosNathalieGallery8,
         images: carlosNathalieGalleryImages,
         name: 'CARLOS + NATHALIE',
     },

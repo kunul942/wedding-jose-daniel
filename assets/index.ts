@@ -52,8 +52,7 @@ import XVImage from './home/XVImage.jpg';
 import BodaImage from './home/BodaImage.jpg';
 import saveDateImage from './home/saveDateImage.jpg';
 
-import joseDanielImage1 from './about/joseDanielFoto.jpg';
-import joseDanielImage2 from './about/joseDanielFoto2.jpeg';
+import joseDanielImage2 from './about/danielPortrait1-min.jpg';
 
 import timEstefaniaVideoPortada from './galeria/Videos/TimEstefania/TimEstefaniaPortada.jpg';
 import GerbertMagdaVideoPortada from './galeria/Videos/GerbertMagda/GerbertMagdaPortada.jpg';
@@ -104,14 +103,9 @@ import instagram from './footer/instagram.png';
 import instagramBlanco from './footer/instagram_blanco.png';
 import whatsapp from './footer/whatsapp.png';
 import arrowTop from './footer/flechas-arriba.png';
-import joseDaniel from './about/daniel.jpeg';
-import joseDaniel2 from './about/daniel2.jpg';
-import daniel3 from './about/daniel3.jpeg';
-import daniel4 from './about/joseDanielBook.jpg';
-import joseDanielImageBook from './about/imageBook.jpg';
-import joseDanielBody1 from './about/imageBody1.jpg';
-import joseDanielCollage1 from './about/imageBody1.jpg';
-import joseDanielCollage2 from './about/daniel4.jpeg';
+import joseDanielImageBook from './about/danielCamera-min.jpg';
+import joseDanielCollage1 from './about/danielPortrait3-min.jpg';
+import joseDanielCollage2 from './about/danielPortrait2-min.jpg';
 
 import paquetesMainImage from './paquetes/paquetesMainImage.jpg';
 import paqueteVip from './paquetes/paqueteBasic.jpg';
@@ -231,7 +225,6 @@ export {
     quinceAñosGallery5,
     quinceAñosGallery6,
     saveTheDateMainImage,
-    joseDanielImage1,
     joseDanielImage2,
     saveTheDateCarouselImage1,
     saveTheDateCarouselImage2,
@@ -266,12 +259,7 @@ export {
     whatsapp,
     arrowTop,
     marcoDanielaPortada,
-    joseDaniel,
-    joseDaniel2,
-    daniel4,
     joseDanielImageBook,
-    joseDanielBody1,
-    daniel3,
     joseDanielCollage1,
     joseDanielCollage2,
     paquetesMainImage,
