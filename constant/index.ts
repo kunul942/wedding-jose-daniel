@@ -836,7 +836,7 @@ export const homeJDExperience = {
     eyebrow: 'LA EXPERIENCIA WJD',
     title: ['Fotografía editorial de bodas', 'en Guatemala y destinos'],
     text: 'Su amor es distinto y quiero mostrarlo tal cual es. ¿Listos para comenzar este camino? No puedo esperar a acompañarlos.',
-    cta: { label: 'Más información', href: '/paquetes' },
+    cta: { label: 'Más información', href: '/contacto' },
     specialty: { label: 'NUESTRA ESPECIALIDAD', text: 'Todo sobre bodas.' },
 };
 
@@ -3898,7 +3898,6 @@ export const kevynGreciaGalleryImages = [
         img: kevynGreciaGallery54,
     },
 ];
-
 
 export const galerias = [
     {
