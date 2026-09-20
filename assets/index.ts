@@ -1,18 +1,48 @@
+// fotos nuevas 2025 usadas en home, portafolio, contacto y about
+import pf1 from './portfolio2025/pf2025_1-min.jpg';
+import pf2 from './portfolio2025/pf2025_2-min.jpg';
+import pf3 from './portfolio2025/pf2025_3-min.jpg';
+import pf4 from './portfolio2025/pf2025_4-min.jpg';
+import pf5 from './portfolio2025/pf2025_5-min.jpg';
+import pf6 from './portfolio2025/pf2025_6-min.jpg';
+import pf7 from './portfolio2025/pf2025_7-min.jpg';
+import pf8 from './portfolio2025/pf2025_8-min.jpg';
+import pf9 from './portfolio2025/pf2025_9-min.jpg';
+import pf10 from './portfolio2025/pf2025_10-min.jpg';
+import pf11 from './portfolio2025/pf2025_11-min.jpg';
+import pf12 from './portfolio2025/pf2025_12-min.jpg';
+import pf13 from './portfolio2025/pf2025_13-min.jpg';
+import pf14 from './portfolio2025/pf2025_14-min.jpg';
+import pf15 from './portfolio2025/pf2025_15-min.jpg';
+import pf16 from './portfolio2025/pf2025_16-min.jpg';
+import pf17 from './portfolio2025/pf2025_17-min.jpg';
+import pf18 from './portfolio2025/pf2025_18-min.jpg';
+import pf19 from './portfolio2025/pf2025_19-min.jpg';
+import pf20 from './portfolio2025/pf2025_20-min.jpg';
+import pf21 from './portfolio2025/pf2025_21-min.jpg';
+import pf22 from './portfolio2025/pf2025_22-min.jpg';
+import pf23 from './portfolio2025/pf2025_23-min.jpg';
+import pf24 from './portfolio2025/pf2025_24-min.jpg';
+import pf25 from './portfolio2025/pf2025_25-min.jpg';
+import pf26 from './portfolio2025/pf2025_26-min.jpg';
+import pf27 from './portfolio2025/pf2025_27-min.jpg';
+import pf28 from './portfolio2025/pf2025_28-min.jpg';
+import pf29 from './portfolio2025/pf2025_29-min.jpg';
+import pf30 from './portfolio2025/pf2025_30-min.jpg';
+import pf31 from './portfolio2025/pf2025_31-min.jpg';
+import pf32 from './portfolio2025/pf2025_32-min.jpg';
+import pf33 from './portfolio2025/pf2025_33-min.jpg';
+import pf34 from './portfolio2025/pf2025_34-min.jpg';
+import pf35 from './portfolio2025/pf2025_35-min.jpg';
+import pf36 from './portfolio2025/pf2025_36-min.jpg';
+import pf37 from './portfolio2025/pf2025_37-min.jpg';
+import pf38 from './portfolio2025/pf2025_38-min.jpg';
+import pf39 from './portfolio2025/pf2025_39-min.jpg';
+
 import close from './navbar/close.png';
 import menu from './navbar/menu.png';
 
-import homeMainImage from './home/homeMainImage.jpg';
-import homeMainImage2 from './home/homeMainImage2.jpg';
-import homeMainImage3 from './home/homeMainImage3.jpg';
-import homeMainImage4 from './home/homeMainImage4.jpg';
-import homeMainImage5 from './home/homeMainImage5.jpg';
-import homeMainImage6 from './home/homeMainImage6.jpg';
-import homeMainImage7 from './home/homeMainImage7.jpg';
-import homeMainImage8 from './home/homeMainImage8.jpg';
-import homeMainImage9 from './home/homeMainImage9.jpg';
-import homeMainImage10 from './home/homeMainImage10.jpg';
 
-import contactMainImage from './paquetes/contactMainImage.jpg';
 
 import resumeImage from './home/ResumeImage.jpg';
 import resumeImageMobile from './home/ResumeImageMobile.jpg';
@@ -28,17 +58,6 @@ import timEstefaniaVideoPortada from './galeria/Videos/TimEstefania/TimEstefania
 import GerbertMagdaVideoPortada from './galeria/Videos/GerbertMagda/GerbertMagdaPortada.jpg';
 import GabyDenisVideoPortada from './galeria/Videos/GabyDenis/GabyDenisPortada.jpg';
 
-import portfolioMainImage from './portfolio/portfolioMainImage.jpg';
-import portfolioImage1 from './portfolio/portfolioImage1.jpg';
-import portfolioImage2 from './portfolio/portfolioImage2.jpg';
-import portfolioImage3 from './portfolio/portfolioImage3.jpg';
-import portfolioImage4 from './portfolio/portfolioImage4.jpg';
-import portfolioImage5 from './portfolio/portfolioImage5.jpg';
-import portfolioImage6 from './portfolio/portfolioImage6.jpg';
-import portfolioImage7 from './portfolio/portfolioImage7.jpg';
-import portfolioImage8 from './portfolio/portfolioImage8.jpg';
-import portfolioImage9 from './portfolio/portfolioImage9.jpg';
-import portfolioCoupleImage1 from './portfolio/portfolioCoupleImage2.jpg';
 
 import quiceAñosImage from './quinceAños/quinceAñosMainImage.jpg';
 import quinceAñosCarousel1 from './quinceAños/quinceAñosCarousel1.jpg';
@@ -113,58 +132,89 @@ import cristianAdrianaPortada from './galeria/bodas/cristianAdriana/cristianAdri
 import dannaPortada from './galeria/XVI/dannaXVI/dannaPortada.jpg';
 import rubyPortada from './galeria/XVI/rubyXVI/rubyPortada.jpg';
 
-import portfolioImage10 from './portfolio/portfolioImage10.jpg';
-import portfolioImage11 from './portfolio/portfolioImage11.jpg';
-import portfolioImage12 from './portfolio/portfolioImage12.jpg';
-import portfolioImage13 from './portfolio/portfolioImage13.jpg';
-import portfolioImage14 from './portfolio/portfolioImage14.jpg';
-import portfolioImage15 from './portfolio/portfolioImage15.jpg';
-import portfolioImage16 from './portfolio/portfolioImage16.jpg';
-import portfolioImage17 from './portfolio/portfolioImage17.jpg';
 
 export {
+    pf1,
+    pf2,
+    pf3,
+    pf4,
+    pf5,
+    pf6,
+    pf7,
+    pf8,
+    pf9,
+    pf10,
+    pf11,
+    pf12,
+    pf13,
+    pf14,
+    pf15,
+    pf16,
+    pf17,
+    pf18,
+    pf19,
+    pf20,
+    pf21,
+    pf22,
+    pf23,
+    pf24,
+    pf25,
+    pf26,
+    pf27,
+    pf28,
+    pf29,
+    pf30,
+    pf31,
+    pf32,
+    pf33,
+    pf34,
+    pf35,
+    pf36,
+    pf37,
+    pf38,
+    pf39,
     close,
     menu,
-    portfolioImage16,
-    portfolioImage17,
-    portfolioImage10,
-    portfolioImage11,
-    portfolioImage12,
-    contactMainImage,
-    portfolioImage13,
-    portfolioImage14,
-    portfolioImage15,
+    pf29 as portfolioImage16,
+    pf35 as portfolioImage17,
+    pf16 as portfolioImage10,
+    pf26 as portfolioImage11,
+    pf21 as portfolioImage12,
+    pf37 as contactMainImage,
+    pf22 as portfolioImage13,
+    pf23 as portfolioImage14,
+    pf24 as portfolioImage15,
     rubyPortada,
     dannaPortada,
     cristianAdrianaPortada,
     cristianAdriana19,
     cristianAdriana20,
     cristianAdriana21,
-    homeMainImage,
-    homeMainImage2,
-    homeMainImage3,
-    homeMainImage4,
-    homeMainImage5,
-    homeMainImage6,
-    homeMainImage7,
-    homeMainImage8,
-    homeMainImage9,
+    pf27 as homeMainImage,
+    pf24 as homeMainImage2,
+    pf35 as homeMainImage3,
+    pf26 as homeMainImage4,
+    pf12 as homeMainImage5,
+    pf19 as homeMainImage6,
+    pf13 as homeMainImage7,
+    pf20 as homeMainImage8,
+    pf8 as homeMainImage9,
     resumeImage,
     resumeImageMobile,
     BodaImage,
     XVImage,
     saveDateImage,
-    portfolioMainImage,
-    portfolioImage1,
-    portfolioImage2,
-    portfolioImage3,
-    portfolioImage4,
-    portfolioImage5,
-    portfolioImage6,
-    portfolioImage7,
-    portfolioImage8,
-    portfolioImage9,
-    portfolioCoupleImage1,
+    pf20 as portfolioMainImage,
+    pf1 as portfolioImage1,
+    pf3 as portfolioImage2,
+    pf6 as portfolioImage3,
+    pf7 as portfolioImage4,
+    pf9 as portfolioImage5,
+    pf10 as portfolioImage6,
+    pf11 as portfolioImage7,
+    pf14 as portfolioImage8,
+    pf15 as portfolioImage9,
+    pf30 as portfolioCoupleImage1,
     quiceAñosImage,
     quinceAñosCarousel1,
     quinceAñosCarousel2,
@@ -229,5 +279,5 @@ export {
     carlosNati19,
     carlosNati20,
     carlosNati21,
-    homeMainImage10,
+    pf34 as homeMainImage10,
 };

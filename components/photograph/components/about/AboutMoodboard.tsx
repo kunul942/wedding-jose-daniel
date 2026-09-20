@@ -7,9 +7,9 @@ import {
     portfolioImage5,
     portfolioImage9,
     portfolioImage12,
-    quinceAñosGallery3,
-    saveTheDateGalleryImage1,
-    joseDanielCollage2,
+    pf31,
+    pf33,
+    pf2,
 } from '@/assets';
 
 type Tile = {
@@ -22,7 +22,7 @@ type Tile = {
 
 const tiles: Tile[] = [
     {
-        src: joseDanielCollage2,
+        src: pf2,
         desktop: 'lg:left-0 lg:top-[14%] lg:w-[28%] lg:h-[34.5%]',
         mobile: 'col-span-1 aspect-[4/5]',
     },
@@ -42,12 +42,12 @@ const tiles: Tile[] = [
         mobile: 'col-span-1 aspect-[4/5] -mt-6',
     },
     {
-        src: saveTheDateGalleryImage1,
+        src: pf31,
         desktop: 'lg:left-[2.5%] lg:top-[55%] lg:w-[24%] lg:h-[31%]',
         mobile: 'col-span-1 aspect-[4/5]',
     },
     {
-        src: quinceAñosGallery3,
+        src: pf33,
         desktop: 'lg:left-[21%] lg:top-[59%] lg:w-[24.5%] lg:h-[37%]',
         mobile: 'col-span-1 aspect-[3/4] -mt-6',
     },

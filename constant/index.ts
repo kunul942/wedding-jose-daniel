@@ -97,6 +97,7 @@ import {
 
 import {
     //** LeviSasha*/
+    leviSashaPortada,
     leviSashaMainImage,
     leviSashaGallery1,
     leviSashaGallery2,
@@ -219,6 +220,7 @@ import {
     leviSashaGallery119,
     leviSashaGallery120,
     //** ChachiJose*/
+    chachiJosePortada,
     chachiJoseMainImage,
     chachiJoseGallery1,
     chachiJoseGallery2,
@@ -649,6 +651,109 @@ import {
     dannaMainImage,
     eduardoEvelynMainImage,
     timEstefaniaSaveDateMainImage,
+    carlosNathalieGallery1,
+    carlosNathalieGallery2,
+    carlosNathalieGallery3,
+    carlosNathalieGallery4,
+    carlosNathalieGallery5,
+    carlosNathalieGallery6,
+    carlosNathalieGallery7,
+    carlosNathalieGallery8,
+    carlosNathalieGallery9,
+    carlosNathalieGallery10,
+    carlosNathalieGallery11,
+    carlosNathalieGallery12,
+    carlosNathalieGallery13,
+    carlosNathalieGallery14,
+    carlosNathalieGallery15,
+    carlosNathalieGallery16,
+    carlosNathalieGallery17,
+    carlosNathalieGallery18,
+    carlosNathalieGallery19,
+    carlosNathalieGallery20,
+    carlosNathalieGallery21,
+    carlosNathalieGallery22,
+    carlosNathalieGallery23,
+    carlosNathalieGallery24,
+    carlosNathalieGallery25,
+    carlosNathalieGallery26,
+    carlosNathalieGallery27,
+    carlosNathalieGallery28,
+    carlosNathalieGallery29,
+    carlosNathalieGallery30,
+    carlosNathalieGallery31,
+    carlosNathalieGallery32,
+    carlosNathalieGallery33,
+    carlosNathalieGallery34,
+    carlosNathalieGallery35,
+    carlosNathalieGallery36,
+    carlosNathalieGallery37,
+    carlosNathalieGallery38,
+    carlosNathalieGallery39,
+    carlosNathalieGallery40,
+    carlosNathalieGallery41,
+    carlosNathalieGallery42,
+    carlosNathalieGallery43,
+    carlosNathalieGallery44,
+    carlosNathalieGallery45,
+    carlosNathalieGallery46,
+    carlosNathalieGallery47,
+    carlosNathalieGallery48,
+    carlosNathalieGallery49,
+    kevynGreciaGallery1,
+    kevynGreciaGallery2,
+    kevynGreciaGallery3,
+    kevynGreciaGallery4,
+    kevynGreciaGallery5,
+    kevynGreciaGallery6,
+    kevynGreciaGallery7,
+    kevynGreciaGallery8,
+    kevynGreciaGallery9,
+    kevynGreciaGallery10,
+    kevynGreciaGallery11,
+    kevynGreciaGallery12,
+    kevynGreciaGallery13,
+    kevynGreciaGallery14,
+    kevynGreciaGallery15,
+    kevynGreciaGallery16,
+    kevynGreciaGallery17,
+    kevynGreciaGallery18,
+    kevynGreciaGallery19,
+    kevynGreciaGallery20,
+    kevynGreciaGallery21,
+    kevynGreciaGallery22,
+    kevynGreciaGallery23,
+    kevynGreciaGallery24,
+    kevynGreciaGallery25,
+    kevynGreciaGallery26,
+    kevynGreciaGallery27,
+    kevynGreciaGallery28,
+    kevynGreciaGallery29,
+    kevynGreciaGallery30,
+    kevynGreciaGallery31,
+    kevynGreciaGallery32,
+    kevynGreciaGallery33,
+    kevynGreciaGallery34,
+    kevynGreciaGallery35,
+    kevynGreciaGallery36,
+    kevynGreciaGallery37,
+    kevynGreciaGallery38,
+    kevynGreciaGallery39,
+    kevynGreciaGallery40,
+    kevynGreciaGallery41,
+    kevynGreciaGallery42,
+    kevynGreciaGallery43,
+    kevynGreciaGallery44,
+    kevynGreciaGallery45,
+    kevynGreciaGallery46,
+    kevynGreciaGallery47,
+    kevynGreciaGallery48,
+    kevynGreciaGallery49,
+    kevynGreciaGallery50,
+    kevynGreciaGallery51,
+    kevynGreciaGallery52,
+    kevynGreciaGallery53,
+    kevynGreciaGallery54,
 } from '../assets/galeria/';
 
 //*****Navbar******//
@@ -992,7 +1097,7 @@ export const portfolioVideoImages = [
 export const portfolioGalleryImages = [
     {
         id: '01',
-        img: chachiJoseGallery1,
+        img: chachiJosePortada,
         bodas: 'BODAS',
         couple: 'CHACHI + JOSÉ',
         // location: 'ANTIGUA GUATEMALA',
@@ -1000,7 +1105,7 @@ export const portfolioGalleryImages = [
     },
     {
         id: '03',
-        img: leviSashaGallery1,
+        img: leviSashaPortada,
         bodas: 'BODAS',
         couple: 'LEVI + SASHA',
         // location: 'ANTIGUA GUATEMALA',
@@ -1173,479 +1278,479 @@ export const saveTheDateGalleryImages = [
 export const leviSashaGalleryImages = [
     {
         id: '001',
-        img: leviSashaGallery1,
-    },
-    {
-        id: '002',
-        img: leviSashaGallery2,
-    },
-    {
-        id: '003',
-        img: leviSashaGallery3,
-    },
-    {
-        id: '004',
-        img: leviSashaGallery4,
-    },
-    {
-        id: '005',
-        img: leviSashaGallery5,
-    },
-    {
-        id: '006',
-        img: leviSashaGallery6,
-    },
-    {
-        id: '007',
-        img: leviSashaGallery7,
-    },
-    {
-        id: '008',
-        img: leviSashaGallery8,
-    },
-    {
-        id: '009',
-        img: leviSashaGallery9,
-    },
-    {
-        id: '010',
-        img: leviSashaGallery10,
-    },
-    {
-        id: '011',
-        img: leviSashaGallery11,
-    },
-    {
-        id: '012',
-        img: leviSashaGallery12,
-    },
-    {
-        id: '013',
-        img: leviSashaGallery13,
-    },
-    {
-        id: '014',
-        img: leviSashaGallery14,
-    },
-    {
-        id: '015',
-        img: leviSashaGallery15,
-    },
-    {
-        id: '016',
-        img: leviSashaGallery16,
-    },
-    {
-        id: '017',
-        img: leviSashaGallery17,
-    },
-    {
-        id: '018',
-        img: leviSashaGallery18,
-    },
-    {
-        id: '019',
-        img: leviSashaGallery19,
-    },
-    {
-        id: '020',
-        img: leviSashaGallery20,
-    },
-    {
-        id: '021',
-        img: leviSashaGallery21,
-    },
-    {
-        id: '022',
-        img: leviSashaGallery22,
-    },
-    {
-        id: '023',
-        img: leviSashaGallery23,
-    },
-    {
-        id: '024',
-        img: leviSashaGallery24,
-    },
-    {
-        id: '025',
-        img: leviSashaGallery25,
-    },
-    {
-        id: '026',
-        img: leviSashaGallery26,
-    },
-    {
-        id: '027',
-        img: leviSashaGallery27,
-    },
-    {
-        id: '028',
-        img: leviSashaGallery28,
-    },
-    {
-        id: '029',
-        img: leviSashaGallery29,
-    },
-    {
-        id: '030',
-        img: leviSashaGallery30,
-    },
-    {
-        id: '031',
-        img: leviSashaGallery31,
-    },
-    {
-        id: '032',
-        img: leviSashaGallery32,
-    },
-    {
-        id: '033',
-        img: leviSashaGallery33,
-    },
-    {
-        id: '034',
-        img: leviSashaGallery34,
-    },
-    {
-        id: '035',
-        img: leviSashaGallery35,
-    },
-    {
-        id: '036',
-        img: leviSashaGallery36,
-    },
-    {
-        id: '037',
-        img: leviSashaGallery37,
-    },
-    {
-        id: '038',
-        img: leviSashaGallery38,
-    },
-    {
-        id: '039',
-        img: leviSashaGallery39,
-    },
-    {
-        id: '040',
-        img: leviSashaGallery40,
-    },
-    {
-        id: '041',
-        img: leviSashaGallery41,
-    },
-    {
-        id: '042',
-        img: leviSashaGallery42,
-    },
-    {
-        id: '043',
-        img: leviSashaGallery43,
-    },
-    {
-        id: '044',
-        img: leviSashaGallery44,
-    },
-    {
-        id: '045',
-        img: leviSashaGallery45,
-    },
-    {
-        id: '046',
-        img: leviSashaGallery46,
-    },
-    {
-        id: '047',
-        img: leviSashaGallery47,
-    },
-    {
-        id: '048',
-        img: leviSashaGallery48,
-    },
-    {
-        id: '049',
-        img: leviSashaGallery49,
-    },
-    {
-        id: '050',
-        img: leviSashaGallery50,
-    },
-    {
-        id: '051',
-        img: leviSashaGallery51,
-    },
-    {
-        id: '052',
-        img: leviSashaGallery52,
-    },
-    {
-        id: '053',
-        img: leviSashaGallery53,
-    },
-    {
-        id: '054',
-        img: leviSashaGallery54,
-    },
-    {
-        id: '055',
-        img: leviSashaGallery55,
-    },
-    {
-        id: '056',
-        img: leviSashaGallery56,
-    },
-    {
-        id: '057',
-        img: leviSashaGallery57,
-    },
-    {
-        id: '058',
-        img: leviSashaGallery58,
-    },
-    {
-        id: '059',
-        img: leviSashaGallery59,
-    },
-    {
-        id: '060',
-        img: leviSashaGallery60,
-    },
-    {
-        id: '061',
-        img: leviSashaGallery61,
-    },
-    {
-        id: '062',
-        img: leviSashaGallery62,
-    },
-    {
-        id: '063',
-        img: leviSashaGallery63,
-    },
-    {
-        id: '064',
-        img: leviSashaGallery64,
-    },
-    {
-        id: '065',
-        img: leviSashaGallery65,
-    },
-    {
-        id: '066',
-        img: leviSashaGallery66,
-    },
-    {
-        id: '067',
-        img: leviSashaGallery67,
-    },
-    {
-        id: '068',
-        img: leviSashaGallery68,
-    },
-    {
-        id: '069',
-        img: leviSashaGallery69,
-    },
-    {
-        id: '070',
-        img: leviSashaGallery70,
-    },
-    {
-        id: '071',
         img: leviSashaGallery71,
     },
     {
-        id: '072',
-        img: leviSashaGallery72,
-    },
-    {
-        id: '073',
-        img: leviSashaGallery73,
-    },
-    {
-        id: '074',
+        id: '002',
         img: leviSashaGallery74,
     },
     {
-        id: '075',
-        img: leviSashaGallery75,
-    },
-    {
-        id: '076',
-        img: leviSashaGallery76,
-    },
-    {
-        id: '077',
-        img: leviSashaGallery77,
-    },
-    {
-        id: '078',
-        img: leviSashaGallery78,
-    },
-    {
-        id: '079',
-        img: leviSashaGallery79,
-    },
-    {
-        id: '080',
-        img: leviSashaGallery80,
-    },
-    {
-        id: '081',
-        img: leviSashaGallery81,
-    },
-    {
-        id: '082',
-        img: leviSashaGallery82,
-    },
-    {
-        id: '083',
-        img: leviSashaGallery83,
-    },
-    {
-        id: '084',
-        img: leviSashaGallery84,
-    },
-    {
-        id: '085',
-        img: leviSashaGallery85,
-    },
-    {
-        id: '086',
-        img: leviSashaGallery86,
-    },
-    {
-        id: '087',
-        img: leviSashaGallery87,
-    },
-    {
-        id: '088',
-        img: leviSashaGallery88,
-    },
-    {
-        id: '089',
-        img: leviSashaGallery89,
-    },
-    {
-        id: '090',
-        img: leviSashaGallery90,
-    },
-    {
-        id: '091',
-        img: leviSashaGallery91,
-    },
-    {
-        id: '092',
-        img: leviSashaGallery92,
-    },
-    {
-        id: '093',
-        img: leviSashaGallery93,
-    },
-    {
-        id: '094',
+        id: '003',
         img: leviSashaGallery94,
     },
     {
-        id: '095',
+        id: '004',
+        img: leviSashaGallery1,
+    },
+    {
+        id: '005',
+        img: leviSashaGallery77,
+    },
+    {
+        id: '006',
+        img: leviSashaGallery54,
+    },
+    {
+        id: '007',
+        img: leviSashaGallery55,
+    },
+    {
+        id: '008',
+        img: leviSashaGallery79,
+    },
+    {
+        id: '009',
+        img: leviSashaGallery60,
+    },
+    {
+        id: '010',
         img: leviSashaGallery95,
     },
     {
-        id: '096',
+        id: '011',
+        img: leviSashaGallery53,
+    },
+    {
+        id: '012',
         img: leviSashaGallery96,
     },
     {
-        id: '097',
+        id: '013',
+        img: leviSashaGallery76,
+    },
+    {
+        id: '014',
+        img: leviSashaGallery64,
+    },
+    {
+        id: '015',
+        img: leviSashaGallery5,
+    },
+    {
+        id: '016',
+        img: leviSashaGallery6,
+    },
+    {
+        id: '017',
+        img: leviSashaGallery7,
+    },
+    {
+        id: '018',
+        img: leviSashaGallery85,
+    },
+    {
+        id: '019',
+        img: leviSashaGallery86,
+    },
+    {
+        id: '020',
+        img: leviSashaGallery87,
+    },
+    {
+        id: '021',
+        img: leviSashaGallery82,
+    },
+    {
+        id: '022',
+        img: leviSashaGallery84,
+    },
+    {
+        id: '023',
+        img: leviSashaGallery92,
+    },
+    {
+        id: '024',
+        img: leviSashaGallery93,
+    },
+    {
+        id: '025',
+        img: leviSashaGallery81,
+    },
+    {
+        id: '026',
+        img: leviSashaGallery83,
+    },
+    {
+        id: '027',
+        img: leviSashaGallery88,
+    },
+    {
+        id: '028',
+        img: leviSashaGallery89,
+    },
+    {
+        id: '029',
+        img: leviSashaGallery90,
+    },
+    {
+        id: '030',
+        img: leviSashaGallery91,
+    },
+    {
+        id: '031',
         img: leviSashaGallery97,
     },
     {
-        id: '098',
+        id: '032',
+        img: leviSashaGallery56,
+    },
+    {
+        id: '033',
+        img: leviSashaGallery57,
+    },
+    {
+        id: '034',
+        img: leviSashaGallery58,
+    },
+    {
+        id: '035',
+        img: leviSashaGallery59,
+    },
+    {
+        id: '036',
+        img: leviSashaGallery65,
+    },
+    {
+        id: '037',
+        img: leviSashaGallery69,
+    },
+    {
+        id: '038',
+        img: leviSashaGallery70,
+    },
+    {
+        id: '039',
+        img: leviSashaGallery75,
+    },
+    {
+        id: '040',
+        img: leviSashaGallery78,
+    },
+    {
+        id: '041',
+        img: leviSashaGallery80,
+    },
+    {
+        id: '042',
+        img: leviSashaGallery47,
+    },
+    {
+        id: '043',
+        img: leviSashaGallery50,
+    },
+    {
+        id: '044',
+        img: leviSashaGallery51,
+    },
+    {
+        id: '045',
+        img: leviSashaGallery52,
+    },
+    {
+        id: '046',
+        img: leviSashaGallery37,
+    },
+    {
+        id: '047',
         img: leviSashaGallery98,
     },
     {
-        id: '099',
+        id: '048',
+        img: leviSashaGallery10,
+    },
+    {
+        id: '049',
+        img: leviSashaGallery24,
+    },
+    {
+        id: '050',
+        img: leviSashaGallery22,
+    },
+    {
+        id: '051',
+        img: leviSashaGallery2,
+    },
+    {
+        id: '052',
         img: leviSashaGallery99,
     },
     {
-        id: '100',
+        id: '053',
+        img: leviSashaGallery42,
+    },
+    {
+        id: '054',
+        img: leviSashaGallery66,
+    },
+    {
+        id: '055',
         img: leviSashaGallery100,
     },
     {
-        id: '101',
+        id: '056',
+        img: leviSashaGallery11,
+    },
+    {
+        id: '057',
+        img: leviSashaGallery25,
+    },
+    {
+        id: '058',
         img: leviSashaGallery101,
     },
     {
-        id: '102',
+        id: '059',
+        img: leviSashaGallery23,
+    },
+    {
+        id: '060',
+        img: leviSashaGallery3,
+    },
+    {
+        id: '061',
         img: leviSashaGallery102,
     },
     {
-        id: '103',
+        id: '062',
+        img: leviSashaGallery12,
+    },
+    {
+        id: '063',
+        img: leviSashaGallery43,
+    },
+    {
+        id: '064',
         img: leviSashaGallery103,
     },
     {
-        id: '104',
+        id: '065',
+        img: leviSashaGallery26,
+    },
+    {
+        id: '066',
+        img: leviSashaGallery27,
+    },
+    {
+        id: '067',
         img: leviSashaGallery104,
     },
     {
-        id: '105',
+        id: '068',
+        img: leviSashaGallery13,
+    },
+    {
+        id: '069',
+        img: leviSashaGallery67,
+    },
+    {
+        id: '070',
+        img: leviSashaGallery4,
+    },
+    {
+        id: '071',
         img: leviSashaGallery105,
     },
     {
-        id: '106',
+        id: '072',
+        img: leviSashaGallery34,
+    },
+    {
+        id: '073',
+        img: leviSashaGallery44,
+    },
+    {
+        id: '074',
         img: leviSashaGallery106,
     },
     {
-        id: '107',
+        id: '075',
+        img: leviSashaGallery14,
+    },
+    {
+        id: '076',
+        img: leviSashaGallery28,
+    },
+    {
+        id: '077',
         img: leviSashaGallery107,
     },
     {
-        id: '108',
+        id: '078',
+        img: leviSashaGallery8,
+    },
+    {
+        id: '079',
+        img: leviSashaGallery35,
+    },
+    {
+        id: '080',
         img: leviSashaGallery108,
     },
     {
-        id: '109',
+        id: '081',
+        img: leviSashaGallery15,
+    },
+    {
+        id: '082',
+        img: leviSashaGallery29,
+    },
+    {
+        id: '083',
+        img: leviSashaGallery45,
+    },
+    {
+        id: '084',
+        img: leviSashaGallery68,
+    },
+    {
+        id: '085',
         img: leviSashaGallery109,
     },
     {
-        id: '110',
+        id: '086',
+        img: leviSashaGallery16,
+    },
+    {
+        id: '087',
         img: leviSashaGallery110,
     },
     {
-        id: '111',
+        id: '088',
+        img: leviSashaGallery36,
+    },
+    {
+        id: '089',
+        img: leviSashaGallery9,
+    },
+    {
+        id: '090',
         img: leviSashaGallery111,
     },
     {
-        id: '112',
+        id: '091',
+        img: leviSashaGallery30,
+    },
+    {
+        id: '092',
+        img: leviSashaGallery17,
+    },
+    {
+        id: '093',
         img: leviSashaGallery112,
     },
     {
-        id: '113',
+        id: '094',
+        img: leviSashaGallery46,
+    },
+    {
+        id: '095',
+        img: leviSashaGallery38,
+    },
+    {
+        id: '096',
         img: leviSashaGallery113,
     },
     {
-        id: '114',
+        id: '097',
+        img: leviSashaGallery62,
+    },
+    {
+        id: '098',
+        img: leviSashaGallery72,
+    },
+    {
+        id: '099',
+        img: leviSashaGallery18,
+    },
+    {
+        id: '100',
         img: leviSashaGallery114,
     },
     {
-        id: '115',
+        id: '101',
+        img: leviSashaGallery31,
+    },
+    {
+        id: '102',
+        img: leviSashaGallery39,
+    },
+    {
+        id: '103',
         img: leviSashaGallery115,
     },
     {
-        id: '116',
+        id: '104',
+        img: leviSashaGallery48,
+    },
+    {
+        id: '105',
+        img: leviSashaGallery19,
+    },
+    {
+        id: '106',
         img: leviSashaGallery116,
     },
     {
-        id: '117',
+        id: '107',
+        img: leviSashaGallery61,
+    },
+    {
+        id: '108',
+        img: leviSashaGallery32,
+    },
+    {
+        id: '109',
         img: leviSashaGallery117,
     },
     {
-        id: '118',
+        id: '110',
+        img: leviSashaGallery40,
+    },
+    {
+        id: '111',
+        img: leviSashaGallery20,
+    },
+    {
+        id: '112',
         img: leviSashaGallery118,
     },
     {
-        id: '119',
+        id: '113',
+        img: leviSashaGallery73,
+    },
+    {
+        id: '114',
+        img: leviSashaGallery49,
+    },
+    {
+        id: '115',
         img: leviSashaGallery119,
+    },
+    {
+        id: '116',
+        img: leviSashaGallery63,
+    },
+    {
+        id: '117',
+        img: leviSashaGallery33,
+    },
+    {
+        id: '118',
+        img: leviSashaGallery41,
+    },
+    {
+        id: '119',
+        img: leviSashaGallery21,
     },
     {
         id: '120',
@@ -3376,6 +3481,425 @@ export const footerLinks = [
     },
 ];
 
+export const carlosNathalieGalleryImages = [
+    {
+        id: '001',
+        img: carlosNathalieGallery8,
+    },
+    {
+        id: '002',
+        img: carlosNathalieGallery21,
+    },
+    {
+        id: '003',
+        img: carlosNathalieGallery3,
+    },
+    {
+        id: '004',
+        img: carlosNathalieGallery2,
+    },
+    {
+        id: '005',
+        img: carlosNathalieGallery7,
+    },
+    {
+        id: '006',
+        img: carlosNathalieGallery9,
+    },
+    {
+        id: '007',
+        img: carlosNathalieGallery10,
+    },
+    {
+        id: '008',
+        img: carlosNathalieGallery26,
+    },
+    {
+        id: '009',
+        img: carlosNathalieGallery25,
+    },
+    {
+        id: '010',
+        img: carlosNathalieGallery31,
+    },
+    {
+        id: '011',
+        img: carlosNathalieGallery6,
+    },
+    {
+        id: '012',
+        img: carlosNathalieGallery24,
+    },
+    {
+        id: '013',
+        img: carlosNathalieGallery1,
+    },
+    {
+        id: '014',
+        img: carlosNathalieGallery4,
+    },
+    {
+        id: '015',
+        img: carlosNathalieGallery5,
+    },
+    {
+        id: '016',
+        img: carlosNathalieGallery11,
+    },
+    {
+        id: '017',
+        img: carlosNathalieGallery12,
+    },
+    {
+        id: '018',
+        img: carlosNathalieGallery13,
+    },
+    {
+        id: '019',
+        img: carlosNathalieGallery14,
+    },
+    {
+        id: '020',
+        img: carlosNathalieGallery15,
+    },
+    {
+        id: '021',
+        img: carlosNathalieGallery16,
+    },
+    {
+        id: '022',
+        img: carlosNathalieGallery17,
+    },
+    {
+        id: '023',
+        img: carlosNathalieGallery18,
+    },
+    {
+        id: '024',
+        img: carlosNathalieGallery19,
+    },
+    {
+        id: '025',
+        img: carlosNathalieGallery20,
+    },
+    {
+        id: '026',
+        img: carlosNathalieGallery22,
+    },
+    {
+        id: '027',
+        img: carlosNathalieGallery23,
+    },
+    {
+        id: '028',
+        img: carlosNathalieGallery27,
+    },
+    {
+        id: '029',
+        img: carlosNathalieGallery28,
+    },
+    {
+        id: '030',
+        img: carlosNathalieGallery29,
+    },
+    {
+        id: '031',
+        img: carlosNathalieGallery30,
+    },
+    {
+        id: '032',
+        img: carlosNathalieGallery32,
+    },
+    {
+        id: '033',
+        img: carlosNathalieGallery33,
+    },
+    {
+        id: '034',
+        img: carlosNathalieGallery34,
+    },
+    {
+        id: '035',
+        img: carlosNathalieGallery35,
+    },
+    {
+        id: '036',
+        img: carlosNathalieGallery36,
+    },
+    {
+        id: '037',
+        img: carlosNathalieGallery37,
+    },
+    {
+        id: '038',
+        img: carlosNathalieGallery38,
+    },
+    {
+        id: '039',
+        img: carlosNathalieGallery39,
+    },
+    {
+        id: '040',
+        img: carlosNathalieGallery40,
+    },
+    {
+        id: '041',
+        img: carlosNathalieGallery41,
+    },
+    {
+        id: '042',
+        img: carlosNathalieGallery42,
+    },
+    {
+        id: '043',
+        img: carlosNathalieGallery43,
+    },
+    {
+        id: '044',
+        img: carlosNathalieGallery44,
+    },
+    {
+        id: '045',
+        img: carlosNathalieGallery45,
+    },
+    {
+        id: '046',
+        img: carlosNathalieGallery46,
+    },
+    {
+        id: '047',
+        img: carlosNathalieGallery47,
+    },
+    {
+        id: '048',
+        img: carlosNathalieGallery48,
+    },
+    {
+        id: '049',
+        img: carlosNathalieGallery49,
+    },
+];
+
+export const kevynGreciaGalleryImages = [
+    {
+        id: '001',
+        img: kevynGreciaGallery27,
+    },
+    {
+        id: '002',
+        img: kevynGreciaGallery16,
+    },
+    {
+        id: '003',
+        img: kevynGreciaGallery15,
+    },
+    {
+        id: '004',
+        img: kevynGreciaGallery14,
+    },
+    {
+        id: '005',
+        img: kevynGreciaGallery24,
+    },
+    {
+        id: '006',
+        img: kevynGreciaGallery23,
+    },
+    {
+        id: '007',
+        img: kevynGreciaGallery12,
+    },
+    {
+        id: '008',
+        img: kevynGreciaGallery9,
+    },
+    {
+        id: '009',
+        img: kevynGreciaGallery4,
+    },
+    {
+        id: '010',
+        img: kevynGreciaGallery25,
+    },
+    {
+        id: '011',
+        img: kevynGreciaGallery26,
+    },
+    {
+        id: '012',
+        img: kevynGreciaGallery13,
+    },
+    {
+        id: '013',
+        img: kevynGreciaGallery1,
+    },
+    {
+        id: '014',
+        img: kevynGreciaGallery2,
+    },
+    {
+        id: '015',
+        img: kevynGreciaGallery3,
+    },
+    {
+        id: '016',
+        img: kevynGreciaGallery5,
+    },
+    {
+        id: '017',
+        img: kevynGreciaGallery6,
+    },
+    {
+        id: '018',
+        img: kevynGreciaGallery7,
+    },
+    {
+        id: '019',
+        img: kevynGreciaGallery8,
+    },
+    {
+        id: '020',
+        img: kevynGreciaGallery10,
+    },
+    {
+        id: '021',
+        img: kevynGreciaGallery11,
+    },
+    {
+        id: '022',
+        img: kevynGreciaGallery17,
+    },
+    {
+        id: '023',
+        img: kevynGreciaGallery18,
+    },
+    {
+        id: '024',
+        img: kevynGreciaGallery19,
+    },
+    {
+        id: '025',
+        img: kevynGreciaGallery20,
+    },
+    {
+        id: '026',
+        img: kevynGreciaGallery21,
+    },
+    {
+        id: '027',
+        img: kevynGreciaGallery22,
+    },
+    {
+        id: '028',
+        img: kevynGreciaGallery28,
+    },
+    {
+        id: '029',
+        img: kevynGreciaGallery29,
+    },
+    {
+        id: '030',
+        img: kevynGreciaGallery30,
+    },
+    {
+        id: '031',
+        img: kevynGreciaGallery31,
+    },
+    {
+        id: '032',
+        img: kevynGreciaGallery32,
+    },
+    {
+        id: '033',
+        img: kevynGreciaGallery33,
+    },
+    {
+        id: '034',
+        img: kevynGreciaGallery34,
+    },
+    {
+        id: '035',
+        img: kevynGreciaGallery35,
+    },
+    {
+        id: '036',
+        img: kevynGreciaGallery36,
+    },
+    {
+        id: '037',
+        img: kevynGreciaGallery37,
+    },
+    {
+        id: '038',
+        img: kevynGreciaGallery38,
+    },
+    {
+        id: '039',
+        img: kevynGreciaGallery39,
+    },
+    {
+        id: '040',
+        img: kevynGreciaGallery40,
+    },
+    {
+        id: '041',
+        img: kevynGreciaGallery41,
+    },
+    {
+        id: '042',
+        img: kevynGreciaGallery42,
+    },
+    {
+        id: '043',
+        img: kevynGreciaGallery43,
+    },
+    {
+        id: '044',
+        img: kevynGreciaGallery44,
+    },
+    {
+        id: '045',
+        img: kevynGreciaGallery45,
+    },
+    {
+        id: '046',
+        img: kevynGreciaGallery46,
+    },
+    {
+        id: '047',
+        img: kevynGreciaGallery47,
+    },
+    {
+        id: '048',
+        img: kevynGreciaGallery48,
+    },
+    {
+        id: '049',
+        img: kevynGreciaGallery49,
+    },
+    {
+        id: '050',
+        img: kevynGreciaGallery50,
+    },
+    {
+        id: '051',
+        img: kevynGreciaGallery51,
+    },
+    {
+        id: '052',
+        img: kevynGreciaGallery52,
+    },
+    {
+        id: '053',
+        img: kevynGreciaGallery53,
+    },
+    {
+        id: '054',
+        img: kevynGreciaGallery54,
+    },
+];
+
+
 export const galerias = [
     {
         slug: 'bodas',
@@ -3386,7 +3910,7 @@ export const galerias = [
         boda: [
             {
                 slug: '/sesion/chachi-jose',
-                imagePortada: chachiJoseGallery1,
+                imagePortada: chachiJoseGallery118,
                 title: 'BODAS',
                 subtitle: 'CHACHI + JOSÉ',
                 location: 'Antigua Guatemala',
@@ -3394,109 +3918,27 @@ export const galerias = [
             },
             {
                 slug: '/sesion/levi-sasha',
-                imagePortada: leviSashaGallery1,
+                imagePortada: leviSashaGallery18,
                 title: 'BODAS',
                 subtitle: 'LEVI + SASHA',
                 location: 'Lago de Atitlán, Sololá',
                 galerias: 'GALERIAS',
             },
             {
-                slug: '/sesion/tim-estefania',
-                imagePortada: timEstefania10,
+                slug: '/sesion/kevyn-grecia',
+                imagePortada: kevynGreciaGallery27,
                 title: 'BODAS',
-                subtitle: 'TIM + ESTEFANIA',
-                location: 'Lago de Atitlán, Sololá',
+                subtitle: 'KEVYN + GRECIA',
+                location: 'Guatemala',
                 galerias: 'GALERIAS',
             },
             {
-                slug: '/sesion/erick-mary',
-                imagePortada: marcoDanielaPortada,
+                slug: '/sesion/carlos-nathalie',
+                imagePortada: carlosNathalieGallery8,
                 title: 'BODAS',
-                subtitle: 'ERICK + MARY',
-                location: 'San Juan del Obispo, Antigua',
-                galeria: 'GALERIAS',
-            },
-            {
-                slug: '/sesion/gerbert-magda',
-                imagePortada: carloNatiPortada,
-                title: 'BODAS',
-                subtitle: 'GERBERT + MAGDA',
-                location: 'Santa Catarina Palopó, Sololá',
-                galeria: 'GALERIAS',
-            },
-            {
-                slug: '/sesion/cristian-adriana',
-                imagePortada: cristianAdrianaPortada,
-                title: 'BODAS',
-                subtitle: 'CRISTIAN + ADRIANA',
-                location: 'Quetzaltenango, Guatemala',
-                galeria: 'GALERIAS',
-            },
-        ],
-    },
-    {
-        slug: 'save-date',
-        mainImage: saveTheDateMainImage,
-        title: 'SAVE THE DATE',
-        carousel: saveTheDateCarouselImages,
-        sectionTitle: 'GALERIAS',
-        boda: [
-            {
-                slug: '/sesion/murillo-alejandra',
-                imagePortada: murrilloAlejandra5,
-                title: 'SAVE THE DATE',
-                subtitle: 'MURILLO + ALEJANDRA',
-                location: 'Cerro de la Cruz, Antigua',
-                galeria: 'GALERIAS',
-            },
-            {
-                slug: '/sesion/eduardo-evelyn',
-                imagePortada: eduardoEvelyn7,
-                title: 'SAVE THE DATE',
-                subtitle: 'EDUARDO + EVELYN',
-                location: 'Puerto San José, Escuintla',
-                galeria: 'GALERIAS',
-            },
-            {
-                slug: '/sesion/tim-estefania',
-                imagePortada: timEstefaniaSaveDate6,
-                title: 'SAVE THE DATE',
-                subtitle: 'TIM + ESTEFANIA',
-                location: 'Lago de Atitlán, Sololá',
-                galeria: 'GALERIAS',
-            },
-        ],
-    },
-    {
-        slug: 'xv',
-        mainImage: quiceAñosImage,
-        title: 'QUINCE AÑOS',
-        carousel: quinceAñosCarouselImages,
-        sectionTitle: 'GALERIAS',
-        boda: [
-            {
-                slug: '/sesion/danna',
-                imagePortada: dannaPortada,
-                title: 'QUINCE AÑOS',
-                subtitle: 'DANNA',
-                location: 'Antigua Guatemala',
-                galeria: 'GALERIAS',
-            },
-            {
-                slug: '/sesion/ruby',
-                imagePortada: rubyPortada,
-                title: 'QUINCE AÑOS',
-                subtitle: 'RUBY',
-                location: 'Ciudad de Guatemala',
-                galeria: 'GALERIAS',
-            },
-            {
-                slug: '/sesion/ximena',
-                imagePortada: ximenaXV1,
-                title: 'QUINCE AÑOS',
-                subtitle: 'XIMENA',
-                location: 'Finca Filadelfia, Antigua',
-                galeria: 'GALERIAS',
+                subtitle: 'CARLOS + NATHALIE',
+                location: 'Guatemala',
+                galerias: 'GALERIAS',
             },
         ],
     },
@@ -3505,75 +3947,23 @@ export const galerias = [
 export const peopleGalleryName = [
     {
         slug: 'chachi-jose',
-        mainImage: chachiJoseMainImage,
         images: chachiJoseGalleryImages,
         name: 'CHACHI + JOSÉ',
     },
     {
         slug: 'levi-sasha',
-        mainImage: leviSashaMainImage,
         images: leviSashaGalleryImages,
         name: 'LEVI + SASHA',
     },
     {
-        slug: 'tim-estefania',
-        mainImage: timEstefaniaMainImage,
-        images: timEstefaniaGalleryImages,
-        name: 'TIM + ESTEFANIA',
+        slug: 'kevyn-grecia',
+        images: kevynGreciaGalleryImages,
+        name: 'KEVYN + GRECIA',
     },
     {
-        slug: 'erick-mary',
-        mainImage: marcoDanielaMainImage,
-        images: marcoDanielaGalleryImages,
-        name: 'ERICK + MARY',
-    },
-    {
-        slug: 'gerbert-magda',
-        mainImage: carlosNatiMainImage,
-        images: carlosNatiGalleryImages,
-        name: 'GERBERT + MAGDA',
-    },
-    {
-        slug: 'cristian-adriana',
-        mainImage: cristianAdrianaMainImage,
-        images: cristianAdrianaGalleryImages,
-        name: 'CRISTIAN + ADRIANA',
-    },
-    {
-        slug: 'danna',
-        mainImage: dannaMainImage,
-        images: dannaXVI,
-        name: 'DANNA',
-    },
-    {
-        slug: 'ruby',
-        mainImage: rubyXVMainImage,
-        images: rubyXV,
-        name: 'RUBY',
-    },
-    {
-        slug: 'ximena',
-        mainImage: ximenaXVMainImage,
-        images: ximenaXV,
-        name: 'XIMENA',
-    },
-    {
-        slug: 'murillo-alejandra',
-        mainImage: murrilloAlejandraMainImage,
-        images: murilloAlejandraGalleryImages,
-        name: 'MURILLO + ALEJANDRA',
-    },
-    {
-        slug: 'eduardo-evelyn',
-        mainImage: eduardoEvelynMainImage,
-        images: eduardoEvelynGalleryImages,
-        name: 'EDUARDO + EVELYN',
-    },
-    {
-        slug: 'tim-estefania-date',
-        mainImage: timEstefaniaSaveDate4,
-        images: timEstefaniaSaveDateGalleryImages,
-        name: 'TIM  + ESTEFANIA',
+        slug: 'carlos-nathalie',
+        images: carlosNathalieGalleryImages,
+        name: 'CARLOS + NATHALIE',
     },
 ];
 
@@ -3665,19 +4055,19 @@ export const aboutGalleries = {
     eyebrow: 'GALERÍAS RECIENTES',
     items: [
         {
-            id: 'tim-estefania',
-            couple: 'TIM SANTIZO Y ESTEFANÍA MORALES',
-            link: '/sesion/tim-estefania',
+            id: 'chachi-jose',
+            couple: 'CHACHI Y JOSÉ',
+            link: '/sesion/chachi-jose',
         },
         {
-            id: 'gerbert-magda',
-            couple: 'GERBERT LÓPEZ Y MAGDA RECINOS',
-            link: '/sesion/gerbert-magda',
+            id: 'levi-sasha',
+            couple: 'LEVI Y SASHA',
+            link: '/sesion/levi-sasha',
         },
         {
-            id: 'cristian-adriana',
-            couple: 'CRISTIAN AGUILAR Y ADRIANA PAZ',
-            link: '/sesion/cristian-adriana',
+            id: 'kevyn-grecia',
+            couple: 'KEVYN Y GRECIA',
+            link: '/sesion/kevyn-grecia',
         },
     ],
 };

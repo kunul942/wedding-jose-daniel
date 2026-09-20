@@ -4,7 +4,7 @@ import Link from 'next/link';
 import { useAnimations } from '@/hooks';
 import { homeRealWeddings } from '@/constant';
 import { fitTitleSize } from '@/utils';
-import { portfolioImage4, portfolioImage6, portfolioImage7 } from '@/assets';
+import { pf13, pf19, pf26 } from '@/assets';
 
 export const HomeRealWeddings = () => {
     const { fadeOut } = useAnimations();
@@ -33,7 +33,7 @@ export const HomeRealWeddings = () => {
                     <div className='relative mt-[1vw] w-full sm:hidden'>
                         <div className='relative mx-auto aspect-[3/4] w-[66%] overflow-hidden'>
                             <Image
-                                src={portfolioImage6}
+                                src={pf26}
                                 alt='Bodas reales'
                                 quality={70}
                                 sizes='66vw'
@@ -43,7 +43,7 @@ export const HomeRealWeddings = () => {
 
                         <div className='absolute left-0 top-[19%] aspect-[114/375] w-[15.5%] overflow-hidden'>
                             <Image
-                                src={portfolioImage4}
+                                src={pf13}
                                 alt=''
                                 aria-hidden='true'
                                 quality={55}
@@ -54,7 +54,7 @@ export const HomeRealWeddings = () => {
 
                         <div className='absolute right-0 top-[20%] aspect-[112/360] w-[15%] overflow-hidden'>
                             <Image
-                                src={portfolioImage7}
+                                src={pf19}
                                 alt=''
                                 aria-hidden='true'
                                 quality={55}
@@ -68,7 +68,7 @@ export const HomeRealWeddings = () => {
                     <div className='mx-auto hidden w-[88%] max-w-[1500px] grid-cols-3 items-center gap-8 sm:grid lg:mt-4 lg:gap-12'>
                         <div className='relative aspect-[4/5] w-full overflow-hidden sm:mt-8'>
                             <Image
-                                src={portfolioImage4}
+                                src={pf13}
                                 alt='Bodas reales'
                                 quality={65}
                                 sizes='26vw'
@@ -78,7 +78,7 @@ export const HomeRealWeddings = () => {
 
                         <div className='relative aspect-[3/4] w-full overflow-hidden'>
                             <Image
-                                src={portfolioImage6}
+                                src={pf26}
                                 alt='Bodas reales'
                                 quality={70}
                                 sizes='32vw'
@@ -88,7 +88,7 @@ export const HomeRealWeddings = () => {
 
                         <div className='relative aspect-[4/5] w-full overflow-hidden sm:mb-10'>
                             <Image
-                                src={portfolioImage7}
+                                src={pf19}
                                 alt='Bodas reales'
                                 quality={65}
                                 sizes='26vw'

@@ -2,19 +2,9 @@ import Image from 'next/image';
 
 import { useAnimations } from '@/hooks';
 import { homeFeed } from '@/constant';
-import {
-    quinceAñosGallery1,
-    saveTheDateGalleryImage1,
-    saveTheDateGalleryImage2,
-    saveTheDateGalleryImage4,
-} from '@/assets';
+import { pf6, pf23, pf24, pf30 } from '@/assets';
 
-const feedImages = [
-    saveTheDateGalleryImage1,
-    saveTheDateGalleryImage2,
-    saveTheDateGalleryImage4,
-    quinceAñosGallery1,
-];
+const feedImages = [pf24, pf6, pf23, pf30];
 
 export const FooterFeed = () => {
     const { fadeOut } = useAnimations();

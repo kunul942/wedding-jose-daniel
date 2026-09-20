@@ -1,3 +1,108 @@
+import carlosNathalieGallery1 from './bodas/carlosNathalie/carlosNathalieGallery1-min.jpg';
+import carlosNathalieGallery2 from './bodas/carlosNathalie/carlosNathalieGallery2-min.jpg';
+import carlosNathalieGallery3 from './bodas/carlosNathalie/carlosNathalieGallery3-min.jpg';
+import carlosNathalieGallery4 from './bodas/carlosNathalie/carlosNathalieGallery4-min.jpg';
+import carlosNathalieGallery5 from './bodas/carlosNathalie/carlosNathalieGallery5-min.jpg';
+import carlosNathalieGallery6 from './bodas/carlosNathalie/carlosNathalieGallery6-min.jpg';
+import carlosNathalieGallery7 from './bodas/carlosNathalie/carlosNathalieGallery7-min.jpg';
+import carlosNathalieGallery8 from './bodas/carlosNathalie/carlosNathalieGallery8-min.jpg';
+import carlosNathalieGallery9 from './bodas/carlosNathalie/carlosNathalieGallery9-min.jpg';
+import carlosNathalieGallery10 from './bodas/carlosNathalie/carlosNathalieGallery10-min.jpg';
+import carlosNathalieGallery11 from './bodas/carlosNathalie/carlosNathalieGallery11-min.jpg';
+import carlosNathalieGallery12 from './bodas/carlosNathalie/carlosNathalieGallery12-min.jpg';
+import carlosNathalieGallery13 from './bodas/carlosNathalie/carlosNathalieGallery13-min.jpg';
+import carlosNathalieGallery14 from './bodas/carlosNathalie/carlosNathalieGallery14-min.jpg';
+import carlosNathalieGallery15 from './bodas/carlosNathalie/carlosNathalieGallery15-min.jpg';
+import carlosNathalieGallery16 from './bodas/carlosNathalie/carlosNathalieGallery16-min.jpg';
+import carlosNathalieGallery17 from './bodas/carlosNathalie/carlosNathalieGallery17-min.jpg';
+import carlosNathalieGallery18 from './bodas/carlosNathalie/carlosNathalieGallery18-min.jpg';
+import carlosNathalieGallery19 from './bodas/carlosNathalie/carlosNathalieGallery19-min.jpg';
+import carlosNathalieGallery20 from './bodas/carlosNathalie/carlosNathalieGallery20-min.jpg';
+import carlosNathalieGallery21 from './bodas/carlosNathalie/carlosNathalieGallery21-min.jpg';
+import carlosNathalieGallery22 from './bodas/carlosNathalie/carlosNathalieGallery22-min.jpg';
+import carlosNathalieGallery23 from './bodas/carlosNathalie/carlosNathalieGallery23-min.jpg';
+import carlosNathalieGallery24 from './bodas/carlosNathalie/carlosNathalieGallery24-min.jpg';
+import carlosNathalieGallery25 from './bodas/carlosNathalie/carlosNathalieGallery25-min.jpg';
+import carlosNathalieGallery26 from './bodas/carlosNathalie/carlosNathalieGallery26-min.jpg';
+import carlosNathalieGallery27 from './bodas/carlosNathalie/carlosNathalieGallery27-min.jpg';
+import carlosNathalieGallery28 from './bodas/carlosNathalie/carlosNathalieGallery28-min.jpg';
+import carlosNathalieGallery29 from './bodas/carlosNathalie/carlosNathalieGallery29-min.jpg';
+import carlosNathalieGallery30 from './bodas/carlosNathalie/carlosNathalieGallery30-min.jpg';
+import carlosNathalieGallery31 from './bodas/carlosNathalie/carlosNathalieGallery31-min.jpg';
+import carlosNathalieGallery32 from './bodas/carlosNathalie/carlosNathalieGallery32-min.jpg';
+import carlosNathalieGallery33 from './bodas/carlosNathalie/carlosNathalieGallery33-min.jpg';
+import carlosNathalieGallery34 from './bodas/carlosNathalie/carlosNathalieGallery34-min.jpg';
+import carlosNathalieGallery35 from './bodas/carlosNathalie/carlosNathalieGallery35-min.jpg';
+import carlosNathalieGallery36 from './bodas/carlosNathalie/carlosNathalieGallery36-min.jpg';
+import carlosNathalieGallery37 from './bodas/carlosNathalie/carlosNathalieGallery37-min.jpg';
+import carlosNathalieGallery38 from './bodas/carlosNathalie/carlosNathalieGallery38-min.jpg';
+import carlosNathalieGallery39 from './bodas/carlosNathalie/carlosNathalieGallery39-min.jpg';
+import carlosNathalieGallery40 from './bodas/carlosNathalie/carlosNathalieGallery40-min.jpg';
+import carlosNathalieGallery41 from './bodas/carlosNathalie/carlosNathalieGallery41-min.jpg';
+import carlosNathalieGallery42 from './bodas/carlosNathalie/carlosNathalieGallery42-min.jpg';
+import carlosNathalieGallery43 from './bodas/carlosNathalie/carlosNathalieGallery43-min.jpg';
+import carlosNathalieGallery44 from './bodas/carlosNathalie/carlosNathalieGallery44-min.jpg';
+import carlosNathalieGallery45 from './bodas/carlosNathalie/carlosNathalieGallery45-min.jpg';
+import carlosNathalieGallery46 from './bodas/carlosNathalie/carlosNathalieGallery46-min.jpg';
+import carlosNathalieGallery47 from './bodas/carlosNathalie/carlosNathalieGallery47-min.jpg';
+import carlosNathalieGallery48 from './bodas/carlosNathalie/carlosNathalieGallery48-min.jpg';
+import carlosNathalieGallery49 from './bodas/carlosNathalie/carlosNathalieGallery49-min.jpg';
+import kevynGreciaGallery1 from './bodas/kevynGrecia/kevynGreciaGallery1-min.jpg';
+import kevynGreciaGallery2 from './bodas/kevynGrecia/kevynGreciaGallery2-min.jpg';
+import kevynGreciaGallery3 from './bodas/kevynGrecia/kevynGreciaGallery3-min.jpg';
+import kevynGreciaGallery4 from './bodas/kevynGrecia/kevynGreciaGallery4-min.jpg';
+import kevynGreciaGallery5 from './bodas/kevynGrecia/kevynGreciaGallery5-min.jpg';
+import kevynGreciaGallery6 from './bodas/kevynGrecia/kevynGreciaGallery6-min.jpg';
+import kevynGreciaGallery7 from './bodas/kevynGrecia/kevynGreciaGallery7-min.jpg';
+import kevynGreciaGallery8 from './bodas/kevynGrecia/kevynGreciaGallery8-min.jpg';
+import kevynGreciaGallery9 from './bodas/kevynGrecia/kevynGreciaGallery9-min.jpg';
+import kevynGreciaGallery10 from './bodas/kevynGrecia/kevynGreciaGallery10-min.jpg';
+import kevynGreciaGallery11 from './bodas/kevynGrecia/kevynGreciaGallery11-min.jpg';
+import kevynGreciaGallery12 from './bodas/kevynGrecia/kevynGreciaGallery12-min.jpg';
+import kevynGreciaGallery13 from './bodas/kevynGrecia/kevynGreciaGallery13-min.jpg';
+import kevynGreciaGallery14 from './bodas/kevynGrecia/kevynGreciaGallery14-min.jpg';
+import kevynGreciaGallery15 from './bodas/kevynGrecia/kevynGreciaGallery15-min.jpg';
+import kevynGreciaGallery16 from './bodas/kevynGrecia/kevynGreciaGallery16-min.jpg';
+import kevynGreciaGallery17 from './bodas/kevynGrecia/kevynGreciaGallery17-min.jpg';
+import kevynGreciaGallery18 from './bodas/kevynGrecia/kevynGreciaGallery18-min.jpg';
+import kevynGreciaGallery19 from './bodas/kevynGrecia/kevynGreciaGallery19-min.jpg';
+import kevynGreciaGallery20 from './bodas/kevynGrecia/kevynGreciaGallery20-min.jpg';
+import kevynGreciaGallery21 from './bodas/kevynGrecia/kevynGreciaGallery21-min.jpg';
+import kevynGreciaGallery22 from './bodas/kevynGrecia/kevynGreciaGallery22-min.jpg';
+import kevynGreciaGallery23 from './bodas/kevynGrecia/kevynGreciaGallery23-min.jpg';
+import kevynGreciaGallery24 from './bodas/kevynGrecia/kevynGreciaGallery24-min.jpg';
+import kevynGreciaGallery25 from './bodas/kevynGrecia/kevynGreciaGallery25-min.jpg';
+import kevynGreciaGallery26 from './bodas/kevynGrecia/kevynGreciaGallery26-min.jpg';
+import kevynGreciaGallery27 from './bodas/kevynGrecia/kevynGreciaGallery27-min.jpg';
+import kevynGreciaGallery28 from './bodas/kevynGrecia/kevynGreciaGallery28-min.jpg';
+import kevynGreciaGallery29 from './bodas/kevynGrecia/kevynGreciaGallery29-min.jpg';
+import kevynGreciaGallery30 from './bodas/kevynGrecia/kevynGreciaGallery30-min.jpg';
+import kevynGreciaGallery31 from './bodas/kevynGrecia/kevynGreciaGallery31-min.jpg';
+import kevynGreciaGallery32 from './bodas/kevynGrecia/kevynGreciaGallery32-min.jpg';
+import kevynGreciaGallery33 from './bodas/kevynGrecia/kevynGreciaGallery33-min.jpg';
+import kevynGreciaGallery34 from './bodas/kevynGrecia/kevynGreciaGallery34-min.jpg';
+import kevynGreciaGallery35 from './bodas/kevynGrecia/kevynGreciaGallery35-min.jpg';
+import kevynGreciaGallery36 from './bodas/kevynGrecia/kevynGreciaGallery36-min.jpg';
+import kevynGreciaGallery37 from './bodas/kevynGrecia/kevynGreciaGallery37-min.jpg';
+import kevynGreciaGallery38 from './bodas/kevynGrecia/kevynGreciaGallery38-min.jpg';
+import kevynGreciaGallery39 from './bodas/kevynGrecia/kevynGreciaGallery39-min.jpg';
+import kevynGreciaGallery40 from './bodas/kevynGrecia/kevynGreciaGallery40-min.jpg';
+import kevynGreciaGallery41 from './bodas/kevynGrecia/kevynGreciaGallery41-min.jpg';
+import kevynGreciaGallery42 from './bodas/kevynGrecia/kevynGreciaGallery42-min.jpg';
+import kevynGreciaGallery43 from './bodas/kevynGrecia/kevynGreciaGallery43-min.jpg';
+import kevynGreciaGallery44 from './bodas/kevynGrecia/kevynGreciaGallery44-min.jpg';
+import kevynGreciaGallery45 from './bodas/kevynGrecia/kevynGreciaGallery45-min.jpg';
+import kevynGreciaGallery46 from './bodas/kevynGrecia/kevynGreciaGallery46-min.jpg';
+import kevynGreciaGallery47 from './bodas/kevynGrecia/kevynGreciaGallery47-min.jpg';
+import kevynGreciaGallery48 from './bodas/kevynGrecia/kevynGreciaGallery48-min.jpg';
+import kevynGreciaGallery49 from './bodas/kevynGrecia/kevynGreciaGallery49-min.jpg';
+import kevynGreciaGallery50 from './bodas/kevynGrecia/kevynGreciaGallery50-min.jpg';
+import kevynGreciaGallery51 from './bodas/kevynGrecia/kevynGreciaGallery51-min.jpg';
+import kevynGreciaGallery52 from './bodas/kevynGrecia/kevynGreciaGallery52-min.jpg';
+import kevynGreciaGallery53 from './bodas/kevynGrecia/kevynGreciaGallery53-min.jpg';
+import kevynGreciaGallery54 from './bodas/kevynGrecia/kevynGreciaGallery54-min.jpg';
+
+import leviSashaPortada from './bodas/leviSasha/leviSashaPortada-min.jpg';
 import leviSashaMainImage from './bodas/leviSasha/leviSashaMainImage-min.jpg';
 import leviSashaGallery1 from './bodas/leviSasha/leviSashaGallery1-min.jpg';
 import leviSashaGallery2 from './bodas/leviSasha/leviSashaGallery2-min.jpg';
@@ -120,6 +225,7 @@ import leviSashaGallery118 from './bodas/leviSasha/leviSashaGallery118-min.jpg';
 import leviSashaGallery119 from './bodas/leviSasha/leviSashaGallery119-min.jpg';
 import leviSashaGallery120 from './bodas/leviSasha/leviSashaGallery120-min.jpg';
 
+import chachiJosePortada from './bodas/chachiJose/chachiJosePortada-min.jpg';
 import chachiJoseMainImage from './bodas/chachiJose/chachiJoseMainImage-min.jpg';
 import chachiJoseGallery1 from './bodas/chachiJose/chachiJoseGallery1-min.jpg';
 import chachiJoseGallery2 from './bodas/chachiJose/chachiJoseGallery2-min.jpg';
@@ -550,6 +656,7 @@ import genesisXV17 from './XVI/genesisXVI/genesisXV17.jpg';
 import genesisXV18 from './XVI/genesisXVI/genesisXV18.jpg';
 
 export {
+    leviSashaPortada,
     leviSashaMainImage,
     leviSashaGallery1,
     leviSashaGallery2,
@@ -671,6 +778,7 @@ export {
     leviSashaGallery118,
     leviSashaGallery119,
     leviSashaGallery120,
+    chachiJosePortada,
     chachiJoseMainImage,
     chachiJoseGallery1,
     chachiJoseGallery2,
@@ -1085,4 +1193,107 @@ export {
     timEstefaniaSaveDate16,
     timEstefaniaSaveDate17,
     timEstefaniaSaveDate18,
+    carlosNathalieGallery1,
+    carlosNathalieGallery2,
+    carlosNathalieGallery3,
+    carlosNathalieGallery4,
+    carlosNathalieGallery5,
+    carlosNathalieGallery6,
+    carlosNathalieGallery7,
+    carlosNathalieGallery8,
+    carlosNathalieGallery9,
+    carlosNathalieGallery10,
+    carlosNathalieGallery11,
+    carlosNathalieGallery12,
+    carlosNathalieGallery13,
+    carlosNathalieGallery14,
+    carlosNathalieGallery15,
+    carlosNathalieGallery16,
+    carlosNathalieGallery17,
+    carlosNathalieGallery18,
+    carlosNathalieGallery19,
+    carlosNathalieGallery20,
+    carlosNathalieGallery21,
+    carlosNathalieGallery22,
+    carlosNathalieGallery23,
+    carlosNathalieGallery24,
+    carlosNathalieGallery25,
+    carlosNathalieGallery26,
+    carlosNathalieGallery27,
+    carlosNathalieGallery28,
+    carlosNathalieGallery29,
+    carlosNathalieGallery30,
+    carlosNathalieGallery31,
+    carlosNathalieGallery32,
+    carlosNathalieGallery33,
+    carlosNathalieGallery34,
+    carlosNathalieGallery35,
+    carlosNathalieGallery36,
+    carlosNathalieGallery37,
+    carlosNathalieGallery38,
+    carlosNathalieGallery39,
+    carlosNathalieGallery40,
+    carlosNathalieGallery41,
+    carlosNathalieGallery42,
+    carlosNathalieGallery43,
+    carlosNathalieGallery44,
+    carlosNathalieGallery45,
+    carlosNathalieGallery46,
+    carlosNathalieGallery47,
+    carlosNathalieGallery48,
+    carlosNathalieGallery49,
+    kevynGreciaGallery1,
+    kevynGreciaGallery2,
+    kevynGreciaGallery3,
+    kevynGreciaGallery4,
+    kevynGreciaGallery5,
+    kevynGreciaGallery6,
+    kevynGreciaGallery7,
+    kevynGreciaGallery8,
+    kevynGreciaGallery9,
+    kevynGreciaGallery10,
+    kevynGreciaGallery11,
+    kevynGreciaGallery12,
+    kevynGreciaGallery13,
+    kevynGreciaGallery14,
+    kevynGreciaGallery15,
+    kevynGreciaGallery16,
+    kevynGreciaGallery17,
+    kevynGreciaGallery18,
+    kevynGreciaGallery19,
+    kevynGreciaGallery20,
+    kevynGreciaGallery21,
+    kevynGreciaGallery22,
+    kevynGreciaGallery23,
+    kevynGreciaGallery24,
+    kevynGreciaGallery25,
+    kevynGreciaGallery26,
+    kevynGreciaGallery27,
+    kevynGreciaGallery28,
+    kevynGreciaGallery29,
+    kevynGreciaGallery30,
+    kevynGreciaGallery31,
+    kevynGreciaGallery32,
+    kevynGreciaGallery33,
+    kevynGreciaGallery34,
+    kevynGreciaGallery35,
+    kevynGreciaGallery36,
+    kevynGreciaGallery37,
+    kevynGreciaGallery38,
+    kevynGreciaGallery39,
+    kevynGreciaGallery40,
+    kevynGreciaGallery41,
+    kevynGreciaGallery42,
+    kevynGreciaGallery43,
+    kevynGreciaGallery44,
+    kevynGreciaGallery45,
+    kevynGreciaGallery46,
+    kevynGreciaGallery47,
+    kevynGreciaGallery48,
+    kevynGreciaGallery49,
+    kevynGreciaGallery50,
+    kevynGreciaGallery51,
+    kevynGreciaGallery52,
+    kevynGreciaGallery53,
+    kevynGreciaGallery54,
 };
