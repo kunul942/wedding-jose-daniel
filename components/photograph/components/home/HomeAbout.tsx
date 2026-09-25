@@ -3,7 +3,8 @@ import Link from 'next/link';
 
 import { useAnimations } from '@/hooks';
 import { homeAbout } from '@/constant';
-import { joseDanielImage3, portfolioImage1, portfolioImage5 } from '@/assets';
+import { joseDanielImage2, pf43 } from '@/assets';
+import { leviSashaGallery16 } from '@/assets/galeria';
 
 export const HomeAbout = () => {
     const { fadeOut } = useAnimations();
@@ -19,7 +20,7 @@ export const HomeAbout = () => {
                     {/**** PORTRAIT ****/}
                     <div className='relative aspect-[2/3] w-full overflow-hidden'>
                         <Image
-                            src={joseDanielImage3}
+                            src={joseDanielImage2}
                             alt='José Daniel'
                             quality={70}
                             sizes='(max-width: 1024px) 86vw, 32vw'
@@ -57,7 +58,7 @@ export const HomeAbout = () => {
                     <div className='hidden flex-col lg:flex'>
                         <div className='relative aspect-square w-[80%] self-end overflow-hidden'>
                             <Image
-                                src={portfolioImage1}
+                                src={leviSashaGallery16}
                                 alt=''
                                 aria-hidden='true'
                                 quality={60}
@@ -68,7 +69,7 @@ export const HomeAbout = () => {
 
                         <div className='relative z-20 mt-auto aspect-[4/5] w-[92%] -mb-24 overflow-hidden xl:-mb-32'>
                             <Image
-                                src={portfolioImage5}
+                                src={pf43}
                                 alt=''
                                 aria-hidden='true'
                                 quality={60}

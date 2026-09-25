@@ -2,9 +2,9 @@ import Image from 'next/image';
 
 import { useAnimations } from '@/hooks';
 import { homeFeed } from '@/constant';
-import { pf6, pf23, pf24, pf30 } from '@/assets';
+import { pf23, pf24, pf44, pf45 } from '@/assets';
 
-const feedImages = [pf24, pf6, pf23, pf30];
+const feedImages = [pf24, pf44, pf23, pf45];
 
 export const FooterFeed = () => {
     const { fadeOut } = useAnimations();

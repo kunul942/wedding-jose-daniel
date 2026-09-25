@@ -40,6 +40,10 @@ import pf38 from './portfolio2025/pf2025_38-min.jpg';
 import pf39 from './portfolio2025/pf2025_39-min.jpg';
 import pf40 from './portfolio2025/pf2025_40-min.jpg';
 import pf41 from './portfolio2025/pf2025_41-min.jpg';
+import pf42 from './portfolio2025/pf2025_42-min.jpg';
+import pf43 from './portfolio2025/pf2025_43-min.jpg';
+import pf44 from './portfolio2025/pf2025_44-min.jpg';
+import pf45 from './portfolio2025/pf2025_45-min.jpg';
 
 import close from './navbar/close.png';
 import menu from './navbar/menu.png';
@@ -54,7 +58,6 @@ import BodaImage from './home/BodaImage.jpg';
 import saveDateImage from './home/saveDateImage.jpg';
 
 import joseDanielImage2 from './about/danielPortrait1-min.jpg';
-import joseDanielImage3 from './about/danielPortrait4-min.jpg';
 
 import timEstefaniaVideoPortada from './galeria/Videos/TimEstefania/TimEstefaniaPortada.jpg';
 import GerbertMagdaVideoPortada from './galeria/Videos/GerbertMagda/GerbertMagdaPortada.jpg';
@@ -172,6 +175,10 @@ export {
     pf39,
     pf40,
     pf41,
+    pf42,
+    pf43,
+    pf44,
+    pf45,
     close,
     menu,
     pf29 as portfolioImage16,
@@ -229,7 +236,6 @@ export {
     quinceAñosGallery6,
     saveTheDateMainImage,
     joseDanielImage2,
-    joseDanielImage3,
     saveTheDateCarouselImage1,
     saveTheDateCarouselImage2,
     saveTheDateCarouselImage3,

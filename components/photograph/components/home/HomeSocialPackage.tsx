@@ -3,9 +3,10 @@ import Link from 'next/link';
 
 import { useAnimations } from '@/hooks';
 import { homeSocialPackage } from '@/constant';
-import { portfolioImage2, portfolioImage8, portfolioImage9 } from '@/assets';
+import { pf25 } from '@/assets';
+import { chachiJoseGallery134, leviSashaGallery55 } from '@/assets/galeria';
 
-const backdrop = [portfolioImage8, portfolioImage9, portfolioImage2];
+const backdrop = [pf25, leviSashaGallery55, chachiJoseGallery134];
 
 export const HomeSocialPackage = () => {
     const { fadeOut } = useAnimations();
