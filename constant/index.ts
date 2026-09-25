@@ -4438,14 +4438,14 @@ export const aboutGalleries = {
             link: '/sesion/chachi-jose',
         },
         {
+            id: 'carlos-nathalie',
+            couple: 'CARLOS Y NATHALIE',
+            link: '/sesion/carlos-nathalie',
+        },
+        {
             id: 'levi-sasha',
             couple: 'LEVI Y SASHA',
             link: '/sesion/levi-sasha',
-        },
-        {
-            id: 'kevyn-grecia',
-            couple: 'KEVYN Y GRECIA',
-            link: '/sesion/kevyn-grecia',
         },
     ],
 };

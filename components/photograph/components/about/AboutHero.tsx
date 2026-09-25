@@ -3,7 +3,7 @@ import Link from 'next/link';
 
 import { useAnimations } from '@/hooks';
 import { aboutHero } from '@/constant';
-import { joseDanielCollage2, joseDanielImage2 } from '@/assets';
+import { joseDanielCollage2, joseDanielImage3 } from '@/assets';
 
 export const AboutHero = () => {
     const { fadeOut } = useAnimations();
@@ -26,7 +26,7 @@ export const AboutHero = () => {
                     <div className='relative z-10 aspect-[2/3] w-full lg:absolute lg:left-1/2 lg:top-0 lg:h-full lg:w-[41%] lg:-translate-x-1/2'>
                         <Image
                             priority
-                            src={joseDanielImage2}
+                            src={joseDanielCollage2}
                             alt='José Daniel'
                             quality={70}
                             sizes='(max-width: 1024px) 92vw, 42vw'
@@ -60,7 +60,7 @@ export const AboutHero = () => {
                     {/**** SMALL SIDE IMAGE ****/}
                     <div className='relative z-20 mt-8 aspect-[4/5] w-[58%] lg:absolute lg:bottom-[14%] lg:left-[9%] lg:mt-0 lg:w-[17%]'>
                         <Image
-                            src={joseDanielCollage2}
+                            src={joseDanielImage3}
                             alt=''
                             aria-hidden='true'
                             quality={60}

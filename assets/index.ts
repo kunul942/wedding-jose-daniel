@@ -58,6 +58,7 @@ import BodaImage from './home/BodaImage.jpg';
 import saveDateImage from './home/saveDateImage.jpg';
 
 import joseDanielImage2 from './about/danielPortrait1-min.jpg';
+import joseDanielImage3 from './about/danielPortrait4-min.jpg';
 
 import timEstefaniaVideoPortada from './galeria/Videos/TimEstefania/TimEstefaniaPortada.jpg';
 import GerbertMagdaVideoPortada from './galeria/Videos/GerbertMagda/GerbertMagdaPortada.jpg';
@@ -236,6 +237,7 @@ export {
     quinceAñosGallery6,
     saveTheDateMainImage,
     joseDanielImage2,
+    joseDanielImage3,
     saveTheDateCarouselImage1,
     saveTheDateCarouselImage2,
     saveTheDateCarouselImage3,

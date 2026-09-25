@@ -4,17 +4,17 @@ import Link from 'next/link';
 import { useAnimations } from '@/hooks';
 import { aboutGalleries } from '@/constant';
 import {
-    chachiJoseGallery118,
+    chachiJoseGallery92,
     leviSashaGallery18,
-    kevynGreciaGallery27,
+    carlosNathalieGallery15,
 } from '@/assets/galeria';
 
 /** cada columna conserva su propio formato: las fotos arrancan a la misma
  *  altura y los pies de foto caen escalonados, como en la referencia */
 const covers: { src: StaticImageData; ratio: string }[] = [
-    { src: chachiJoseGallery118, ratio: 'lg:aspect-[404/554]' },
-    { src: leviSashaGallery18, ratio: 'lg:aspect-[514/665]' },
-    { src: kevynGreciaGallery27, ratio: 'lg:aspect-[414/587]' },
+    { src: chachiJoseGallery92, ratio: 'lg:aspect-[404/554]' },
+    { src: carlosNathalieGallery15, ratio: 'lg:aspect-[514/665]' },
+    { src: leviSashaGallery18, ratio: 'lg:aspect-[414/587]' },
 ];
 
 export const AboutGalleries = () => {
