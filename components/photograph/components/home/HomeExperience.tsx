@@ -3,7 +3,7 @@ import Link from 'next/link';
 
 import { useAnimations } from '@/hooks';
 import { homeExperience } from '@/constant';
-import { homeMainImage8, pf40, portfolioImage3 } from '@/assets';
+import { homeMainImage8, pf40, pf41 } from '@/assets';
 
 export const HomeExperience = () => {
     const { fadeOut } = useAnimations();
@@ -78,9 +78,9 @@ export const HomeExperience = () => {
 
                     {/**** IMAGE ****/}
                     <div className='flex justify-center lg:justify-end'>
-                        <div className='relative aspect-[4/5] w-full max-w-[420px] overflow-hidden shadow-2xl'>
+                        <div className='relative aspect-[2/3] w-full max-w-[420px] overflow-hidden shadow-2xl'>
                             <Image
-                                src={portfolioImage3}
+                                src={pf41}
                                 alt='Wedding Jose Daniel'
                                 quality={70}
                                 sizes='(max-width: 1024px) 86vw, 420px'

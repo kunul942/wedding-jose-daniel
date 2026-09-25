@@ -2,15 +2,8 @@ import Image, { StaticImageData } from 'next/image';
 
 import { useAnimations } from '@/hooks';
 import { aboutMoodboard } from '@/constant';
-import {
-    portfolioImage2,
-    portfolioImage5,
-    portfolioImage9,
-    portfolioImage12,
-    pf31,
-    pf33,
-    pf2,
-} from '@/assets';
+import { pf10, pf23, pf24, pf31, pf33 } from '@/assets';
+import { leviSashaGallery16, leviSashaGallery94 } from '@/assets/galeria';
 
 type Tile = {
     src: StaticImageData;
@@ -22,22 +15,22 @@ type Tile = {
 
 const tiles: Tile[] = [
     {
-        src: pf2,
+        src: leviSashaGallery94,
         desktop: 'lg:left-0 lg:top-[14%] lg:w-[28%] lg:h-[34.5%]',
         mobile: 'col-span-1 aspect-[4/5]',
     },
     {
-        src: portfolioImage2,
+        src: leviSashaGallery16,
         desktop: 'lg:left-[24%] lg:top-0 lg:w-[25%] lg:h-[37.5%]',
         mobile: 'col-span-1 aspect-[3/4] -mt-6',
     },
     {
-        src: portfolioImage5,
+        src: pf23,
         desktop: 'lg:left-[55.5%] lg:top-[5%] lg:w-[23%] lg:h-[36%]',
         mobile: 'col-span-1 aspect-[3/4]',
     },
     {
-        src: portfolioImage9,
+        src: pf10,
         desktop: 'lg:left-[73.5%] lg:top-[28%] lg:w-[26.5%] lg:h-[38%]',
         mobile: 'col-span-1 aspect-[4/5] -mt-6',
     },
@@ -52,7 +45,7 @@ const tiles: Tile[] = [
         mobile: 'col-span-1 aspect-[3/4] -mt-6',
     },
     {
-        src: portfolioImage12,
+        src: pf24,
         desktop: 'lg:left-[53%] lg:top-[60.5%] lg:w-[30%] lg:h-[35%]',
         mobile: 'col-span-2 aspect-[16/11]',
     },

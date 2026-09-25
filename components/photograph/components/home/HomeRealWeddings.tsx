@@ -4,7 +4,8 @@ import Link from 'next/link';
 import { useAnimations } from '@/hooks';
 import { homeRealWeddings } from '@/constant';
 import { fitTitleSize } from '@/utils';
-import { pf13, pf19, pf26 } from '@/assets';
+import { pf13, pf26 } from '@/assets';
+import { kevynGreciaGallery9 } from '@/assets/galeria';
 
 export const HomeRealWeddings = () => {
     const { fadeOut } = useAnimations();
@@ -54,12 +55,12 @@ export const HomeRealWeddings = () => {
 
                         <div className='absolute right-0 top-[20%] aspect-[112/360] w-[15%] overflow-hidden'>
                             <Image
-                                src={pf19}
+                                src={kevynGreciaGallery9}
                                 alt=''
                                 aria-hidden='true'
                                 quality={55}
                                 sizes='15vw'
-                                className='h-full w-full object-cover'
+                                className='h-full w-full object-cover grayscale'
                             />
                         </div>
                     </div>
@@ -88,11 +89,11 @@ export const HomeRealWeddings = () => {
 
                         <div className='relative aspect-[4/5] w-full overflow-hidden sm:mb-10'>
                             <Image
-                                src={pf19}
+                                src={kevynGreciaGallery9}
                                 alt='Bodas reales'
                                 quality={65}
                                 sizes='26vw'
-                                className='h-full w-full object-cover transition-transform duration-[1.2s] ease-out group-hover:scale-[1.03]'
+                                className='h-full w-full object-cover grayscale transition-transform duration-[1.2s] ease-out group-hover:scale-[1.03]'
                             />
                         </div>
                     </div>

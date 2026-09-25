@@ -230,7 +230,6 @@ import {
     chachiJoseGallery6,
     chachiJoseGallery7,
     chachiJoseGallery8,
-    chachiJoseGallery9,
     chachiJoseGallery10,
     chachiJoseGallery11,
     chachiJoseGallery12,
@@ -1791,10 +1790,6 @@ export const chachiJoseGalleryImages = [
     {
         id: '008',
         img: chachiJoseGallery8,
-    },
-    {
-        id: '009',
-        img: chachiJoseGallery9,
     },
     {
         id: '010',
@@ -3909,7 +3904,7 @@ export const galerias = [
         boda: [
             {
                 slug: '/sesion/chachi-jose',
-                imagePortada: chachiJoseGallery118,
+                imagePortada: chachiJoseGallery92,
                 title: 'BODAS',
                 subtitle: 'CHACHI + JOSÉ',
                 location: 'Antigua Guatemala',
@@ -4044,13 +4039,13 @@ export const aboutMoodboard = {
         { id: 'algun-dia', text: 'algún día!' },
     ],
     images: [
-        { id: 'fiesta', alt: 'Pista de baile' },
+        { id: 'atardecer', alt: 'Los novios frente al lago al atardecer' },
         { id: 'novia', alt: 'Novia junto a la ventana' },
-        { id: 'fachada', alt: 'Fachada entre las hojas' },
-        { id: 'pareja', alt: 'Pareja en la calle' },
-        { id: 'detalles', alt: 'Detalles de la mesa' },
-        { id: 'noche', alt: 'Luces de la ciudad de noche' },
-        { id: 'brindis', alt: 'Brindis antes de la ceremonia' },
+        { id: 'velo', alt: 'Novia con el velo largo' },
+        { id: 'calle', alt: 'Pareja caminando por la calle' },
+        { id: 'auto', alt: 'Beso junto al auto de los novios' },
+        { id: 'fuente', alt: 'Los novios frente a la fuente' },
+        { id: 'beso', alt: 'Beso de los novios bajo el velo' },
     ],
 };
 

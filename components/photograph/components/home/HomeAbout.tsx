@@ -3,7 +3,7 @@ import Link from 'next/link';
 
 import { useAnimations } from '@/hooks';
 import { homeAbout } from '@/constant';
-import { joseDanielImage2, portfolioImage1, portfolioImage5 } from '@/assets';
+import { joseDanielImage3, portfolioImage1, portfolioImage5 } from '@/assets';
 
 export const HomeAbout = () => {
     const { fadeOut } = useAnimations();
@@ -19,7 +19,7 @@ export const HomeAbout = () => {
                     {/**** PORTRAIT ****/}
                     <div className='relative aspect-[2/3] w-full overflow-hidden'>
                         <Image
-                            src={joseDanielImage2}
+                            src={joseDanielImage3}
                             alt='José Daniel'
                             quality={70}
                             sizes='(max-width: 1024px) 86vw, 32vw'

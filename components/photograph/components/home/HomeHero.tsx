@@ -7,14 +7,14 @@ import { heroContent } from '@/constant';
 import {
     homeMainImage2,
     homeMainImage3,
-    homeMainImage5,
     homeMainImage7,
     homeMainImage9,
 } from '@/assets';
+import { leviSashaGallery94 } from '@/assets/galeria';
 
 const heroSlides = [
     homeMainImage3,
-    homeMainImage5,
+    leviSashaGallery94,
     homeMainImage7,
     homeMainImage9,
 ];
