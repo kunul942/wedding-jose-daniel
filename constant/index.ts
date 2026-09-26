@@ -973,10 +973,10 @@ export const contactForm = {
 };
 
 export const homeSocialPackage = {
-    eyebrow: '¿LISTOS PARA LUCIR SUS FOTOS?',
-    titleItalic: 'El',
-    title: 'PAQUETE REDES SOCIALES',
-    text: 'Captura y comparte la historia de tu boda con nuestro Paquete de Redes Sociales. Recibe una galería curada con todo detalle dentro de la semana siguiente a tu boda. Escríbenos para conocer más sobre este servicio exclusivo.',
+    eyebrow: 'LO QUE QUEDA DESPUÉS DEL SÍ',
+    titleItalic: 'Lo que',
+    title: 'EL TIEMPO NO SE LLEVA',
+    text: 'Hay lágrimas que solo salen una vez y abrazos que duran apenas unos segundos. Estaré ahí, en silencio, para guardarlos. Para que dentro de muchos años, al volver a mirar sus fotografías, sientan que ese día nunca terminó de irse.',
     cta: { label: 'CONOCE MÁS', href: '/contacto' },
 };
 
