@@ -888,12 +888,19 @@ export const homeExperience = {
         {
             id: 'previa',
             title: 'La Previa',
-            text: 'Desde la sesión de compromiso hasta el primer evento del fin de semana, José Daniel y su equipo documentan por completo la historia de tu boda.',
+            paragraphs: [
+                'La historia comienza mucho antes de caminar hacia el altar.',
+                'Desde la sesión de compromiso hasta el primer evento del fin de semana, estamos ahí para guardar esos momentos que también forman parte de la historia: los nervios, la emoción, las reuniones y todo lo que sucede antes del gran día.',
+            ],
         },
         {
             id: 'gran-dia',
             title: 'El Gran Día',
-            text: 'El momento que tanto has esperado. Te acompaño en cada paso, creando una conexión real y entendiendo tu visión, mientras documento el día con un enfoque editorial y artístico.',
+            paragraphs: [
+                'El día que tanto han esperado merece ser vivido, no dirigido.',
+                'Estoy ahí para acompañarlos, observar y encontrar esos momentos que suceden naturalmente, sin perder de vista la estética y la intención de cada imagen.',
+                'Una fotografía documental y editorial, donde lo que sienten y la manera en que lo viven siempre está por encima de las poses.',
+            ],
         },
     ],
     cta: { label: 'VER MÁS', href: '/galerias/bodas' },
@@ -902,15 +909,23 @@ export const homeExperience = {
 export const homeAbout = {
     eyebrow: 'SOBRE MÍ',
     title: 'CONOCE A JOSÉ DANIEL',
-    lead: 'FOTÓGRAFO Y DIRECTOR CREATIVO DE WEDDING JOSÉ DANIEL, ESPECIALIZADO EN FOTOGRAFÍA EDITORIAL DE BODAS EN GUATEMALA Y DESTINOS',
-    text: 'Con más de una década de experiencia, José Daniel ha fotografiado bodas por todo el país, capturando recuerdos hermosos y atemporales para sus parejas.',
+    lead: 'FOTÓGRAFO Y DIRECTOR CREATIVO DE WEDDING JOSÉ DANIEL, ESPECIALIZADO EN FOTOGRAFÍA DOCUMENTAL Y EDITORIAL DE BODAS EN GUATEMALA Y DESTINOS',
+    paragraphs: [
+        'Desde hace cinco años tengo la oportunidad de dedicarme a fotografiar historias de amor. He acompañado parejas en lugares como Antigua Guatemala, San Lucas, Lago de Atitlán y Monterrico, descubriendo en cada boda una historia distinta y una forma diferente de contarla.',
+        'Mi manera de fotografiar nace de dos miradas que disfruto combinar: la honestidad de lo documental y la estética de lo editorial.',
+        'Me gusta observar antes de intervenir. Dejar que las cosas sucedan, encontrar belleza en lo espontáneo y, cuando el momento lo permite, construir una imagen con intención.',
+        'Porque para mí una boda no se trata únicamente de cómo se ve. También se trata de cómo se siente.',
+    ],
     cta: { label: 'CONOCE MÁS', href: '/acerca' },
 };
 
 export const homeJDExperience = {
     eyebrow: 'LA EXPERIENCIA WJD',
-    title: ['Fotografía editorial de bodas', 'en Guatemala y destinos'],
-    text: 'Su amor es distinto y quiero mostrarlo tal cual es. ¿Listos para comenzar este camino? No puedo esperar a acompañarlos.',
+    title: ['Fotografía documental y editorial de bodas', 'en Guatemala y destinos'],
+    paragraphs: [
+        'Cada historia de amor es distinta, y quiero fotografiar la suya tal como es: con sus emociones, sus detalles y esos momentos que simplemente suceden.',
+        '¿Listos para comenzar este camino? No puedo esperar a acompañarlos.',
+    ],
     cta: { label: 'Más información', href: '/contacto' },
     specialty: { label: 'NUESTRA ESPECIALIDAD', text: 'Todo sobre bodas.' },
 };
@@ -4346,27 +4361,43 @@ export const peopleGalleryName = [
 ];
 
 export const aboutHero = {
-    title: 'HOLA, SOY JOSÉ DANIEL',
+    title: '¡HOLA! SOY JOSÉ DANIEL',
     card: {
         title: 'MI HISTORIA',
+        lead: 'Si me lo permites, seré tu fotógrafo.',
         paragraphs: [
-            'Mi meta no es solo que veas las imágenes, sino que sientas de verdad la historia que cuentan. Cada historia de amor es distinta.',
-            'Mi trabajo es mostrar la versión más auténtica de ustedes. No solo quiero que se sientan cómodos, también quiero capturar la energía y el ambiente de su evento a través del movimiento, la luz y el retrato editorial.',
+            'Mi historia con las bodas comenzó, curiosamente, cuando me casé. Compré una cámara porque quería que alguien hiciera algunas fotografías de nuestra boda con ella. Al comprarla me regalaron un taller y fue ahí donde descubrí que aquello no era tan sencillo como imaginaba.',
+            'Pero también descubrí algo más importante: me apasionaba.',
         ],
-        cta: { label: 'Leer más', href: '/paquetes' },
+        cta: { label: 'Leer más', href: '#mi-historia' },
+    },
+    story: {
+        paragraphs: [
+            'Comencé a dedicarle horas y horas a aprender. A observar, a equivocarme, a descubrir la luz y, poco a poco, mi propia manera de mirar.',
+            'Con el tiempo entendí que no quería simplemente hacer fotografías. Quería dedicarme a algo que disfrutara de verdad. Y decidí ser feliz haciendo lo que amo.',
+            'Hoy, gracias a personas como tú, que han confiado en mi trabajo, tengo la oportunidad de acompañar historias que suceden una sola vez.',
+            'De estar ahí para guardar una mirada, una lágrima, una risa, un abrazo.',
+            'De convertir momentos que no volverán a repetirse en fotografías capaces de llevarte de regreso a ellos.',
+        ],
+        closing: [
+            'Y quizá eso sea lo que más me gusta de este oficio:',
+            'documentar el amor.',
+        ],
     },
 };
 
 export const aboutEditorial = {
-    title: ['Experiencia de Fotografía', 'Editorial de Bodas'],
+    title: ['Experiencia de Fotografía Documental', 'y Editorial de Bodas'],
     columns: [
         [
-            'Como fotógrafo de bodas con una mirada editorial y de fine art, me especializo en capturar las emociones y los momentos que hacen única cada historia de amor. Mi trabajo se enfoca en documentar celebraciones auténticas, desde bodas íntimas hasta grandes eventos de destino y todo lo que hay en medio.',
-            'Influenciado por los lugares que he recorrido de Guatemala y más allá, llevo a cada fotografía la inspiración de culturas, paisajes y personas distintas. Hoy me emociona seguir contando historias de amor en Antigua, Atitlán y donde el amor los lleve.',
+            'Como fotógrafo de bodas, mi mirada nace de dos formas de ver: la honestidad de lo documental y la estética de lo editorial.',
+            'Me interesa capturar las emociones y los momentos que hacen única cada historia de amor. Desde bodas íntimas hasta grandes celebraciones de destino, busco que cada fotografía conserve algo de lo que realmente sucedió: una mirada, un gesto, la energía de una fiesta o ese instante que nadie planeó.',
+            'Los lugares que he recorrido, en Guatemala y más allá, también han influido en mi manera de fotografiar. Paisajes, culturas y personas distintas me han enseñado a observar cada historia desde una perspectiva propia. Hoy me emociona seguir contando historias de amor en Antigua, Atitlán y donde el amor los lleve.',
         ],
         [
-            'Busco crear imágenes atemporales que mezclen el estilo editorial de moda con la fotografía artística de bodas, incorporando movimiento, luz y emoción.',
-            'Ya sea una ceremonia en la Ciudad de Guatemala, una celebración íntima en Antigua o una boda de destino, mi prioridad es guiarlos con calma durante todo el proceso. Mi meta es que cada imagen refleje la energía, el ambiente y la autenticidad de su día, para que puedan volver a vivirlo con alegría.',
+            'Busco crear imágenes que puedan permanecer en el tiempo, combinando la naturalidad del momento con una mirada estética y cuidada. Me interesa el movimiento, la luz, la composición y, sobre todo, aquello que hace que una fotografía se sienta viva.',
+            'Ya sea una ceremonia en la Ciudad de Guatemala, una celebración íntima en Antigua o una boda de destino, mi prioridad es acompañarlos con calma durante todo el proceso. Estar presente sin interrumpir lo que sucede, intervenir cuando una imagen lo pide y dejar que el resto ocurra naturalmente.',
+            'Mi objetivo es que cada fotografía refleje la energía, el ambiente y la autenticidad de su día; imágenes que no solo recuerden cómo se veía, sino también cómo se sintió.',
         ],
     ],
 };
@@ -4375,10 +4406,13 @@ export const aboutBehind = {
     eyebrow: 'DETRÁS DE LA CÁMARA',
     name: 'JOSÉ DANIEL',
     subtitle:
-        'Elevando historias de amor a través de la fotografía editorial de bodas',
+        'Una mirada documental y editorial para contar historias de amor',
     paragraphs: [
-        'Conoce a José Daniel, el talento detrás del lente, recorriendo Guatemala, Antigua y el mundo para inmortalizar historias de amor a través de la fotografía editorial de bodas. Con una mirada refinada para el arte y la autenticidad, se especializa en capturar emociones y detalles que hacen inolvidable cada historia.',
-        'Con base en Guatemala y disponible para bodas de destino, su trabajo abarca desde celebraciones íntimas hasta los escenarios más icónicos. Ya sea documentando una boda pequeña o una gran fiesta, aporta una mezcla perfecta de cultura, paisaje y emoción real a cada evento, creando fotografía atemporal que refleja la esencia del camino único de cada pareja.',
+        'Conoce a José Daniel, fotógrafo y director creativo detrás de Wedding José Daniel.',
+        'Desde Guatemala, ha encontrado en la fotografía de bodas una forma de observar, crear y guardar momentos que no volverán a suceder de la misma manera. Su trabajo combina la naturalidad de lo documental con una mirada editorial, cuidando la luz, la composición y cada detalle sin perder de vista lo más importante: lo que realmente está ocurriendo.',
+        'Su experiencia abarca desde celebraciones íntimas hasta grandes encuentros familiares, siempre buscando encontrar el equilibrio entre lo espontáneo y lo cuidadosamente creado.',
+        'Hoy continúa construyendo una mirada propia y llevando su trabajo hacia nuevos destinos, dentro y fuera de Guatemala.',
+        'Porque cada boda tiene una historia distinta. Y cada historia merece ser fotografiada de una manera que se sienta verdaderamente suya.',
     ],
 };
 
@@ -4386,27 +4420,45 @@ export const aboutPrimer = {
     title: 'LO ESENCIAL',
     headline: ['Fotógrafo. Papá.', 'Enamorado de la luz de Guatemala.'],
     paragraphs: [
-        'Comencé en el mundo de las bodas cuando me casé: compré mi primera cámara para que alguien me hiciera fotos con ella y terminé encontrando mi pasión. Desde entonces no he dejado de aprender ni de documentar el día más feliz de los enamorados.',
-        'Cuando no estoy fotografiando una boda, me encuentras en casa con mi esposa y mi hija, buscando luz bonita en las calles de Antigua o planeando el próximo viaje con la cámara en la mochila. Guatemala es mi casa y mi punto de partida para bodas de destino.',
+        'Hay cosas que he aprendido a mirar de otra manera desde que tengo una familia.',
+        'Tengo una hermosa esposa a quien sigo aprendiendo a amar cada día. Ella me ha enseñado el valor de los detalles, de esas pequeñas cosas que quizá parecen insignificantes, pero que terminan diciendo mucho.',
+        'Y tengo una hija que me está enseñando algo todavía más grande: el valor de la vida por encima de lo material. Sus sonrisas, su manera de descubrir el mundo y esos momentos que suceden una sola vez me recuerdan constantemente que no todo vuelve.',
+        'Hay lágrimas que solo salen una vez, en el momento exacto. Sonrisas que nunca volverán a repetirse de la misma manera. Abrazos que duran unos segundos, pero que pueden quedarse para siempre.',
+        'Quizá por eso amo tanto la fotografía. Porque también amo detenerme a mirar.',
+        'La luz de las seis de la mañana. La luz de las cuatro de la tarde. Ese clima que cambia la forma en que se siente un lugar. Un buen café. Una conversación. Una mirada.',
+        'Me gusta pensar que la vida está llena de momentos así: pequeños, irrepetibles y fáciles de dejar pasar.',
+        'Una fotografía, al menos, puede hacer que algunos de ellos se queden.',
     ],
     items: [
         {
             id: 'amando',
             eyebrow: 'LO QUE ESTOY',
             accent: 'amando',
-            text: 'Mi familia (obviamente), el rollo de 35 mm, el café de Antigua, la luz de las seis de la tarde, los caminos de Atitlán y fotografiar a la gente enamorada.',
+            paragraphs: [
+                'Sentir.',
+                'La luz de las seis de la mañana. El clima de las cuatro de la tarde. Un buen café, siempre. Detenerme a mirar. Encontrar belleza donde quizá nadie más se ha detenido. Y, por supuesto, fotografiar a la gente enamorada.',
+            ],
         },
         {
             id: 'aprendiendo',
             eyebrow: 'LO QUE ESTOY',
             accent: 'aprendiendo',
-            text: 'De todo un poco, incluyendo de mí mismo. Siempre hay una luz nueva que entender.',
+            paragraphs: [
+                'De todo un poco. De fotografía, de las personas y también de mí mismo.',
+                'A entender que siempre hay una luz nueva por descubrir, una historia que observar y algo que todavía puedo hacer mejor.',
+            ],
         },
         {
             id: 'distingue',
             eyebrow: 'LO QUE ME',
             accent: 'distingue',
-            text: 'Encontrar los buenos ángulos y dirigir sin que se sienta posado. Jugar con la luz, cuidar la composición y los blancos y negros profundos. Que al ver tus fotos vuelvas a sentir ese día como si estuvieras ahí otra vez.',
+            paragraphs: [
+                'Observar primero y dirigir cuando hace falta.',
+                'Me gusta encontrar buenos ángulos, jugar con la luz y cuidar la composición, pero también saber cuándo apartarme y dejar que las cosas sucedan.',
+                'Busco que una fotografía tenga intención sin perder naturalidad; que pueda sentirse elegante sin sentirse forzada.',
+                'Y, sobre todo, que cuando vuelvas a verla dentro de muchos años, no solo recuerdes cómo se veía aquel día.',
+                'Que vuelvas a sentir que estabas ahí.',
+            ],
         },
     ],
 };

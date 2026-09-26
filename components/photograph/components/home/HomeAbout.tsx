@@ -8,7 +8,7 @@ import { leviSashaGallery16 } from '@/assets/galeria';
 
 export const HomeAbout = () => {
     const { fadeOut } = useAnimations();
-    const { eyebrow, title, lead, text, cta } = homeAbout;
+    const { eyebrow, title, lead, paragraphs, cta } = homeAbout;
 
     return (
         <section className='relative z-10 w-full bg-[#f6f2ec]'>
@@ -42,9 +42,16 @@ export const HomeAbout = () => {
                             {lead}
                         </p>
 
-                        <p className='ui_sans mt-6 max-w-[430px] text-[14px] font-light leading-[1.8] lg:text-[15px]'>
-                            {text}
-                        </p>
+                        {paragraphs.map((paragraph, index) => (
+                            <p
+                                key={index}
+                                className={`ui_sans max-w-[430px] text-[14px] font-light leading-[1.8] lg:text-[15px] ${
+                                    index === 0 ? 'mt-6' : 'mt-4'
+                                }`}
+                            >
+                                {paragraph}
+                            </p>
+                        ))}
 
                         <Link
                             href={cta.href}

@@ -48,7 +48,7 @@ export const HomeExperience = () => {
                             ))}
                         </p>
 
-                        {blocks.map(({ id, title, text }, index) => (
+                        {blocks.map(({ id, title, paragraphs }, index) => (
                             <div key={id}>
                                 {index > 0 && (
                                     <hr className='my-10 border-white/35 lg:my-12' />
@@ -62,9 +62,16 @@ export const HomeExperience = () => {
                                     {title}
                                 </h2>
 
-                                <p className='ui_sans mt-5 text-[14px] font-light leading-[1.85] text-white/90 lg:text-[15px]'>
-                                    {text}
-                                </p>
+                                {paragraphs.map((paragraph, i) => (
+                                    <p
+                                        key={i}
+                                        className={`ui_sans text-[14px] font-light leading-[1.85] text-white/90 lg:text-[15px] ${
+                                            i === 0 ? 'mt-5' : 'mt-4'
+                                        }`}
+                                    >
+                                        {paragraph}
+                                    </p>
+                                ))}
                             </div>
                         ))}
 

@@ -6,7 +6,7 @@ export const AboutEditorial = () => {
     const { title, columns } = aboutEditorial;
 
     return (
-        <section className='w-full bg-white'>
+        <section id='experiencia' className='w-full scroll-mt-24 bg-white'>
             <div
                 className='mx-auto w-[88%] max-w-[1080px] py-20 lg:py-28'
                 data-aos={undefined}

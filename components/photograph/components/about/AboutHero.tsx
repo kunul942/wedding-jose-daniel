@@ -1,5 +1,4 @@
 import Image from 'next/image';
-import Link from 'next/link';
 
 import { useAnimations } from '@/hooks';
 import { aboutHero } from '@/constant';
@@ -7,7 +6,7 @@ import { joseDanielCollage2, joseDanielImage3 } from '@/assets';
 
 export const AboutHero = () => {
     const { fadeOut } = useAnimations();
-    const { title, card } = aboutHero;
+    const { title, card, story } = aboutHero;
 
     return (
         <section className='relative w-full overflow-hidden bg-white'>
@@ -40,6 +39,10 @@ export const AboutHero = () => {
                             {card.title}
                         </h2>
 
+                        <p className='display_serif mt-5 text-[19px] leading-[1.35] text-[#211d1a] lg:text-[22px]'>
+                            {card.lead}
+                        </p>
+
                         {card.paragraphs.map((paragraph, index) => (
                             <p
                                 key={index}
@@ -49,12 +52,18 @@ export const AboutHero = () => {
                             </p>
                         ))}
 
-                        <Link
+                        <a
                             href={card.cta.href}
+                            onClick={(event) => {
+                                event.preventDefault();
+                                document
+                                    .querySelector(card.cta.href)
+                                    ?.scrollIntoView({ behavior: 'smooth' });
+                            }}
                             className='ui_sans mt-9 inline-block w-fit border border-[#2b2723] px-8 py-4 text-[12px] font-medium tracking-[0.08em] text-[#2b2723] transition-colors duration-300 hover:bg-[#2b2723] hover:text-white lg:mt-11'
                         >
                             {card.cta.label} &rarr;
-                        </Link>
+                        </a>
                     </div>
 
                     {/**** SMALL SIDE IMAGE ****/}
@@ -70,7 +79,29 @@ export const AboutHero = () => {
                     </div>
                 </div>
 
-                <div className='h-16 lg:h-24' />
+                {/***** REST OF THE STORY *****/}
+                <div
+                    id='mi-historia'
+                    className='mx-auto max-w-[620px] scroll-mt-24 pb-20 pt-20 text-center lg:pb-28 lg:pt-28'
+                >
+                    {story.paragraphs.map((paragraph, index) => (
+                        <p
+                            key={index}
+                            className={`ui_sans text-[14px] font-light leading-[1.9] text-[#3a3530] lg:text-[15px] ${
+                                index === 0 ? '' : 'mt-6'
+                            }`}
+                        >
+                            {paragraph}
+                        </p>
+                    ))}
+
+                    <p className='display_serif mt-12 text-[22px] leading-[1.35] text-[#211d1a] lg:mt-14 lg:text-[28px]'>
+                        {story.closing[0]}
+                        <span className='mt-2 block italic'>
+                            {story.closing[1]}
+                        </span>
+                    </p>
+                </div>
             </div>
         </section>
     );

@@ -54,7 +54,7 @@ export const AboutPrimer = () => {
 
                     {/**** RIGHT: quick answers ****/}
                     <div className='lg:pt-4'>
-                        {items.map(({ id, eyebrow, accent, text }, index) => (
+                        {items.map(({ id, eyebrow, accent, paragraphs: lines }, index) => (
                             <div key={id}>
                                 {index > 0 && (
                                     <hr className='my-12 border-[#211d1a]/25 lg:my-14' />
@@ -69,9 +69,16 @@ export const AboutPrimer = () => {
                                     </span>
                                 </div>
 
-                                <p className='ui_sans mt-6 text-[13px] font-light leading-[1.9] text-[#3a3530] lg:text-[13.5px]'>
-                                    {text}
-                                </p>
+                                {lines.map((line, i) => (
+                                    <p
+                                        key={i}
+                                        className={`ui_sans text-[13px] font-light leading-[1.9] text-[#3a3530] lg:text-[13.5px] ${
+                                            i === 0 ? 'mt-6' : 'mt-4'
+                                        }`}
+                                    >
+                                        {line}
+                                    </p>
+                                ))}
                             </div>
                         ))}
                     </div>

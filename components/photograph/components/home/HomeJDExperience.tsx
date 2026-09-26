@@ -7,7 +7,7 @@ import { pf32 } from '@/assets';
 
 export const HomeJDExperience = () => {
     const { fadeOut } = useAnimations();
-    const { eyebrow, title, text, cta, specialty } = homeJDExperience;
+    const { eyebrow, title, paragraphs, cta, specialty } = homeJDExperience;
 
     return (
         <section className='relative w-full bg-[#322d28]'>
@@ -30,9 +30,16 @@ export const HomeJDExperience = () => {
                             ))}
                         </h2>
 
-                        <p className='ui_sans mt-12 max-w-[400px] text-[14px] font-light leading-[1.85] text-white/90 lg:mt-16 lg:text-[15px]'>
-                            {text}
-                        </p>
+                        {paragraphs.map((paragraph, index) => (
+                            <p
+                                key={index}
+                                className={`ui_sans max-w-[400px] text-[14px] font-light leading-[1.85] text-white/90 lg:text-[15px] ${
+                                    index === 0 ? 'mt-12 lg:mt-16' : 'mt-5'
+                                }`}
+                            >
+                                {paragraph}
+                            </p>
+                        ))}
 
                         <Link
                             href={cta.href}
