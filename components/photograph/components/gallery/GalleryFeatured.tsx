@@ -49,12 +49,17 @@ export const GalleryFeatured = ({ boda }: Props) => {
                         >
                             {column.map(({ item, index }, position) => {
                                 const shape = shapes[index % shapes.length];
-                                const caption = (
+                                /** en mobile el pie siempre va abajo; arriba solo en desktop */
+                                const caption = (above: boolean) => (
                                     <div
                                         className={
-                                            shape.captionAbove
-                                                ? 'mb-6 lg:mb-8'
-                                                : 'mt-6 lg:mt-8'
+                                            above
+                                                ? 'mb-8 hidden lg:block'
+                                                : `mt-6 lg:mt-8 ${
+                                                      shape.captionAbove
+                                                          ? 'lg:hidden'
+                                                          : ''
+                                                  }`
                                         }
                                     >
                                         <h3 className='ui_sans text-[17px] font-medium uppercase leading-[1.3] tracking-[0.06em] text-[#211d1a] lg:text-[23px]'>
@@ -81,7 +86,7 @@ export const GalleryFeatured = ({ boda }: Props) => {
                                                 : 'mb-16 lg:mb-0'
                                         }`}
                                     >
-                                        {shape.captionAbove && caption}
+                                        {shape.captionAbove && caption(true)}
 
                                         <div
                                             className={`relative overflow-hidden ${shape.ratio} ${shape.width}`}
@@ -95,7 +100,7 @@ export const GalleryFeatured = ({ boda }: Props) => {
                                             />
                                         </div>
 
-                                        {!shape.captionAbove && caption}
+                                        {caption(false)}
                                     </Link>
                                 );
                             })}
